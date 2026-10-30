@@ -1,0 +1,46 @@
+---
+import { isActive, nav } from '../data/nav';
+import { stripBase, url } from '../lib/url';
+
+const path = stripBase(Astro.url.pathname);
+---
+
+<nav class="nav-bar" aria-label="Main" data-open="false">
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+    <span>Menu</span>
+    <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+  </button>
+  <ul class="nav-list" id="main-nav">
+    {
+      nav.map((item) => (
+        <li class:list={['nav-item', { 'is-active': isActive(item, path) }]}>
+          <a href={url(item.href)} aria-current={path === item.href ? 'page' : undefined}>
+            {item.label}
+            {item.children && <span class="caret" aria-hidden="true" />}
+          </a>
+          {item.children && (
+            <ul class="nav-sub">
+              {item.children.map((child) => (
+                <li class:list={{ 'is-active': path === child.href }}>
+                  <a href={url(child.href)} aria-current={path === child.href ? 'page' : undefined}>
+                    {child.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<script>
+  const bar = document.querySelector<HTMLElement>('.nav-bar');
+  const toggle = bar?.querySelector<HTMLButtonElement>('.nav-toggle');
+  toggle?.addEventListener('click', () => {
+    const open = bar!.dataset.open !== 'true';
+    bar!.dataset.open = String(open);
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+</script>

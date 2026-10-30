@@ -1,0 +1,169 @@
+{
+  "crosbiId": 282305,
+  "bibIrbId": 1076014,
+  "autori": "Petrović, Luka ; Peršić, Juraj ; Seder, Marija ; Marković, Ivan",
+  "naslov": "Cross-Entropy based Stochastic Optimization of Robot Trajectories using Heteroscedastic Continuous-time Gaussian Processes",
+  "vrsta": "prilog u časopisu",
+  "tip": "izvorni znanstveni rad",
+  "godina": "2020",
+  "casopis": "Robotics and autonomous systems",
+  "volumen": "133",
+  "stranice": "103618, 14",
+  "brojRada": "103618",
+  "brojStranica": "14",
+  "doi": "10.1016/j.robot.2020.103618",
+  "issn": "0921-8890",
+  "eissn": "1872-793X",
+  "status": "objavljeno",
+  "indeksiranost": [
+    "Scopus",
+    "Current Contents Connect (CCC)",
+    "Web of Science Core Collection, Science Citation Index Expanded (WoSCC-SCI-Exp)",
+    "Web of Science Core Collection, SCI-Exp, SSCI & A&HCI (WoSCC-SCI-Exp, SSCI, A&HCI) "
+  ],
+  "citati": [
+    {
+      "vrstaCitataId": 1040,
+      "vrstaCitataNaziv": "CROSBI",
+      "citat": "Petrović, Luka ; Peršić, Juraj ; Seder, Marija ; Marković, Ivan\nCross-Entropy based Stochastic Optimization of Robot Trajectories using Heteroscedastic Continuous-time Gaussian Processes // Robotics and autonomous systems, 133 (2020), 103618, 14. doi: 10.1016/j.robot.2020.103618"
+    }
+  ],
+  "naslovi": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Cross-Entropy based Stochastic Optimization of Robot Trajectories using Heteroscedastic Continuous-time Gaussian Processes",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "sazeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "High dimensional robot motion planning has recently been approached with trajectory optimization methods that efficiently minimize a suitable objective function in order to generate robot trajectories that are both optimal and feasible. However, finding a globally optimal solution is often an insurmountable problem in practice and state-of-the-art trajectory optimization methods are thus prone to local minima, mainly in cluttered environments. In this paper, we propose a novel trajectory planning algorithm that employs stochastic optimization in order to find a collision-free trajectory generated from a continuous-time Gaussian process (GP). The contributions of the proposed motion planning method stem from introducing the heteroscedasticity of the GP, together with exploited sparsity for efficient covariance estimation, and a cross-entropy based stochastic optimization for importance sampling based trajectory optimization. We evaluate the proposed method on three simulated scenarios: a maze benchmark, a 7 DOF robot arm planning benchmark and a 10 DOF mobile manipulator trajectory planning example and compare it to a state-of-the-art GP trajectory optimization method, namely the Gaussian process motion planner 2 algorithm (GPMP2). Our results demonstrate the following: (i) the proposed method yields a more thorough exploration of the solution space in complex environments than GPMP2, while having comparable execution time, (ii) the introduced heteroscedasticity generates GP priors better suited for collision avoidance and (iii) the proposed method has the ability to efficiently tackle high-dimensional trajectory planning problems.",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "kljucneRijeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "robot motion planning ; trajectory optimization ; continuous-time gaussian processes ; stochastic optimization ; cluttered environments",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "discipline": [
+    {
+      "id": 15177,
+      "naziv": "Elektrotehnika",
+      "sifra": "2.03.                                   "
+    },
+    {
+      "id": 15183,
+      "naziv": "Računarstvo",
+      "sifra": "2.09.                                   "
+    },
+    {
+      "id": 15189,
+      "naziv": "Temeljne tehničke znanosti",
+      "sifra": "2.15.                                   "
+    }
+  ],
+  "osobeResources": {
+    "_embedded": {
+      "osobe": [
+        {
+          "crorisId": 26770,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Marija",
+          "prezime": "Seder",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/26770"
+            }
+          }
+        },
+        {
+          "crorisId": 29108,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Marković",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/29108"
+            }
+          }
+        },
+        {
+          "crorisId": 44396,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Luka",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/44396"
+            }
+          }
+        },
+        {
+          "crorisId": 40118,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Juraj",
+          "prezime": "Peršić",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/40118"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ustanoveResources": {
+    "_embedded": {
+      "ustanove": [
+        {
+          "crorisId": 34,
+          "naziv": "Fakultet elektrotehnike i računarstva",
+          "mbu": 36,
+          "funkcija": {
+            "id": 941,
+            "naziv": "autorova ustanova"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/ustanova/34"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "osobe": {
+      "href": "https://www.croris.hr/crosbi-api/osoba/publikacija/282305"
+    },
+    "ustanove": {
+      "href": "https://www.croris.hr/crosbi-api/ustanova/publikacija/282305"
+    },
+    "self": {
+      "href": "https://www.croris.hr/crosbi-api/publikacija/282305"
+    }
+  }
+}

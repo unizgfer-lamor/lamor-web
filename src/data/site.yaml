@@ -1,0 +1,45 @@
+# Site-wide settings. Editable in Pages CMS under "Site settings".
+title: Laboratory for Autonomous Systems and Mobile Robotics
+short_title: LAMOR
+description: >-
+  The Laboratory for Autonomous Systems and Mobile Robotics (LAMOR) at the University of Zagreb
+  Faculty of Electrical Engineering and Computing researches motion planning and control,
+  simultaneous localization and mapping, and detection and tracking of moving objects.
+email: lamor@fer.hr
+phone: +385 1 6129 844
+fax: +385 1 6129 809
+address:
+  - Laboratory for Autonomous Systems and Mobile Robotics (LAMOR)
+  - University of Zagreb
+  - Faculty of Electrical Engineering and Computing
+  - Department of Control and Computer Engineering
+  - Unska 3
+  - 10000 Zagreb, Croatia
+# OpenStreetMap embed (no tracking cookies). Marker = FER, Unska 3.
+map_url: https://www.openstreetmap.org/export/embed.html?bbox=15.9631%2C45.7975%2C15.9791%2C45.8037&layer=mapnik&marker=45.80059%2C15.97112
+# GitHub repository with the site sources; enables the "Edit this page" links. Set after the repo is created.
+repo_url: ''
+carousel:
+  - src: /design/carousel/slide-1.jpg
+    alt: LAMOR ground robots
+  - src: /design/carousel/slide-2.jpg
+    alt: LAMOR robots and sensors
+  - src: /design/carousel/slide-3.jpg
+    alt: LAMOR research platforms
+  - src: /design/carousel/slide-4.jpg
+    alt: LAMOR aerial and ground robots
+  - src: /design/carousel/slide-5.jpg
+    alt: LAMOR laboratory
+external_sites:
+  - label: LAMOR videos on YouTube
+    url: https://www.youtube.com/channel/UC7QxewsrTM77XVOS_pEjtbA
+    image: /design/lamor_youtube.png
+  - label: Bitbucket
+    url: https://bitbucket.org/unizg-fer-lamor
+    image: /design/icon-bitbucket.png
+  - label: Facebook
+    url: https://www.facebook.com/lamor.unizg.fer
+    image: /design/icon-facebook.png
+  - label: X (Twitter)
+    url: https://x.com/lamorlab
+    image: /design/icon-twitter.png

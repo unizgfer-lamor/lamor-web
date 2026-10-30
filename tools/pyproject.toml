@@ -1,0 +1,29 @@
+[project]
+name = "lamor-tools"
+version = "0.1.0"
+description = "Migration and publication tooling for the LAMOR website"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.3",
+    "markdownify>=0.14",
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+lamor-migrate = "lamor_tools.migrate.cli:main"
+lamor-pubs = "lamor_tools.pubs.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.3"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lamor_tools"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

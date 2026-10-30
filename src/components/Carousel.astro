@@ -1,0 +1,39 @@
+---
+import { url } from '../lib/url';
+
+interface Props {
+  slides: { src: string; alt: string }[];
+}
+
+const { slides } = Astro.props;
+---
+
+{
+  slides.length > 0 && (
+    <div class="carousel" aria-roledescription="carousel" aria-label="LAMOR robots and laboratory">
+      {slides.map((slide, i) => (
+        <figure class:list={['carousel-slide', { 'is-active': i === 0 }]} aria-hidden={i === 0 ? undefined : 'true'}>
+          <img src={url(slide.src)} alt={slide.alt} loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+        </figure>
+      ))}
+      <img class="carousel-overlay" src={url('/design/LAMOR_header.png')} alt="" aria-hidden="true" />
+    </div>
+  )
+}
+
+<script>
+  // Cross-fade to the next slide every 3 seconds (like the old site); off for reduced motion.
+  const slides = Array.from(document.querySelectorAll<HTMLElement>('.carousel-slide'));
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (slides.length > 1 && !reduceMotion) {
+    let current = 0;
+    setInterval(() => {
+      if (document.hidden) return;
+      slides[current].classList.remove('is-active');
+      slides[current].setAttribute('aria-hidden', 'true');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('is-active');
+      slides[current].removeAttribute('aria-hidden');
+    }, 3000);
+  }
+</script>

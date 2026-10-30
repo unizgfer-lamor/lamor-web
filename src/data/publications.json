@@ -1,0 +1,5410 @@
+[
+  {
+    "id": 953188,
+    "category": "journal",
+    "year": 2026,
+    "title": "Generalizing learning-based monocular depth estimation for road vehicles using domain adaptation and ground-plane embedding",
+    "authors": [
+      {
+        "name": "Koledić, Karlo",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 2026, pp. 105617–1",
+    "doi": "10.1016/j.robot.2026.105617",
+    "croris": 953188
+  },
+  {
+    "id": 945215,
+    "category": "journal",
+    "year": 2026,
+    "title": "A time and object aware transformer-based method for structured hierarchical gesture recognition",
+    "authors": [
+      {
+        "name": "Papanikolaou, Athanasios",
+        "lab": false
+      },
+      {
+        "name": "Sivtsov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Alaran, Muslim",
+        "lab": false
+      },
+      {
+        "name": "Shkolnik, Daniil",
+        "lab": false
+      },
+      {
+        "name": "Zereik, Enrica",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 203, article no. 105518",
+    "croris": 945215
+  },
+  {
+    "id": 931642,
+    "category": "journal",
+    "year": 2026,
+    "title": "Smooth motion planning method for mobile robots in dynamic environments",
+    "authors": [
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 195, pp. 105220–105235",
+    "doi": "10.1016/j.robot.2025.105220",
+    "croris": 931642
+  },
+  {
+    "id": 920965,
+    "category": "journal",
+    "year": 2026,
+    "title": "Framework For Robot Door Opening Based On Visual, Force and Tactile Integration",
+    "authors": [
+      {
+        "name": "Šimundić, Valentin",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Džijan, Matej",
+        "lab": false
+      },
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE Access",
+    "details": "vol. 14, pp. 11110–11128",
+    "doi": "10.1109/access.2026.3655617",
+    "url": "https://ieeexplore.ieee.org/document/11357560",
+    "croris": 920965
+  },
+  {
+    "id": 922026,
+    "category": "journal",
+    "year": 2026,
+    "title": "Multicontact Robot Arm Path Planning for Opening Handleless Doors",
+    "authors": [
+      {
+        "name": "Šimundić, Valentin",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "details": "vol. 56, no. 4, pp. 2893–2906",
+    "doi": "10.1109/tsmc.2026.3656177",
+    "url": "https://ieeexplore.ieee.org/document/11372945",
+    "croris": 922026
+  },
+  {
+    "id": 894835,
+    "category": "conference",
+    "year": 2026,
+    "title": "An Active Inference Model of Covert and Overt Visual Attention",
+    "authors": [
+      {
+        "name": "Mišić, Tin",
+        "lab": false
+      },
+      {
+        "name": "Koledić, Karlo",
+        "lab": false
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Workshop on Active Inference (IWAI)",
+    "details": "Montréal, Canada, 15.–17. October 2025, pp. 167–181",
+    "doi": "10.1007/978-3-032-16955-6_10",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-16955-6_10",
+    "croris": 894835
+  },
+  {
+    "id": 938210,
+    "category": "conference",
+    "year": 2026,
+    "title": "Spatially Aware Value Fusion in Decomposed Reward Architectures for Marine Manipulation",
+    "authors": [
+      {
+        "name": "Sivtsov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Alaran, Muslim",
+        "lab": false
+      },
+      {
+        "name": "Shkolnik, Danil",
+        "lab": false
+      },
+      {
+        "name": "Papanikolaou, Athanasios",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Zereik, Enrica",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      }
+    ],
+    "venue": "IFAC World Congress (IFAC WC)",
+    "details": "Busan, South Korea, 23.–28. August 2026, pp. 1–6",
+    "croris": 938210
+  },
+  {
+    "id": 954023,
+    "category": "conference",
+    "year": 2026,
+    "title": "Object Distance Estimation from Electromagnetic Interactions in Robotics",
+    "authors": [
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Mikulić, Davorin",
+        "lab": false
+      },
+      {
+        "name": "Tomić, Dubravko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bosiljevac, Marko",
+        "lab": false
+      },
+      {
+        "name": "Šipuš, Zvonimir",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "35rd International Conference on Robotics in Alpe-Adria-Danube Region (RAAD 2026)",
+    "details": "Bratislava, Slovakia, 17.–19. June 2026",
+    "doi": "10.1007/978-3-032-29127-1_30",
+    "croris": 954023
+  },
+  {
+    "id": 870879,
+    "category": "journal",
+    "year": 2025,
+    "title": "Multiscale and Uncertainty-aware Targetless Hand-Eye Calibration via the Gauss-Helmert Model",
+    "authors": [
+      {
+        "name": "Čolaković-Bencerić, Marta",
+        "lab": false
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Robotics",
+    "details": "vol. 41, pp. 2340–2357",
+    "doi": "10.1109/tro.2025.3548538",
+    "url": "https://ieeexplore.ieee.org/document/10916510",
+    "croris": 870879
+  },
+  {
+    "id": 889982,
+    "category": "journal",
+    "year": 2025,
+    "title": "Lateral Classification of Vehicle Behavior for Automated Logic Scenario Generation",
+    "authors": [
+      {
+        "name": "Diklić, Vjekoslav",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 66, no. 4, pp. 625–637",
+    "doi": "10.1080/00051144.2025.2535068",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00051144.2025.2535068",
+    "croris": 889982
+  },
+  {
+    "id": 864926,
+    "category": "journal",
+    "year": 2025,
+    "title": "Generative Graphical Inverse Kinematics",
+    "authors": [
+      {
+        "name": "Limoyo, Oliver",
+        "lab": false
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Giamou, Matthew",
+        "lab": false
+      },
+      {
+        "name": "Alexson, Petra",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE Transactions on Robotics",
+    "details": "vol. 41, pp. 1002–1018",
+    "doi": "10.1109/tro.2024.3521862",
+    "url": "https://ieeexplore.ieee.org/document/10814707/",
+    "croris": 864926
+  },
+  {
+    "id": 893624,
+    "category": "journal",
+    "year": 2025,
+    "title": "Trajectory tracking and tether tension control of tethered aerial vehicle using Nonlinear Model Predictive Control",
+    "authors": [
+      {
+        "name": "Prkačin, Vicko",
+        "lab": false
+      },
+      {
+        "name": "Palunko, Ivana",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Control Engineering Practice",
+    "details": "vol. 162, pp. 1–15",
+    "doi": "10.1016/j.conengprac.2025.106346",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0967066125001091",
+    "croris": 893624
+  },
+  {
+    "id": 858444,
+    "category": "journal",
+    "year": 2025,
+    "title": "MOVRO2: Loosely coupled monocular visual radar odometry using factor graph optimization",
+    "authors": [
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 184, article no. 104860",
+    "doi": "10.1016/j.robot.2024.104860",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0921889024002446",
+    "croris": 858444
+  },
+  {
+    "id": 924973,
+    "category": "conference",
+    "year": 2025,
+    "title": "Enhancing Gaussian Splatting SLAM with Feature-Based Tracking",
+    "authors": [
+      {
+        "name": "Awais, Muhammad",
+        "lab": false
+      },
+      {
+        "name": "Koledić, Karlo",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2025 11th International Conference on Automation, Robotics, and Applications (ICARA)",
+    "details": "Zagreb, Croatia, 12.–14. February 2025, pp. 45–50",
+    "doi": "10.1109/icara64554.2025.10977682",
+    "croris": 924973
+  },
+  {
+    "id": 887938,
+    "category": "conference",
+    "year": 2025,
+    "title": "Uncertainty-aware Hand-Eye Decalibration Detection via the Gauss-Helmert Model",
+    "authors": [
+      {
+        "name": "Čolaković-Bencerić, Marta",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IFAC Symposium on Robotics (IFAC Robotics)",
+    "details": "Paris, France, 15.–18. July 2025, pp. 157–162",
+    "doi": "10.1016/j.ifacol.2025.10.213",
+    "url": "https://www.sciencedirect.com/science/article/pii/S240589632501612X",
+    "croris": 887938
+  },
+  {
+    "id": 888427,
+    "category": "conference",
+    "year": 2025,
+    "title": "Racetrack Rolling-shutter Stereo Visual Odometry and Dataset",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Vražić, Sacha",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "European Conference on Mobile Robots (ECMR) 2025",
+    "details": "Padova, Italy, 2.–5. September 2025, pp. 1–8",
+    "doi": "10.1109/ecmr65884.2025.11163197",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11163197",
+    "croris": 888427
+  },
+  {
+    "id": 888415,
+    "category": "conference",
+    "year": 2025,
+    "title": "Vehicle trajectory filtering based on optimal control and simulator-based reconstruction",
+    "authors": [
+      {
+        "name": "Diklić, Vjekoslav",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "48th ICT and Electronics Convention MIPRO 2025",
+    "details": "Opatija, Croatia, 2.–6. June 2025, pp. 1–6",
+    "croris": 888415
+  },
+  {
+    "id": 888419,
+    "category": "conference",
+    "year": 2025,
+    "title": "Event and Frame-based Stereo Odometry with Adaptive Frequency and Multisurface Matching",
+    "authors": [
+      {
+        "name": "Hadviger, Antea",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
+    "details": "Genova, Italy, 30. June–4. July 2025",
+    "croris": 888419
+  },
+  {
+    "id": 887960,
+    "category": "conference",
+    "year": 2025,
+    "title": "LiDAR-based Cone Extraction and Heuristic Trajectory Optimization for Autonomous Formula Student Racing",
+    "authors": [
+      {
+        "name": "Jurić, Marko",
+        "lab": false
+      },
+      {
+        "name": "Vinković, Ante",
+        "lab": false
+      },
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan.",
+        "lab": true
+      }
+    ],
+    "venue": "67th International Symposium ELMAR-2025",
+    "details": "Zadar, Croatia, 15.–17. September 2025, pp. 283–286",
+    "doi": "10.1109/elmar66948.2025.11193984",
+    "url": "https://ieeexplore.ieee.org/document/11193984",
+    "croris": 887960
+  },
+  {
+    "id": 894838,
+    "category": "conference",
+    "year": 2025,
+    "title": "GVDepth: Zero-Shot Monocular Depth Estimation for Ground Vehicles based on Probabilistic Cue Fusion",
+    "authors": [
+      {
+        "name": "Koledić, Karlo",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Conference on Computer Vision 2025 (ICCV 2025)",
+    "details": "Honolulu, HI, USA, 19.–23. October 2025, pp. 26126–26135",
+    "doi": "10.1109/iccv51701.2025.02424",
+    "url": "https://ieeexplore.ieee.org/document/11445343",
+    "croris": 894838
+  },
+  {
+    "id": 888422,
+    "category": "conference",
+    "year": 2025,
+    "title": "A Transformer-Based Pipeline for Efficient Hand Gesture Recognition",
+    "authors": [
+      {
+        "name": "Papnikolaou, Athanasios",
+        "lab": false
+      },
+      {
+        "name": "Sivtsov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Shkolnik, Daniil",
+        "lab": false
+      },
+      {
+        "name": "Zereik, Enrika",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      }
+    ],
+    "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
+    "details": "Genova, Italy, 30. June–4. July 2025",
+    "croris": 888422
+  },
+  {
+    "id": 937536,
+    "category": "conference",
+    "year": 2025,
+    "title": "Coordinated Planning and Control of Two Mobile Robots for Joint Cargo Transportation",
+    "authors": [
+      {
+        "name": "Paro, Borna",
+        "lab": false
+      },
+      {
+        "name": "Rogina, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2025 11th International Conference on Automation, Robotics, and Applications (ICARA)",
+    "details": "Zagreb, Croatia, 12.–14. February 2025, article no. 10977646",
+    "doi": "10.1109/icara64554.2025.10977646",
+    "croris": 937536
+  },
+  {
+    "id": 924297,
+    "category": "conference",
+    "year": 2025,
+    "title": "Model Predictive Control of Wheeled Robots Based on Hierarchical Planning",
+    "authors": [
+      {
+        "name": "Rogina, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
+    "details": "Genova, Italy, 30. June–4. July 2025",
+    "croris": 924297
+  },
+  {
+    "id": 888424,
+    "category": "conference",
+    "year": 2025,
+    "title": "Intrinsic Reward Decomposition for Soft Robotic Manipulation Tasks",
+    "authors": [
+      {
+        "name": "Sivtsov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Shkolnik, Daniil",
+        "lab": false
+      },
+      {
+        "name": "Athanasios, Papanikolaou",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Zereik, Enrika",
+        "lab": false
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE International Conference on Development and Learning (ICDL) 2025",
+    "details": "Prague, Czech Republic, 16.–19. September 2025, pp. 1–6",
+    "doi": "10.1109/icdl63968.2025.11204455",
+    "url": "https://ieeexplore.ieee.org/document/11204455",
+    "croris": 888424
+  },
+  {
+    "id": 888421,
+    "category": "conference",
+    "year": 2025,
+    "title": "Smooth Control of Soft Robots by Reinforcement Learning with Policy Regularization",
+    "authors": [
+      {
+        "name": "Sivtsov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Papanikolaou, Athanasios",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Zereik, Enrika",
+        "lab": false
+      },
+      {
+        "name": "Bonsignorio, Fabio",
+        "lab": false
+      }
+    ],
+    "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
+    "details": "Genova, Italy, 30. June–4. July 2025",
+    "croris": 888421
+  },
+  {
+    "id": 895123,
+    "category": "conference",
+    "year": 2025,
+    "title": "Impact of Temporal Delay on Radar-Inertial Odometry",
+    "authors": [
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "details": "Hangzhou, China, 19.–25. October 2025, pp. 4961–4967",
+    "doi": "10.1109/iros60139.2025.11246946",
+    "url": "https://ieeexplore.ieee.org/document/11246946",
+    "croris": 895123
+  },
+  {
+    "id": 837202,
+    "category": "journal",
+    "year": 2024,
+    "title": "Autonomous hierarchy creation for computationally feasible near-optimal path planning in large environments",
+    "authors": [
+      {
+        "name": "Gregorić, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 172, article no. 104584",
+    "doi": "10.1016/j.robot.2023.104584",
+    "url": "https://api.elsevier.com/content/article/PII:S0921889023002233?httpAccept=text/xml",
+    "croris": 837202
+  },
+  {
+    "id": 858637,
+    "category": "journal",
+    "year": 2024,
+    "title": "Motion Planning for Robotic Manipulation",
+    "authors": [
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Rad Hrvatske akademije znanosti i umjetnosti. Tehničke znanosti",
+    "details": "vol. 561, no. 24, pp. 25–53",
+    "doi": "10.21857/m8vqrt3p19",
+    "url": "https://dizbi.hazu.hr/a/?pr=i&id=2643788",
+    "croris": 858637
+  },
+  {
+    "id": 945476,
+    "category": "journal",
+    "year": 2024,
+    "title": "Convergent wheeled robot navigation based on an interpolated potential function and gradient",
+    "authors": [
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Klančar, Gregor",
+        "lab": false
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 177, article no. 104712",
+    "doi": "10.1016/j.robot.2024.104712",
+    "croris": 945476
+  },
+  {
+    "id": 862956,
+    "category": "conference",
+    "year": 2024,
+    "title": "Autonomous Driving with a Deep Dual-Model Solution for Steering and Braking Control",
+    "authors": [
+      {
+        "name": "Jukić, Ana Petra",
+        "lab": false
+      },
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Žarko, Ivana Podnar",
+        "lab": false
+      }
+    ],
+    "venue": "SpliTech 2024",
+    "details": "Split, Croatia, 25.–28. June 2024, pp. 1–6",
+    "doi": "10.23919/splitech61897.2024.10612577",
+    "url": "https://doi.org/10.48550/arXiv.2405.06473",
+    "croris": 862956
+  },
+  {
+    "id": 872536,
+    "category": "conference",
+    "year": 2024,
+    "title": "Evaluating Gaze Communication in a Human-Robot Memory Game Setting",
+    "authors": [
+      {
+        "name": "Mišić, Tin",
+        "lab": false
+      },
+      {
+        "name": "Vitez, Gabriela",
+        "lab": false
+      },
+      {
+        "name": "Paro, Borna",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "66th International Symposium on Electronics in Marine (ELMAR-2024)",
+    "details": "Zadar, Croatia, 16.–18. September 2024, pp. 363–366",
+    "doi": "10.1109/elmar62909.2024.10694397",
+    "url": "https://ieeexplore.ieee.org/document/10694397/",
+    "croris": 872536
+  },
+  {
+    "id": 837813,
+    "category": "conference",
+    "year": 2024,
+    "title": "Cost-Effective Robot Arm Teleoperation Via Human Pose Tracking with Monocular Camera",
+    "authors": [
+      {
+        "name": "Parfaite, Bernard",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović,Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "33rd International Conference on Robotics in Alpe-Adria-Danube Region (RAAD 2024)",
+    "details": "Cluj-Napoca, Romania, 5.–7. June 2024, pp. 65–73",
+    "doi": "10.1007/978-3-031-59257-7_7",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-59257-7_7",
+    "croris": 837813
+  },
+  {
+    "id": 837826,
+    "category": "conference",
+    "year": 2024,
+    "title": "MOVRO: Loosely Coupled EKF-Based Monocular Visual Radar Odometry",
+    "authors": [
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "18th International Conference on Intelligent Autonomous Systems (IAS-18)",
+    "details": "Suwon, South Korea, 4.–7. July 2023, pp. 133–146",
+    "doi": "10.1007/978-3-031-44851-5_11",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-44851-5_11",
+    "croris": 837826
+  },
+  {
+    "id": 858451,
+    "category": "conference",
+    "year": 2024,
+    "title": "RAVE: A Framework for Radar Ego-Velocity Estimation",
+    "authors": [
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2024 IEEE International Conference on Multisensor Fusion and Integration (MFI 2024)",
+    "details": "Plzeň, Czech Republic, 4.–6. September 2024, pp. 1–6",
+    "doi": "10.1109/mfi62651.2024.10705786",
+    "url": "http://xplorestaging.ieee.org/ielx8/10705756/10705757/10705786.pdf?arnumber=10705786",
+    "croris": 858451
+  },
+  {
+    "id": 837803,
+    "category": "conference",
+    "year": 2024,
+    "title": "Electromagnetic Simulation of Robotic Dynamic Scenes for Novel Sensor Developments",
+    "authors": [
+      {
+        "name": "Štironja,Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović,Luka",
+        "lab": true
+      },
+      {
+        "name": "Tomić,Dubravko",
+        "lab": false
+      },
+      {
+        "name": "Šipuš,Zvonimir",
+        "lab": false
+      },
+      {
+        "name": "Petrović,Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "33rd International Conference on Robotics in Alpe-Adria-Danube Region (RAAD 2024)",
+    "details": "Cluj-Napoca, Romania, 5.–7. June 2024, pp. 485–493",
+    "doi": "10.1007/978-3-031-59257-7_48",
+    "croris": 837803
+  },
+  {
+    "id": 328355,
+    "category": "journal",
+    "year": 2023,
+    "title": "Motion Planning in Dynamic Environments Using Context-Aware Human Trajectory Prediction",
+    "authors": [
+      {
+        "name": "Finean, Mark",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Merkt, Wolfgang",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Havoutis, Ioannis",
+        "lab": false
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 166, no. 104450, pp. 1–21",
+    "doi": "10.1016/j.robot.2023.104450",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0921889023000891",
+    "croris": 328355
+  },
+  {
+    "id": 809008,
+    "category": "journal",
+    "year": 2023,
+    "title": "Smooth Autonomous Patrolling for a Differential-Drive Mobile Robot in Dynamic Environments",
+    "authors": [
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Sensors",
+    "details": "vol. 23, no. 17, article no. 7421",
+    "doi": "10.3390/s23177421",
+    "croris": 809008
+  },
+  {
+    "id": 837198,
+    "category": "conference",
+    "year": 2023,
+    "title": "A Distance-Geometric Method for Recovering Robot Joint Angles From an RGB Image",
+    "authors": [
+      {
+        "name": "Bilić, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IFAC World Congress",
+    "details": "Yokohama, Japan, 9.–14. July 2023, pp. 1003–1008",
+    "doi": "10.1016/j.ifacol.2023.10.1696",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405896323021055",
+    "croris": 837198
+  },
+  {
+    "id": 945543,
+    "category": "conference",
+    "year": 2023,
+    "title": "Road Curb Detection: ADAS for a Road Sweeper Vehicle",
+    "authors": [
+      {
+        "name": "Bilić, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Popović, Goran",
+        "lab": false
+      },
+      {
+        "name": "Savić, Tibor Bataljak",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics in Alpe-Adria-Danube Region (RAAD)",
+    "details": "Bled, Slovenia, 14.–16. June 2023, pp. 409–416",
+    "doi": "10.1007/978-3-031-32606-6_48",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-32606-6_48",
+    "croris": 945543
+  },
+  {
+    "id": 837789,
+    "category": "conference",
+    "year": 2023,
+    "title": "On Hand-Eye Calibration via On-Manifold Gauss-Newton Optimization",
+    "authors": [
+      {
+        "name": "Čolaković-Bencerić, Marta",
+        "lab": false
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
+    "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 378–391",
+    "doi": "10.1007/978-3-031-22216-0_26",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-22216-0_26",
+    "croris": 837789
+  },
+  {
+    "id": 825704,
+    "category": "conference",
+    "year": 2023,
+    "title": "Lane Change Classification with Neural Networks for Automated Conversion of Logical Scenarios",
+    "authors": [
+      {
+        "name": "Diklić, Vjekoslav",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
+    "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 778–789",
+    "croris": 825704
+  },
+  {
+    "id": 837200,
+    "category": "conference",
+    "year": 2023,
+    "title": "Autonomous Hierarchy Creation for Path Planning of Mobile Robots in Large Environments",
+    "authors": [
+      {
+        "name": "Gregorić, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
+    "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 909–922",
+    "doi": "10.1007/978-3-031-22216-0_61",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-22216-0_61",
+    "croris": 837200
+  },
+  {
+    "id": 799658,
+    "category": "conference",
+    "year": 2023,
+    "title": "Stereo Visual Localization Dataset Featuring Event Cameras",
+    "authors": [
+      {
+        "name": "Hadviger, Antea",
+        "lab": false
+      },
+      {
+        "name": "Štironja, Josip-Vlaho",
+        "lab": false
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Vražić, Sacha",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "11th European Conference on Mobile Robots (ECMR 2023)",
+    "details": "Coimbra, Portugal, 4.–7. September 2023, pp. 1–6",
+    "doi": "10.1109/ecmr59166.2023.10256407",
+    "url": "https://ieeexplore.ieee.org/document/10256407",
+    "croris": 799658
+  },
+  {
+    "id": 731013,
+    "category": "conference",
+    "year": 2023,
+    "title": "MOFT: Monocular odometry based on deep depth and careful feature selection and tracking",
+    "authors": [
+      {
+        "name": "Koledić, Karlo",
+        "lab": false
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA) 2023",
+    "details": "29. May–2. June 2023, pp. 1–6",
+    "croris": 731013
+  },
+  {
+    "id": 799657,
+    "category": "conference",
+    "year": 2023,
+    "title": "Towards camera parameters invariant monocular depth estimation in autonomous driving",
+    "authors": [
+      {
+        "name": "Koledić, Karlo",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "11th European Conference on Mobile Robots (ECMR 2023)",
+    "details": "Coimbra, Portugal, 4.–7. September 2023, pp. 1–7",
+    "doi": "10.1109/ecmr59166.2023.10256310",
+    "url": "https://ieeexplore.ieee.org/document/10256310",
+    "croris": 799657
+  },
+  {
+    "id": 735883,
+    "category": "conference",
+    "year": 2023,
+    "title": "Human Intention Recognition in Collaborative Environments using RGB-D Camera",
+    "authors": [
+      {
+        "name": "Marić, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "46th International ICT Convention MIPRO 2023",
+    "details": "Opatija, Croatia, 22.–26. May 2023, pp. 350–355",
+    "doi": "10.23919/mipro57284.2023.10159985",
+    "url": "https://ieeexplore.ieee.org/document/10159985",
+    "croris": 735883
+  },
+  {
+    "id": 312297,
+    "category": "journal",
+    "year": 2022,
+    "title": "Enhanced calibration of camera setups for high-performance visual odometry",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 155, article no. 104189",
+    "doi": "10.1016/j.robot.2022.104189",
+    "croris": 312297
+  },
+  {
+    "id": 312298,
+    "category": "journal",
+    "year": 2022,
+    "title": "SOFT2: Stereo Visual Odometry for Road Vehicles based on a Point-to-Epipolar-Line Metric",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Robotics",
+    "details": "vol. 39, no. 1, pp. 273–288",
+    "doi": "10.1109/tro.2022.3188121",
+    "croris": 312298
+  },
+  {
+    "id": 303930,
+    "category": "journal",
+    "year": 2022,
+    "title": "Convex Iteration for Distance-Geometric Inverse Kinematics",
+    "authors": [
+      {
+        "name": "Giamou, Matthew",
+        "lab": false
+      },
+      {
+        "name": "Maric, Filip",
+        "lab": false
+      },
+      {
+        "name": "Rosen, David",
+        "lab": false
+      },
+      {
+        "name": "Peretroukhin, Valentin",
+        "lab": false
+      },
+      {
+        "name": "Roy, Nicholas",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE Robotics & Automation Letters",
+    "details": "vol. 1, pp. 1–2",
+    "doi": "10.1109/lra.2022.3141763",
+    "croris": 303930
+  },
+  {
+    "id": 307375,
+    "category": "journal",
+    "year": 2022,
+    "title": "Coordinated Multi-Robotic Vehicles Navigation and Control in Shop Floor Automation",
+    "authors": [
+      {
+        "name": "Klančar, Gregor",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "Sensors",
+    "details": "vol. 22, no. 4, article no. 1455",
+    "doi": "10.3390/s22041455",
+    "url": "https://www.mdpi.com/1424-8220/22/4/1455",
+    "croris": 307375
+  },
+  {
+    "id": 311978,
+    "category": "journal",
+    "year": 2022,
+    "title": "Human action prediction in collaborative environments based on shared-weight LSTMs with feature dimensionality reduction",
+    "authors": [
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Applied Soft Computing",
+    "details": "vol. 126, article no. 109245",
+    "doi": "10.1016/j.asoc.2022.109245",
+    "croris": 311978
+  },
+  {
+    "id": 307178,
+    "category": "journal",
+    "year": 2022,
+    "title": "Mixtures of Gaussian Processes for Robot Motion Planning Using Stochastic Trajectory Optimization",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "details": "vol. 52, no. 12, pp. 7378–7390",
+    "doi": "10.1109/tsmc.2022.3155378",
+    "url": "https://ieeexplore.ieee.org/document/9733096",
+    "croris": 307178
+  },
+  {
+    "id": 298046,
+    "category": "journal",
+    "year": 2022,
+    "title": "Human localization in robotized warehouses based on stereo odometry and ground-marker fusion",
+    "authors": [
+      {
+        "name": "Popović, Goran",
+        "lab": false
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Écorchard, Gaël",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Přeučil, Libor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Computer-Integrated Manufacturing",
+    "details": "vol. 73, article no. 102241",
+    "doi": "10.1016/j.rcim.2021.102241",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0736584521001228",
+    "croris": 298046
+  },
+  {
+    "id": 323044,
+    "category": "journal",
+    "year": 2022,
+    "title": "Smooth Complete Coverage Trajectory Planning Algorithm for a Nonholonomic Robot",
+    "authors": [
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Sensors",
+    "details": "vol. 22, no. 23, article no. 9269",
+    "doi": "10.3390/s22239269",
+    "url": "https://www.mdpi.com/1424-8220/22/23/9269",
+    "croris": 323044
+  },
+  {
+    "id": 722088,
+    "category": "conference",
+    "year": 2022,
+    "title": "Autonomous topology creation of industrial environments for automated guided vehicles",
+    "authors": [
+      {
+        "name": "Cvitanović, Ivana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "45th Jubilee International ICT Convention MIPRO 2022",
+    "details": "Opatija, Croatia, 23.–27. May 2022, article no. 8387",
+    "croris": 722088
+  },
+  {
+    "id": 722066,
+    "category": "conference",
+    "year": 2022,
+    "title": "Autonomous Hierarchy Creation for Path Planning of Mobile Robots in Large Environments",
+    "authors": [
+      {
+        "name": "Gregorić, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
+    "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 798–810",
+    "croris": 722066
+  },
+  {
+    "id": 722087,
+    "category": "conference",
+    "year": 2022,
+    "title": "Autonomous Navigation of a Tracked Unmanned Ground Vehicle",
+    "authors": [
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Jurić, Anđela",
+        "lab": false
+      },
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Lovrić, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Intelligent Autonomous Vehicles - 11th IAV 2022",
+    "details": "Prague, Czech Republic, 6.–8. July 2022, article no. 19",
+    "croris": 722087
+  },
+  {
+    "id": 809016,
+    "category": "conference",
+    "year": 2022,
+    "title": "Smooth Motion Planning of an Omnidirectional Mobile Robot in Dynamic Environments",
+    "authors": [
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "2022 International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)",
+    "details": "Malé, Maldives, 16.–18. November 2022",
+    "doi": "10.1109/iceccme55909.2022.9988732",
+    "croris": 809016
+  },
+  {
+    "id": 297721,
+    "category": "journal",
+    "year": 2021,
+    "title": "Multi-Target Tracking on Riemannian Manifolds via Probabilistic Data Association",
+    "authors": [
+      {
+        "name": "Bićanić, Borna",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Signal Processing Letters",
+    "details": "vol. 28, pp. 1555–1559",
+    "doi": "10.1109/lsp.2021.3099980",
+    "croris": 297721
+  },
+  {
+    "id": 282379,
+    "category": "journal",
+    "year": 2021,
+    "title": "Stereo Dense Depth Tracking Based on Optical Flow using Frames and Events",
+    "authors": [
+      {
+        "name": "Hadviger, Antea",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Advanced Robotics",
+    "details": "vol. 35, no. 3-4, pp. 141–152",
+    "croris": 282379
+  },
+  {
+    "id": 290392,
+    "category": "journal",
+    "year": 2021,
+    "title": "Active vision for 3D indoor scene reconstruction using a 3D camera on a pan-tilt mechanism",
+    "authors": [
+      {
+        "name": "Hržica, Mateja",
+        "lab": false
+      },
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Advanced Robotics",
+    "details": "vol. 35, no. 3-4, pp. 153–167",
+    "doi": "10.1080/01691864.2021.1875042",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01691864.2021.1875042",
+    "croris": 290392
+  },
+  {
+    "id": 269993,
+    "category": "journal",
+    "year": 2021,
+    "title": "Drivable path planning using hybrid search algorithm based on E* and Bernstein-Bezier motion primitives",
+    "authors": [
+      {
+        "name": "Klančar, Gregor",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Blažič, Sašo",
+        "lab": false
+      },
+      {
+        "name": "Škrjanc, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "details": "vol. 51, no. 8, pp. 4868–4882",
+    "doi": "10.1109/tsmc.2019.2945110",
+    "url": "https://ieeexplore.ieee.org/document/8876884?source=authoralert",
+    "croris": 269993
+  },
+  {
+    "id": 298636,
+    "category": "journal",
+    "year": 2021,
+    "title": "A Riemannian metric for geometry-aware singularity avoidance by articulated robots",
+    "authors": [
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Guberina, Marko",
+        "lab": false
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 145, article no. 103865",
+    "doi": "10.1016/j.robot.2021.103865",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889021001500?via%3Dihub",
+    "croris": 298636
+  },
+  {
+    "id": 303942,
+    "category": "journal",
+    "year": 2021,
+    "title": "Riemannian Optimization for Distance-Geometric Inverse Kinematics",
+    "authors": [
+      {
+        "name": "Maric, Filip",
+        "lab": false
+      },
+      {
+        "name": "Giamou, Matthew",
+        "lab": false
+      },
+      {
+        "name": "Hall, Adam W.",
+        "lab": false
+      },
+      {
+        "name": "Khoubyarian, Soroush",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE Transactions on Robotics",
+    "details": "vol. 1, pp. 1–20",
+    "doi": "10.1109/tro.2021.3123841",
+    "croris": 303942
+  },
+  {
+    "id": 282380,
+    "category": "journal",
+    "year": 2021,
+    "title": "Online Multi-Sensor Calibration Based on Moving Object Tracking",
+    "authors": [
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Advanced Robotics",
+    "details": "vol. 35, no. 3-4, pp. 130–140",
+    "doi": "10.1080/01691864.2020.1819874",
+    "croris": 282380
+  },
+  {
+    "id": 292934,
+    "category": "journal",
+    "year": 2021,
+    "title": "Spatiotemporal Multisensor Calibration via Gaussian Processes Moving Target Tracking",
+    "authors": [
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Robotics",
+    "details": "vol. 37, no. 5, pp. 1401–1415",
+    "doi": "10.1109/tro.2021.3061364",
+    "croris": 292934
+  },
+  {
+    "id": 705974,
+    "category": "conference",
+    "year": 2021,
+    "title": "Recalibrating the KITTI Dataset Camera Setup for Improved Odometry Accuracy",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "European Conference on Mobile Robots",
+    "details": "Bonn, Germany, 1.–3. September 2021, pp. 1–6",
+    "croris": 705974
+  },
+  {
+    "id": 703220,
+    "category": "conference",
+    "year": 2021,
+    "title": "Depth from Mono Accuracy Analysis by Changing Camera Parameters in the CARLA simulator",
+    "authors": [
+      {
+        "name": "Gršković Zvonimir",
+        "lab": false
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "44th International Convention MIPRO 2021",
+    "details": "Opatija, Croatia, 27. September–1. October 2021, pp. 1–6",
+    "croris": 703220
+  },
+  {
+    "id": 705975,
+    "category": "conference",
+    "year": 2021,
+    "title": "Feature-based Event Stereo Visual Odometry",
+    "authors": [
+      {
+        "name": "Hadviger, Antea",
+        "lab": false
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "European Conference on Mobile Robots",
+    "details": "Bonn, Germany, 1.–3. September 2021, pp. 1–6",
+    "croris": 705975
+  },
+  {
+    "id": 703221,
+    "category": "conference",
+    "year": 2021,
+    "title": "A Comparison of Graph Optimization Approaches for Pose Estimation in SLAM",
+    "authors": [
+      {
+        "name": "Jurić, Anđela",
+        "lab": false
+      },
+      {
+        "name": "Kendeš, Filip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "44th International Convention MIPRO 2021",
+    "details": "Opatija, Croatia, 27. September–1. October 2021, pp. 1–6",
+    "croris": 703221
+  },
+  {
+    "id": 718409,
+    "category": "conference",
+    "year": 2021,
+    "title": "Combined stochastic-deterministic predictive control using local-minima free navigation",
+    "authors": [
+      {
+        "name": "Klančar, Gregor",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "details": "Prague, Czech Republic, 27. September–1. October 2021, pp. 5788–5793",
+    "croris": 718409
+  },
+  {
+    "id": 709899,
+    "category": "conference",
+    "year": 2021,
+    "title": "Ensemble of LSTMs and feature selection for human action prediction",
+    "authors": [
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "16th International Conference on Intelligent Autonomous Systems (IAS-16)",
+    "details": "Singapore, 22.–25. June 2021, p. 1",
+    "doi": "10.1007/978-3-030-95892-3_33",
+    "croris": 709899
+  },
+  {
+    "id": 709903,
+    "category": "conference",
+    "year": 2021,
+    "title": "Trajectory Optimization with Geometry-Aware Singularity Avoidance for Robot Motion Planning",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Conference on Control, Automation and Systems (ICCAS)",
+    "details": "Jeju City, South Korea, 12.–15. October 2021, pp. 1760–1765",
+    "doi": "10.23919/iccas52745.2021.9650039",
+    "croris": 709903
+  },
+  {
+    "id": 709902,
+    "category": "conference",
+    "year": 2021,
+    "title": "Human Localization in Warehouse Environments based on a Wearable Camera Sensor Suite and Dynamic Ultra-Wide Band Nodes",
+    "authors": [
+      {
+        "name": "Popović, Goran",
+        "lab": false
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Conference on Advanced Robotics (ICAR)",
+    "details": "Ljubljana, Slovenia, 7.–10. December 2021, pp. 1–6",
+    "croris": 709902
+  },
+  {
+    "id": 710648,
+    "category": "conference",
+    "year": 2021,
+    "title": "Extended Kalman filter for payload state estimation utilizing aircraft inertial sensing",
+    "authors": [
+      {
+        "name": "Prkačin, Vicko",
+        "lab": false
+      },
+      {
+        "name": "Palunko, Ivana",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Aerial Robotic Systems Physically Interacting with the Environment (AIRPHARO)",
+    "details": "Biograd na Moru, Croatia, 4.–5. October 2021, article no. 9571038",
+    "doi": "10.1109/airpharo52252.2021.9571038",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9571038",
+    "croris": 710648
+  },
+  {
+    "id": 703219,
+    "category": "conference",
+    "year": 2021,
+    "title": "Mobile Robot Teleoperation via Android Mobile Device with UDP Communication",
+    "authors": [
+      {
+        "name": "Szymańska, Emilia",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "44th International Convention MIPRO 2021",
+    "details": "Opatija, Croatia, 27. September–1. October 2021, pp. 1143–1148",
+    "doi": "10.23919/mipro52101.2021.9596800",
+    "croris": 703219
+  },
+  {
+    "id": 708973,
+    "category": "conference",
+    "year": 2021,
+    "title": "A Continuous-Time Approach for 3D Radar-to-Camera Extrinsic Calibration",
+    "authors": [
+      {
+        "name": "Wise, Emmett",
+        "lab": false
+      },
+      {
+        "name": "Persic, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Grebe, Christopher",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "details": "Xi’an, China, 30. May–5. June 2021, pp. 13164–13170",
+    "doi": "10.1109/icra48506.2021.9561938",
+    "url": "https://ieeexplore.ieee.org/document/9561938",
+    "croris": 708973
+  },
+  {
+    "id": 267642,
+    "category": "journal",
+    "year": 2020,
+    "title": "Estimation and observability analysis of human motion on Lie groups",
+    "authors": [
+      {
+        "name": "Joukov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Westermann, Kevin",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kulić, Dana",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE Transactions on Cybernetics",
+    "details": "vol. 50, no. 3, pp. 1321–1332",
+    "doi": "10.1109/tcyb.2019.2933390",
+    "croris": 267642
+  },
+  {
+    "id": 280127,
+    "category": "journal",
+    "year": 2020,
+    "title": "Visual Place Recognition using Directed Acyclic Graph Association Measures and Mutual Information-based Feature Selection",
+    "authors": [
+      {
+        "name": "Maltar, Jurica",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 132, article no. 103598",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889020304383",
+    "croris": 280127
+  },
+  {
+    "id": 276456,
+    "category": "journal",
+    "year": 2020,
+    "title": "Risk-sensitive motion planning for MAVs based on mission-related fault-tolerant analysis",
+    "authors": [
+      {
+        "name": "Osmić, Nedim",
+        "lab": false
+      },
+      {
+        "name": "Tahirović, Andnan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 61, no. 2, pp. 295–311",
+    "doi": "10.1080/00051144.2020.1733324",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00051144.2020.1733324",
+    "croris": 276456
+  },
+  {
+    "id": 282305,
+    "category": "journal",
+    "year": 2020,
+    "title": "Cross-Entropy based Stochastic Optimization of Robot Trajectories using Heteroscedastic Continuous-time Gaussian Processes",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 133, article no. 103618",
+    "doi": "10.1016/j.robot.2020.103618",
+    "croris": 282305
+  },
+  {
+    "id": 710718,
+    "category": "conference",
+    "year": 2020,
+    "title": "A Simulator for Training Human Operators of a Remote Controlled Anti-Terrorism Ground Vehicle",
+    "authors": [
+      {
+        "name": "Fulir, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Mihajlović, Željka",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "43rd International Convention MIPRO 2020",
+    "details": "Opatija, Croatia, 28. September–2. October 2020, pp. 948–953",
+    "doi": "10.23919/mipro48935.2020.9245396",
+    "croris": 710718
+  },
+  {
+    "id": 711031,
+    "category": "conference",
+    "year": 2020,
+    "title": "Inverse Kinematics as Low-Rank Euclidean Distance Matrix Completion",
+    "authors": [
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Giamou, Matthew",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "IROS 2020 Workshop on Bringing Geometric Methods to Robot Learning, Optimization and Control (IROS’20)",
+    "details": "Las Vegas, NV, USA, 29. October 2020, article no. 09196704",
+    "url": "https://arxiv.org/abs/1909.09318",
+    "croris": 711031
+  },
+  {
+    "id": 707105,
+    "category": "conference",
+    "year": 2020,
+    "title": "Inverse Kinematics for Serial Kinematic Chains via Sum of Squares Optimization",
+    "authors": [
+      {
+        "name": "Maric, Filip",
+        "lab": false
+      },
+      {
+        "name": "Giamou, Matthew",
+        "lab": false
+      },
+      {
+        "name": "Khoubyarian, Soroush",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "International Conference on Robotics and Automation (ICRA 2017)",
+    "details": "Paris, France, 31. May–31. August 2020, pp. 7101–7107",
+    "doi": "10.1109/icra40945.2020.9196704",
+    "croris": 707105
+  },
+  {
+    "id": 689789,
+    "category": "conference",
+    "year": 2020,
+    "title": "Human Intention Recognition for Human Aware Planning in Integrated Warehouse Systems",
+    "authors": [
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Hvezda, Jakub",
+        "lab": false
+      },
+      {
+        "name": "Rybecky, Tomas",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kulich, Miroslav",
+        "lab": false
+      },
+      {
+        "name": "Preucil, Libor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "28th Mediterranean Conference on Control and Automation (MED 2020)",
+    "details": "France, 15.–18. September 2020, pp. 1–6",
+    "doi": "10.1109/med48518.2020.9183266",
+    "croris": 689789
+  },
+  {
+    "id": 689790,
+    "category": "conference",
+    "year": 2020,
+    "title": "Gaussian Processes Incremental Inference for Mobile Robots Dynamic Planning",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "21st IFAC World Congress",
+    "details": "Berlin, Germany, 12.–17. July 2020, pp. 9584–9589",
+    "doi": "10.1016/j.ifacol.2020.12.2447",
+    "croris": 689790
+  },
+  {
+    "id": 694592,
+    "category": "conference",
+    "year": 2020,
+    "title": "State and parameter estimation of suspended load using quadrotor onboard sensors",
+    "authors": [
+      {
+        "name": "Prkačin, Vicko",
+        "lab": false
+      },
+      {
+        "name": "Palunko, Ivana",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2020 International Conference on Unmanned Aircraft Systems (ICUAS 2020)",
+    "details": "Athens, Greece, 1.–4. September 2020, pp. 958–967",
+    "doi": "10.1109/icuas48674.2020.9213840",
+    "url": "https://ieeexplore.ieee.org/document/9213840",
+    "croris": 694592
+  },
+  {
+    "id": 258760,
+    "category": "journal",
+    "year": 2019,
+    "title": "Extrinsic 6DoF Calibration of a Radar-LiDAR-Camera System Enhanced by Radar Cross Section Estimates Evaluation",
+    "authors": [
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 114, pp. 217–230",
+    "doi": "10.1016/j.robot.2018.11.023",
+    "url": "https://doi.org/10.1016/j.robot.2018.11.023",
+    "croris": 258760
+  },
+  {
+    "id": 256783,
+    "category": "journal",
+    "year": 2019,
+    "title": "Human Intention Estimation based on Hidden Markov Model Motion Validation for Safe Flexible Robotized Warehouses",
+    "authors": [
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Puljiz, David",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Hein, Bjoern",
+        "lab": false
+      }
+    ],
+    "venue": "Robotics and Computer-Integrated Manufacturing",
+    "details": "vol. 57, pp. 182–196",
+    "doi": "10.1016/j.rcim.2018.11.004",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0736584518302965",
+    "croris": 256783
+  },
+  {
+    "id": 277625,
+    "category": "journal",
+    "year": 2019,
+    "title": "Autonomous Navigation of Mobile Robots in Complex Dynamic Environments",
+    "authors": [
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Engineering Power: Bulletin of the Croatian Academy of Engineering",
+    "details": "vol. 14, no. 2, pp. 11–17",
+    "url": "https://www.hatz.hr/wp-content/uploads/2019/07/Engeneering_Power_Vol_14-2_2019_1.pdf",
+    "croris": 277625
+  },
+  {
+    "id": 678792,
+    "category": "conference",
+    "year": 2019,
+    "title": "Pedestrian Tracking by Probabilistic Data Association and Correspondence Embeddings",
+    "authors": [
+      {
+        "name": "Bićanić, Borna",
+        "lab": false
+      },
+      {
+        "name": "Oršić, Marin",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Šegvić, Siniša",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "22nd International Conference on Information Fusion (FUSION 2019)",
+    "details": "Ottawa, Canada, 2.–5. July 2019, pp. 1–6",
+    "croris": 678792
+  },
+  {
+    "id": 678830,
+    "category": "conference",
+    "year": 2019,
+    "title": "Stereo Event Lifetime and Disparity Estimation for Dynamic Vision Sensors",
+    "authors": [
+      {
+        "name": "Hadviger, Antea",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "ECMR 2019 – European Conference on Mobile Robots 2019",
+    "details": "Prague, Czech Republic, 4.–6. September 2019, pp. 1–6",
+    "croris": 678830
+  },
+  {
+    "id": 683144,
+    "category": "conference",
+    "year": 2019,
+    "title": "Wheeled robot navigation based on a unimodal potential function",
+    "authors": [
+      {
+        "name": "Klančar, Gregor",
+        "lab": false
+      },
+      {
+        "name": "Mušič, Gašper",
+        "lab": false
+      },
+      {
+        "name": "Chen, Hao",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "International Conference on Computer, Information and Telecommunication Systems (CITS 2019)",
+    "details": "Beijing, China, 28.–31. August 2019, article no. 8862144",
+    "doi": "10.1109/cits.2019.8862144",
+    "croris": 683144
+  },
+  {
+    "id": 681275,
+    "category": "conference",
+    "year": 2019,
+    "title": "NOSeqSLAM: Not only Sequential SLAM",
+    "authors": [
+      {
+        "name": "Maltar, Jurica",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "4th Iberian Robotics Conference (ROBOT 2019)",
+    "details": "Porto, Portugal, 20.–22. November 2019, pp. 1–12",
+    "croris": 681275
+  },
+  {
+    "id": 683551,
+    "category": "conference",
+    "year": 2019,
+    "title": "Fast Manipulability Maximization Using Continuous-Time Trajectory Optimization",
+    "authors": [
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Limoyo, Oliver",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Ablett, Trevor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019)",
+    "details": "China, 4.–8. November 2019, pp. 8258–8264",
+    "doi": "10.1109/iros40897.2019.8968441",
+    "croris": 683551
+  },
+  {
+    "id": 676818,
+    "category": "conference",
+    "year": 2019,
+    "title": "Human Motion Prediction Framework for Safe Flexible Robotized Warehouses",
+    "authors": [
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Hvězda, Jakub",
+        "lab": false
+      },
+      {
+        "name": "Rybecký, Tomáš",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kulich, Miroslav",
+        "lab": false
+      },
+      {
+        "name": "Přeučil, Libor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE International Conference on Robotics and Automation: Long-term Human Motion Prediction Workshop (ICRA2019)",
+    "details": "Montréal, Canada, 20.–24. May 2019, pp. 1–2",
+    "croris": 676818
+  },
+  {
+    "id": 678831,
+    "category": "conference",
+    "year": 2019,
+    "title": "Stochastic Optimization for Trajectory Planning with Heteroscedastic Gaussian Processes",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "ECMR 2019 – European Conference on Mobile Robots 2019",
+    "details": "Prague, Czech Republic, 4.–6. September 2019, pp. 1–6",
+    "doi": "10.1109/ecmr.2019.8870970",
+    "croris": 678831
+  },
+  {
+    "id": 682396,
+    "category": "conference",
+    "year": 2019,
+    "title": "Open Platform Based Mobile Robot Control for Automation in Manufacturing Logistics",
+    "authors": [
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Popović, Goran",
+        "lab": false
+      },
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Bićanić, Borna",
+        "lab": false
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Josić, Damir",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Muhammad, Ali",
+        "lab": false
+      }
+    ],
+    "venue": "1st IFAC Workshop on Robot Control - WROCO 2019",
+    "details": "Daegu, South Korea, 18.–20. September 2019, article no. 1",
+    "doi": "10.1016/j.ifacol.2019.11.055",
+    "croris": 682396
+  },
+  {
+    "id": 683147,
+    "category": "conference",
+    "year": 2019,
+    "title": "Control architecture of a remotely controlled vehicle in extreme CBRNE conditions",
+    "authors": [
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Jurić, Demijan",
+        "lab": false
+      },
+      {
+        "name": "Čirjak, Anđela",
+        "lab": false
+      },
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Conference of Electrical Drives and Power Electronics (EDPE)",
+    "details": "Vysoké Tatry, Slovakia, 24.–26. September 2019, pp. 273–278",
+    "croris": 683147
+  },
+  {
+    "id": 675248,
+    "category": "conference",
+    "year": 2019,
+    "title": "Unity based Urban Environment Simulation for Autonomous Vehicle Stereo Vision Evaluation",
+    "authors": [
+      {
+        "name": "Vukić, Matija",
+        "lab": false
+      },
+      {
+        "name": "Grgić, Borna",
+        "lab": false
+      },
+      {
+        "name": "Dinčir, Dorian",
+        "lab": false
+      },
+      {
+        "name": "Kostelac, Luka",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "42nd International Convention MIPRO 2019",
+    "details": "Opatija, Croatia, 20.–24. May 2019, pp. 1–6",
+    "croris": 675248
+  },
+  {
+    "id": 241937,
+    "category": "journal",
+    "year": 2018,
+    "title": "SOFT-SLAM: Computationally Efficient Stereo Visual SLAM for Autonomous UAVs",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Journal of Field Robotics",
+    "details": "vol. 35, no. 4, pp. 578–595",
+    "doi": "10.1002/rob.21762",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21762",
+    "croris": 241937
+  },
+  {
+    "id": 249274,
+    "category": "journal",
+    "year": 2018,
+    "title": "Exactly Sparse Delayed State Filter on Lie groups for Long-term Pose Graph SLAM",
+    "authors": [
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Journal of Robotics Research",
+    "details": "vol. 37, no. 6, pp. 585–610",
+    "doi": "10.1177/0278364918767756",
+    "url": "https://doi.org/10.1177/0278364918767756",
+    "croris": 249274
+  },
+  {
+    "id": 237384,
+    "category": "journal",
+    "year": 2018,
+    "title": "Path Planning for Active SLAM Based on the D* Algorithm With Negative Edge Weights",
+    "authors": [
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+    "details": "vol. 48, no. 8, pp. 1321–1331",
+    "doi": "10.1109/tsmc.2017.2668603",
+    "url": "http://ieeexplore.ieee.org/document/7878681/",
+    "croris": 237384
+  },
+  {
+    "id": 670071,
+    "category": "conference",
+    "year": 2018,
+    "title": "Manipulability Maximization Using Continuous-Time Gaussian Processes",
+    "authors": [
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Limoyo, Oliver",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kelly, Jonathan",
+        "lab": false
+      }
+    ],
+    "venue": "International Conference on Intelligent Robots and Systems (IROS'18)",
+    "details": "Madrid, Spain, 1.–5. October 2018, pp. 128–142",
+    "url": "https://arxiv.org/pdf/1803.09493.pdf",
+    "croris": 670071
+  },
+  {
+    "id": 665036,
+    "category": "conference",
+    "year": 2018,
+    "title": "Multi-agent Gaussian Process Motion Planning via Probabilistic Inference",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "12th IFAC Symposium on Robot Control (SYROCO2018)",
+    "details": "Budapest, Hungary, 27.–30. August 2018, pp. 160–165",
+    "doi": "10.1016/j.ifacol.2018.11.535",
+    "croris": 665036
+  },
+  {
+    "id": 665034,
+    "category": "conference",
+    "year": 2018,
+    "title": "Computationally efficient dense moving object detection based on reduced space disparity estimation",
+    "authors": [
+      {
+        "name": "Popović, Goran",
+        "lab": false
+      },
+      {
+        "name": "Hadviger, Antea",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "12th IFAC Symposium on Robot Control (SYROCO2018)",
+    "details": "Budapest, Hungary, 27.–30. August 2018, pp. 1–6",
+    "croris": 665034
+  },
+  {
+    "id": 665360,
+    "category": "conference",
+    "year": 2018,
+    "title": "Mobile robot navigation for complete coverage of an environment",
+    "authors": [
+      {
+        "name": "Šelek, Ana",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "12th IFAC Symposium on Robot Control (SYROCO2018)",
+    "details": "Budapest, Hungary, 27.–30. August 2018, pp. 1–6",
+    "croris": 665360
+  },
+  {
+    "id": 238222,
+    "category": "journal",
+    "year": 2017,
+    "title": "Extended Information Filter on Matrix Lie Groups",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bukal, Mario",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatica",
+    "details": "vol. 82, pp. 226–234",
+    "doi": "10.1016/j.automatica.2017.04.056",
+    "url": "http://www.sciencedirect.com/science/article/pii/S0005109817302509",
+    "croris": 238222
+  },
+  {
+    "id": 241127,
+    "category": "journal",
+    "year": 2017,
+    "title": "Mixture Reduction on Matrix Lie Groups",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Signal Processing Letters",
+    "details": "vol. 24, no. 11, pp. 1719–1723",
+    "doi": "10.1109/lsp.2017.2723765",
+    "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7968489",
+    "croris": 241127
+  },
+  {
+    "id": 238167,
+    "category": "journal",
+    "year": 2017,
+    "title": "Fast planar surface 3D SLAM using LIDAR",
+    "authors": [
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 92, pp. 197–220",
+    "doi": "10.1016/j.robot.2017.03.013",
+    "url": "http://www.sciencedirect.com/science/article/pii/S0921889016303475",
+    "croris": 238167
+  },
+  {
+    "id": 226863,
+    "category": "journal",
+    "year": 2017,
+    "title": "Time-Optimal Velocity Planning Along Predefined Path for Static Formations of Mobile Robots",
+    "authors": [
+      {
+        "name": "Petrinić, Toni",
+        "lab": false
+      },
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Journal of Control, Automation and Systems",
+    "details": "vol. 15, no. 1, pp. 293–302",
+    "doi": "10.1007/s12555-015-0192-y",
+    "url": "http://link.springer.com/article/10.1007/s12555-015-0192-y",
+    "croris": 226863
+  },
+  {
+    "id": 226876,
+    "category": "journal",
+    "year": 2017,
+    "title": "Receding Horizon Control for Convergent Navigation of a Differential Drive Mobile Robot",
+    "authors": [
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Baotić, Mato",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Control Systems Technology",
+    "details": "vol. 25, no. 2, pp. 653–660",
+    "doi": "10.1109/tcst.2016.2558479",
+    "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7468507",
+    "croris": 226876
+  },
+  {
+    "id": 648552,
+    "category": "conference",
+    "year": 2017,
+    "title": "Score matching based assumed density filtering with the von Mises-Fisher distribution",
+    "authors": [
+      {
+        "name": "Bukal, Mario",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "20th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
+    "details": "Xi’an, China, 10.–13. July 2017",
+    "croris": 648552
+  },
+  {
+    "id": 646175,
+    "category": "conference",
+    "year": 2017,
+    "title": "Dense Disparity Estimation in Ego-motion Reduced Search Space",
+    "authors": [
+      {
+        "name": "Fućek, Luka",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "20th World Congress of the International Federation of Automatic Control (IFAC)",
+    "details": "Toulouse, France, 9.–14. July 2017",
+    "croris": 646175
+  },
+  {
+    "id": 649924,
+    "category": "conference",
+    "year": 2017,
+    "title": "Human motion estimation on Lie groups using IMU measurements",
+    "authors": [
+      {
+        "name": "Joukov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Westermann, Kevin",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kulić, Dana",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2017)",
+    "details": "Vancouver, Canada, 24.–29. September 2017",
+    "croris": 649924
+  },
+  {
+    "id": 651323,
+    "category": "conference",
+    "year": 2017,
+    "title": "Cooperative Cloud SLAM on Matrix Lie Groups",
+    "authors": [
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Iberian Robotics Conference (ROBOT)",
+    "details": "Sevilla, Spain, 22.–24. November 2017",
+    "croris": 651323
+  },
+  {
+    "id": 649923,
+    "category": "conference",
+    "year": 2017,
+    "title": "Revival of filtering based SLAM? Exactly sparse delayed state filter on Lie groups",
+    "authors": [
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "details": "Vancouver, Canada, 24.–28. September 2017",
+    "croris": 649923
+  },
+  {
+    "id": 649925,
+    "category": "conference",
+    "year": 2017,
+    "title": "Extrinsic 6DoF Calibration of 3D LiDAR and Radar",
+    "authors": [
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "The European Conference on Mobile Robotics (ECMR2017)",
+    "details": "Paris, France, 6.–8. September 2017",
+    "croris": 649925
+  },
+  {
+    "id": 651324,
+    "category": "conference",
+    "year": 2017,
+    "title": "Human Intention Recognition in Flexible Robotized Warehouses based on Markov Decision Processes",
+    "authors": [
+      {
+        "name": "Petković, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Iberian Robotics Conference (ROBOT)",
+    "details": "Sevilla, Spain, 22.–24. November 2017, pp. 629–640",
+    "doi": "10.1007/978-3-319-70836-2_52",
+    "croris": 651324
+  },
+  {
+    "id": 655819,
+    "category": "conference",
+    "year": 2017,
+    "title": "Self-learning model predictive control based on the sequence of controllable sets",
+    "authors": [
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Ileš, Šandor",
+        "lab": false
+      },
+      {
+        "name": "Matuško, Jadranko",
+        "lab": false
+      }
+    ],
+    "venue": "19th International Conference on Electrical Drives and Power Electronics (EDPE 2017) 8th Joint Croatian-Slovak Conference",
+    "details": "Dubrovnik, Croatia, 4.–6. October 2017, pp. 359–364",
+    "doi": "10.1109/edpe.2017.8123230",
+    "croris": 655819
+  },
+  {
+    "id": 227854,
+    "category": "journal",
+    "year": 2016,
+    "title": "Radar and stereo vision fusion for multitarget tracking on the special Euclidean group",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 83, pp. 338–348",
+    "doi": "10.1016/j.robot.2016.05.001",
+    "url": "http://www.sciencedirect.com/science/article/pii/S0921889015303286",
+    "croris": 227854
+  },
+  {
+    "id": 226684,
+    "category": "journal",
+    "year": 2016,
+    "title": "Multitarget tracking with the von Mises-Fisher filter and probabilistic data association",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bukal, Mario",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Journal of Advances in Information Fusion",
+    "details": "vol. 11, no. 2, pp. 157–172",
+    "url": "https://confcats_isif.s3.amazonaws.com/web-files/journals/entries/JAIF_Vol11_2_4.pdf",
+    "croris": 226684
+  },
+  {
+    "id": 634003,
+    "category": "conference",
+    "year": 2016,
+    "title": "Automatic ground plane detection using laser scanner data",
+    "authors": [
+      {
+        "name": "Borrmann, Dorit",
+        "lab": false
+      },
+      {
+        "name": "Leutert, Florian",
+        "lab": false
+      },
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Nüchter, Andreas",
+        "lab": false
+      }
+    ],
+    "venue": "15. Oldenburger 3D-Tage: Optische 3D-Messtechnik - Photogrammetrie - Laserscanning",
+    "details": "Oldenburg, Germany, 3.–4. February 2016, pp. 108–119",
+    "croris": 634003
+  },
+  {
+    "id": 639992,
+    "category": "conference",
+    "year": 2016,
+    "title": "Full Body Human Motion Estimation on Lie Groups Using 3D Marker Position Measurements",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Joukov, Vladimir",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kulić, Dana",
+        "lab": false
+      }
+    ],
+    "venue": "2016 IEEE-RAS International Conference on Humanoid Robotics",
+    "details": "Cancún, Mexico, 15.–19. November 2016",
+    "croris": 639992
+  },
+  {
+    "id": 635093,
+    "category": "conference",
+    "year": 2016,
+    "title": "Moving object tracking employing rigid body motion on matrix Lie groups",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "19th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
+    "details": "Heidelberg, Germany, 5.–8. July 2016, pp. 2109–2115",
+    "croris": 635093
+  },
+  {
+    "id": 634191,
+    "category": "conference",
+    "year": 2016,
+    "title": "Robot arm teleoperation via RGBD sensor palm tracking",
+    "authors": [
+      {
+        "name": "Marić, Filip",
+        "lab": false
+      },
+      {
+        "name": "Jurin, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Kalafatić, Zoran",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "39th International Convention MIPRO 2016",
+    "details": "Opatija, Croatia, 30. May–3. June 2016",
+    "croris": 634191
+  },
+  {
+    "id": 635091,
+    "category": "conference",
+    "year": 2016,
+    "title": "On wrapping the Kalman filter and estimating with the SO(2) group",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "19th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
+    "details": "Heidelberg, Germany, 5.–8. July 2016, pp. 2245–2250",
+    "croris": 635091
+  },
+  {
+    "id": 658417,
+    "category": "conference",
+    "year": 2016,
+    "title": "Detailed octorotor modeling and PD control",
+    "authors": [
+      {
+        "name": "Osmić, Nedim",
+        "lab": false
+      },
+      {
+        "name": "Kurić, Muhamed",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2016 IEEE International Conference on Systems, Man, and Cybernetics",
+    "details": "Budapest, Hungary, 9.–12. October 2016, article no. 2182",
+    "doi": "10.1109/smc.2016.7844562",
+    "croris": 658417
+  },
+  {
+    "id": 635849,
+    "category": "conference",
+    "year": 2016,
+    "title": "UrbanWater platform for water distribution system management - concept and implementation",
+    "authors": [
+      {
+        "name": "Rodriguez, Albert",
+        "lab": false
+      },
+      {
+        "name": "Vašak, Mario",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Perić, Nedjeljko",
+        "lab": false
+      }
+    ],
+    "venue": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba",
+    "details": "Zagreb, Croatia, 17.–18. May 2016, pp. 181–186",
+    "croris": 635849
+  },
+  {
+    "id": 635851,
+    "category": "conference",
+    "year": 2016,
+    "title": "Water demand prediction and dynamic water prices computation",
+    "authors": [
+      {
+        "name": "Vašak, Mario",
+        "lab": false
+      },
+      {
+        "name": "Banjac, Goran",
+        "lab": false
+      },
+      {
+        "name": "Novak, Hrvoje",
+        "lab": false
+      },
+      {
+        "name": "Perić, Nedjeljko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba",
+    "details": "Zagreb, Croatia, 17.–18. May 2016, pp. 187–194",
+    "croris": 635851
+  },
+  {
+    "id": 208561,
+    "category": "journal",
+    "year": 2015,
+    "title": "Place recognition based on matching of planar surfaces and line segments",
+    "authors": [
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      },
+      {
+        "name": "Nyarko, Emmanuel Karlo",
+        "lab": false
+      },
+      {
+        "name": "Filko, Damir",
+        "lab": false
+      },
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Journal of Robotics Research",
+    "details": "vol. 34, no. 4/5, pp. 674–704",
+    "doi": "10.1177/0278364914548708",
+    "url": "http://ijr.sagepub.com/content/34/4-5/674",
+    "croris": 208561
+  },
+  {
+    "id": 220742,
+    "category": "journal",
+    "year": 2015,
+    "title": "Von Mises Mixture PHD Filter",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Signal Processing Letters",
+    "details": "vol. 22, no. 12, pp. 2229–2233",
+    "doi": "10.1109/lsp.2015.2472962",
+    "url": "http://ieeexplore.ieee.org/document/7222395/",
+    "croris": 220742
+  },
+  {
+    "id": 209277,
+    "category": "journal",
+    "year": 2015,
+    "title": "Implicit Observation Model for Vision Aided Inertial Navigation of Aerial Vehicles Using Single Camera Vector Observations",
+    "authors": [
+      {
+        "name": "Sazdovski, Vasko",
+        "lab": false
+      },
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Aerospace Science and Technology",
+    "details": "vol. 40, pp. 33–46",
+    "doi": "10.1016/j.ast.2014.09.019",
+    "url": "http://dx.doi.org/10.1016/j.ast.2014.09.019",
+    "croris": 209277
+  },
+  {
+    "id": 876317,
+    "category": "conference",
+    "year": 2015,
+    "title": "Short-Term Map Based Detection and Tracking of Moving Objects with 3D Laser on a Vehicle",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "11th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2014)",
+    "details": "Vienna, Austria, 1.–3. September 2014, pp. 205–222",
+    "doi": "10.1007/978-3-319-26453-0_12",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-319-26453-0_12",
+    "croris": 876317
+  },
+  {
+    "id": 628289,
+    "category": "conference",
+    "year": 2015,
+    "title": "Stereo odometry based on careful feature selection and tracking",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "European Conference on Mobile Robots 2015",
+    "details": "Lincoln, United Kingdom, 2.–4. September 2015",
+    "croris": 628289
+  },
+  {
+    "id": 628682,
+    "category": "conference",
+    "year": 2015,
+    "title": "Moving Objects Detection Using a Thermal Camera and IMU on a Vehicle",
+    "authors": [
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Maurović Ivan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "18th International Conference on Electrical Drives and Power Electronics, EDPE",
+    "details": "Vysoké Tatry, Slovakia, 21.–23. September 2015",
+    "croris": 628682
+  },
+  {
+    "id": 625623,
+    "category": "conference",
+    "year": 2015,
+    "title": "Nonlinear Model Predictive Control for Energy Efficient Housing with Modern Construction Materials",
+    "authors": [
+      {
+        "name": "Novoselnik, Branimir",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Baotić, Mato",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2015 IEEE Sensors Applications Symposium",
+    "details": "Zadar, Croatia, 13.–15. April 2015, pp. 266–271",
+    "doi": "10.1109/sas.2015.7133614",
+    "url": "http://dx.doi.org/10.1109/SAS.2015.7133614",
+    "croris": 625623
+  },
+  {
+    "id": 628290,
+    "category": "conference",
+    "year": 2015,
+    "title": "Appearance based vehicle detection by radar-stereo vision integration",
+    "authors": [
+      {
+        "name": "Obrvan, Marko",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Second Iberian Robotics Conference - ROBOT'2015",
+    "details": "Lisbon, Portugal, 19.–21. November 2015",
+    "croris": 628290
+  },
+  {
+    "id": 206893,
+    "category": "journal",
+    "year": 2014,
+    "title": "A mobile robot based system for fully automated thermal 3D mapping",
+    "authors": [
+      {
+        "name": "Borrmann, Dorit",
+        "lab": false
+      },
+      {
+        "name": "Nüchter, Andreas",
+        "lab": false
+      },
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Osmanković, Dinko",
+        "lab": false
+      },
+      {
+        "name": "Velagić, Jasmin",
+        "lab": false
+      }
+    ],
+    "venue": "Advanced Engineering Informatics",
+    "details": "vol. 28, no. 4, pp. 425–440",
+    "doi": "10.1016/j.aei.2014.06.002",
+    "url": "http://dx.doi.org/10.1016/j.aei.2014.06.002",
+    "croris": 206893
+  },
+  {
+    "id": 195478,
+    "category": "journal",
+    "year": 2014,
+    "title": "Real-time Approximation of Clothoids with Bounded Error for Path Planning Applications",
+    "authors": [
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Transactions on Robotics",
+    "details": "vol. 30, no. 2, pp. 507–515",
+    "doi": "10.1109/tro.2013.2283928",
+    "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6646277&sortType%3Dasc_p_Sequence%26filter%3DAND%28p_IS_Number%3A6781558%29",
+    "croris": 195478
+  },
+  {
+    "id": 196754,
+    "category": "journal",
+    "year": 2014,
+    "title": "Composite distance based approach to von Mises mixture reduction",
+    "authors": [
+      {
+        "name": "Bukal, Mario",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Information Fusion",
+    "details": "vol. 20, pp. 136–145",
+    "doi": "10.1016/j.inffus.2014.01.003",
+    "url": "http://www.sciencedirect.com/science/article/pii/S1566253514000086",
+    "croris": 196754
+  },
+  {
+    "id": 209326,
+    "category": "journal",
+    "year": 2014,
+    "title": "Bayesian Sensor Fusion Methods for Dynamic Object Tracking - A Comparative Study",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 55, no. 4, pp. 386–398",
+    "doi": "10.7305/automatika.2014.09.847",
+    "url": "https://automatika.korema.hr/index.php/automatika/article/view/847",
+    "croris": 209326
+  },
+  {
+    "id": 612034,
+    "category": "conference",
+    "year": 2014,
+    "title": "Detection and tracking of dynamic objects using 3D laser range sensor on a mobile platform",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "11th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2014)",
+    "details": "Vienna, Austria, 1.–3. September 2014",
+    "croris": 612034
+  },
+  {
+    "id": 609941,
+    "category": "conference",
+    "year": 2014,
+    "title": "Tracking of multiple moving objects on the unit sphere using a multiple-camera system on a mobile robot",
+    "authors": [
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "The 13th International Conference on Intelligent Autonomous Systems (IAS)",
+    "details": "Padova, Italy, 15.–19. July 2014, pp. 899–911",
+    "croris": 609941
+  },
+  {
+    "id": 612309,
+    "category": "conference",
+    "year": 2014,
+    "title": "Fast Active SLAM for Accurate and Complete Coverage Mapping of Unknown Environments",
+    "authors": [
+      {
+        "name": "Lenac, Kruno",
+        "lab": false
+      },
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "13th International Conference on Intelligent Autonomous Systems",
+    "details": "Padova, Italy, 15.–19. July 2014",
+    "croris": 612309
+  },
+  {
+    "id": 610615,
+    "category": "conference",
+    "year": 2014,
+    "title": "Direction-only tracking of moving objects on the unit sphere via probabilistic data association",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Bukal, Mario",
+        "lab": false
+      },
+      {
+        "name": "Ćesić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "17th International Conference on Information Fusion",
+    "details": "Salamanca, Spain, 7.–10. July 2014, pp. 1–7",
+    "croris": 610615
+  },
+  {
+    "id": 608799,
+    "category": "conference",
+    "year": 2014,
+    "title": "Moving object detection, tracking and following using an omnidirectional camera on a mobile robot",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Chaumette, François",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "details": "China, 31. May–7. June 2014, pp. 5630–5635",
+    "croris": 608799
+  },
+  {
+    "id": 612297,
+    "category": "conference",
+    "year": 2014,
+    "title": "Autonomous Exploration of Large Unknown Indoor Environments for Dense 3D Model Building",
+    "authors": [
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "The 19th World Congress of the International Federation of Automatic Control",
+    "details": "Cape Town, South Africa, 24.–29. August 2014, pp. 10188–10193",
+    "croris": 612297
+  },
+  {
+    "id": 622298,
+    "category": "conference",
+    "year": 2014,
+    "title": "Cooperative control of heterogeneous robotic systems",
+    "authors": [
+      {
+        "name": "Mišković, Nikola",
+        "lab": false
+      },
+      {
+        "name": "Bogdan, Stjepan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Vukić, Zoran",
+        "lab": false
+      }
+    ],
+    "venue": "37th International Convention MIPRO 2014",
+    "details": "Opatija, Croatia, 25.–29. May 2014, pp. 982–986",
+    "doi": "10.1109/mipro.2014.6859711",
+    "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6859711&queryText=Cooperative%20control%20of%20heterogeneous%20robotic%20systems&newsearch=true",
+    "croris": 622298
+  },
+  {
+    "id": 194212,
+    "category": "journal",
+    "year": 2013,
+    "title": "Partial Mutual Information Based Input Variable Selection for Supervised Learning Approaches to Voice Activity Detection",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Applied Soft Computing",
+    "details": "vol. 13, no. 11, pp. 4383–4391",
+    "doi": "10.1016/j.asoc.2013.06.013",
+    "url": "http://authors.elsevier.com/sd/article/S1568494613002020",
+    "croris": 194212
+  },
+  {
+    "id": 600153,
+    "category": "conference",
+    "year": 2013,
+    "title": "Global Localization Based on 3D Planar Surface Segments",
+    "authors": [
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      },
+      {
+        "name": "Nyarko, Emmanuel Karlo",
+        "lab": false
+      },
+      {
+        "name": "Filko, Damir",
+        "lab": false
+      },
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2nd Croatian Computer Vision Workshop (CCVW 2013)",
+    "details": "Zagreb, Croatia, 19. September 2013, pp. 31–36",
+    "url": "http://arxiv.org/html/1310.0319",
+    "croris": 600153
+  },
+  {
+    "id": 598524,
+    "category": "conference",
+    "year": 2013,
+    "title": "Development and Testing of Small Aerial Vehicles with Redundant Number of Rotors",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE EuroCon 2013",
+    "details": "Zagreb, Croatia, 24.–26. June 2013, pp. 1921–1926",
+    "croris": 598524
+  },
+  {
+    "id": 599706,
+    "category": "conference",
+    "year": 2013,
+    "title": "Inertial aided sensor platform stabilization for multirotor aerial vehicles",
+    "authors": [
+      {
+        "name": "Cvišić, Igor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region",
+    "details": "Portorož, Slovenia, 11.–13. September 2013, pp. 72–79",
+    "croris": 599706
+  },
+  {
+    "id": 602256,
+    "category": "conference",
+    "year": 2013,
+    "title": "Efficient Navigation for Anyshape Holonomic Mobile Robots in Dynamic Environments",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Sprunk, Christoph",
+        "lab": false
+      },
+      {
+        "name": "Spinello, Luciano",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Burgard, Wolfram",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "details": "Tokyo, Japan, 3.–8. November 2013, pp. 2644–2649",
+    "croris": 602256
+  },
+  {
+    "id": 599841,
+    "category": "conference",
+    "year": 2013,
+    "title": "Learning control for positionally controlled manipulators",
+    "authors": [
+      {
+        "name": "Domagoj Herceg",
+        "lab": false
+      },
+      {
+        "name": "Dana Kulić",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region (RAAD 2013)",
+    "details": "Portorož, Slovenia, pp. 17–24",
+    "croris": 599841
+  },
+  {
+    "id": 597934,
+    "category": "conference",
+    "year": 2013,
+    "title": "Concept of an intrabody networked brain-computer interface controlled assistive robotic system",
+    "authors": [
+      {
+        "name": "Jerbić, Ana Branka",
+        "lab": false
+      },
+      {
+        "name": "Lučev Vasić, Željka",
+        "lab": false
+      },
+      {
+        "name": "Jurić- Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Melinščak, Filip",
+        "lab": false
+      },
+      {
+        "name": "Lončar, Josip",
+        "lab": false
+      },
+      {
+        "name": "Štogl, Denis",
+        "lab": false
+      },
+      {
+        "name": "Cifrek, Mario",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region (RAAD 2013)",
+    "details": "Portorož, Slovenia, pp. 197–203",
+    "url": "https://www.semanticscholar.org/paper/Concept-of-an-intrabody-networked-brain-computer-Jerbi%C4%87-Vasi%C4%87/6364123b80746b1b3def83167a87793ae70eb68d",
+    "croris": 597934
+  },
+  {
+    "id": 598543,
+    "category": "conference",
+    "year": 2013,
+    "title": "Active Speaker Localization with Circular Likelihoods and Bootstrap Filtering",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Portello, Alban",
+        "lab": false
+      },
+      {
+        "name": "Danès, Patrick",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Argentieri, Sylvain",
+        "lab": false
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2013), Invited Session on Robot Audition",
+    "details": "Tokyo, Japan, 3.–7. November 2013, pp. 2914–2920",
+    "croris": 598543
+  },
+  {
+    "id": 598026,
+    "category": "conference",
+    "year": 2013,
+    "title": "A Leader-Follower Approach to Formation Control of Multiple Non-Holonomic Mobile Robots",
+    "authors": [
+      {
+        "name": "Petrinić, Toni",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "36th International Convention MIPRO 2013",
+    "details": "Opatija, Croatia, 20.–24. May 2013, pp. 1169–1173",
+    "croris": 598026
+  },
+  {
+    "id": 599873,
+    "category": "conference",
+    "year": 2013,
+    "title": "Minimum Startup Delay Approach to Coordination of Multiple Mobile Robots Motion Along Predefined Paths",
+    "authors": [
+      {
+        "name": "Petrinić, Toni",
+        "lab": false
+      },
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region",
+    "details": "Portorož, Slovenia, 11.–13. September 2013, pp. 370–375",
+    "croris": 599873
+  },
+  {
+    "id": 184537,
+    "category": "journal",
+    "year": 2012,
+    "title": "Complete coverage path planning of mobile robots for humanitarian demining",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Industrial Robot: An International Journal",
+    "details": "vol. 39, no. 5, pp. 484–493",
+    "url": "http://www.emeraldinsight.com/journals.htm?issn=0143-991x&volume=39&issue=5&articleid=17047830&show=abstract",
+    "croris": 184537
+  },
+  {
+    "id": 187476,
+    "category": "journal",
+    "year": 2012,
+    "title": "Autotuning Power System Stabilizer based on Fuzzy Plant Model",
+    "authors": [
+      {
+        "name": "Tečec Ribarić, Zlatka",
+        "lab": false
+      },
+      {
+        "name": "Matuško, Jadranko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "International Review of Civil Engineering",
+    "details": "vol. 7, no. 4, pp. 5068–5079",
+    "url": "http://www.praiseworthyprize.com/IREE_latest.html#Autotuning_Power_System_Stabilizer_based_on_Fuzzy_Plant_Model",
+    "croris": 187476
+  },
+  {
+    "id": 184538,
+    "category": "journal",
+    "year": 2012,
+    "title": "Active Suppression of Low-frequency Interference Currents by Implementation of the High-performance Control System for the Grid-interfaced Converters",
+    "authors": [
+      {
+        "name": "Težak, Nenad",
+        "lab": false
+      },
+      {
+        "name": "Bahun, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 53, no. 2, pp. 199–214",
+    "doi": "10.7305/automatika.53-2.128",
+    "url": "https://automatika.korema.hr/index.php/automatika/article/view/128/210",
+    "croris": 184538
+  },
+  {
+    "id": 590271,
+    "category": "conference",
+    "year": 2012,
+    "title": "The Project ThermalMapper - Thermal 3D Mapping of Indoor Environments for Saving Energy",
+    "authors": [
+      {
+        "name": "Borrmann, Dorit",
+        "lab": false
+      },
+      {
+        "name": "Nüchter, Andreas",
+        "lab": false
+      },
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Osmanković, Dinko",
+        "lab": false
+      },
+      {
+        "name": "Velagić, Jasmin",
+        "lab": false
+      }
+    ],
+    "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
+    "details": "Dubrovnik, Croatia, 5.–7. September 2012, pp. 31–38",
+    "croris": 590271
+  },
+  {
+    "id": 591102,
+    "category": "conference",
+    "year": 2012,
+    "title": "Fast Pose Tracking Based on Ranked 3D Planar Patch Correspondences",
+    "authors": [
+      {
+        "name": "Cupec, Robert",
+        "lab": false
+      },
+      {
+        "name": "Nyarko, Emmanuel Karlo",
+        "lab": false
+      },
+      {
+        "name": "Filko, Damir",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
+    "details": "Dubrovnik, Croatia, 5.–7. September 2012, pp. 108–113",
+    "url": "http://www.ifac-papersonline.net/Detailed/55701.html",
+    "croris": 591102
+  },
+  {
+    "id": 590270,
+    "category": "conference",
+    "year": 2012,
+    "title": "Efficient Interpolated Path Planning of Mobile Robots based on Occupancy Grid Maps",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Čikeš, Mijo",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
+    "details": "Dubrovnik, Croatia, 5.–7. September 2012, pp. 349–354",
+    "croris": 590270
+  },
+  {
+    "id": 588919,
+    "category": "conference",
+    "year": 2012,
+    "title": "Motion Planning of Mobile robots for Humanitarian demining",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "10th International IARP Workshop HUDEM'2012",
+    "details": "Šibenik, Croatia, 24.–26. April 2012, pp. 105–108",
+    "url": "http://www.ctro.hr/universalis/287/dokument/knjiga_294803258.pdf",
+    "croris": 588919
+  },
+  {
+    "id": 588918,
+    "category": "conference",
+    "year": 2012,
+    "title": "Bias Estimation and Calibration of a Pair of Laser Range Sensors",
+    "authors": [
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "10th IFAC Symposium on Robot Control",
+    "details": "Dubrovnik, Croatia, 5.–7. September 2012",
+    "url": "http://www.ifac-papersonline.net/Detailed/55863.html",
+    "croris": 588918
+  },
+  {
+    "id": 588197,
+    "category": "conference",
+    "year": 2012,
+    "title": "Bearing-Only Tracking with a Mixture of von Mises Distributions",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2012)",
+    "details": "Vilamoura, Portugal, 7.–12. October 2012, pp. 707–712",
+    "url": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6385600&tag=1",
+    "croris": 588197
+  },
+  {
+    "id": 587860,
+    "category": "conference",
+    "year": 2012,
+    "title": "Comparison of Statistical Model-Based Voice Activity Detectors for Mobile Robot Speech Applications",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Domitrović, Hrvoje",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
+    "details": "Dubrovnik, Croatia, 5.–7. September 2012",
+    "url": "http://www.ifac-papersonline.net/Detailed/55679.html",
+    "croris": 587860
+  },
+  {
+    "id": 592823,
+    "category": "conference",
+    "year": 2012,
+    "title": "Longitudinal Spacing Control of Vehicles in a Platoon for Stable and Increased Traffic Flow",
+    "authors": [
+      {
+        "name": "Petrinić, Toni",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "2012 IEEE Multi-Conference on Systems and Control",
+    "details": "Dubrovnik, Croatia, 3.–5. October 2012, pp. 178–183",
+    "croris": 592823
+  },
+  {
+    "id": 182489,
+    "category": "journal",
+    "year": 2011,
+    "title": "Introducing Model-Based Techniques into Development of Real-Time Embedded Applications",
+    "authors": [
+      {
+        "name": "Babić, Josip",
+        "lab": false
+      },
+      {
+        "name": "Marijan, Siniša",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 52, no. 4, pp. 329–338",
+    "url": "https://automatika.korema.hr/index.php/automatika/article/view/82",
+    "croris": 182489
+  },
+  {
+    "id": 173202,
+    "category": "journal",
+    "year": 2011,
+    "title": "Exploration and Mapping of Unknown Polygonal Environments Based on Uncertain Range Data",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Ileš, Šandor",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 52, no. 2, pp. 118–131",
+    "croris": 173202
+  },
+  {
+    "id": 171677,
+    "category": "journal",
+    "year": 2011,
+    "title": "Two-way D* algorithm for path planning and replanning",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 59, no. 5, pp. 329–342",
+    "doi": "10.1016/j.robot.2011.02.007",
+    "url": "http://www.sciencedirect.com/science/article/pii/S0921889011000273",
+    "croris": 171677
+  },
+  {
+    "id": 146486,
+    "category": "journal",
+    "year": 2011,
+    "title": "Hierarchical path planning of mobile robots in complex indoor environments",
+    "authors": [
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      },
+      {
+        "name": "Mostarac, Petar",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Transactions of the Institute of Measurement and Control",
+    "details": "vol. 33, no. 3-4, pp. 332–358",
+    "doi": "10.1177/0142331208100107",
+    "url": "http://tim.sagepub.com/content/33/3-4/332.full.pdf+html",
+    "croris": 146486
+  },
+  {
+    "id": 575165,
+    "category": "conference",
+    "year": 2011,
+    "title": "Path Smoothing Using Clothoids for Differential Drive Mobile Robots",
+    "authors": [
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "18th IFAC World Congress 2011",
+    "details": "Milan, Italy, 28. August–2. September 2011, pp. 1133–1138",
+    "croris": 575165
+  },
+  {
+    "id": 575163,
+    "category": "conference",
+    "year": 2011,
+    "title": "Time-Optimal Trajectory Planning Along Predefined Path for Mobile Robots with Velocity and Acceleration Constraints",
+    "authors": [
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM) 2011",
+    "details": "Budapest, Hungary, 3.–7. July 2011, pp. 942–947",
+    "croris": 575163
+  },
+  {
+    "id": 577158,
+    "category": "conference",
+    "year": 2011,
+    "title": "The Path Planning Algorithms for a Mobile Robot based on the Occupancy Grid Map of the Environment — A Comparative Study",
+    "authors": [
+      {
+        "name": "Čikeš, Mijo",
+        "lab": false
+      },
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "XXIII. International Symposium on Information, Communication and Automation Technologies",
+    "details": "Sarajevo, Bosnia and Herzegovina, 27.–29. October 2011",
+    "croris": 577158
+  },
+  {
+    "id": 574310,
+    "category": "conference",
+    "year": 2011,
+    "title": "Avoiding deadlocks of mobile robots in narrow passages of environments populated with moving obstacles",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Dimitrijević, Borko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+    "details": "Budapest, Hungary, 3.–7. July 2011, pp. 936–941",
+    "croris": 574310
+  },
+  {
+    "id": 575031,
+    "category": "conference",
+    "year": 2011,
+    "title": "Complete Coverage D* Algorithm for Path Planning of a Floor-Cleaning Mobile Robot",
+    "authors": [
+      {
+        "name": "Đakulović, Marija",
+        "lab": false
+      },
+      {
+        "name": "Horvatić, Sanja",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "18th IFAC World Congress",
+    "details": "Milan, Italy, 28. August–2. September 2011, pp. 5950–5955",
+    "croris": 575031
+  },
+  {
+    "id": 577153,
+    "category": "conference",
+    "year": 2011,
+    "title": "Embedded computer control system for service mobile robots",
+    "authors": [
+      {
+        "name": "Gojić, Marko",
+        "lab": false
+      },
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "34th International Convention MIPRO 2011",
+    "details": "Opatija, Croatia, 23.–27. May 2011, pp. 66–71",
+    "croris": 577153
+  },
+  {
+    "id": 574203,
+    "category": "conference",
+    "year": 2011,
+    "title": "Real-Time Detection of Moving Objects by a Mobile Robot with an Omnidirectional Camera",
+    "authors": [
+      {
+        "name": "Herceg, Domagoj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "7th International Symposium on Image and Signal Processing and Analysis (ISPA 2011)",
+    "details": "Dubrovnik, Croatia, 4.–6. October 2011, pp. 289–294",
+    "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
+    "croris": 574203
+  },
+  {
+    "id": 574204,
+    "category": "conference",
+    "year": 2011,
+    "title": "People Tracking with Heterogeneous Sensors using JPDAF with Entropy Based Track Management",
+    "authors": [
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "European Conference on Mobile Robots (ECMR2011)",
+    "details": "Örebro, Sweden, 7.–9. September 2011, pp. 31–36",
+    "url": "http://act.rasip.fer.hr/pub-opis.php?id=495",
+    "croris": 574204
+  },
+  {
+    "id": 577155,
+    "category": "conference",
+    "year": 2011,
+    "title": "A visibility graph based method for path planning in dynamic environments",
+    "authors": [
+      {
+        "name": "Kaluđer, Hrvoje",
+        "lab": false
+      },
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "34th International Convention MIPRO 2011",
+    "details": "Opatija, Croatia, 23.–27. May 2011, pp. 72–76",
+    "croris": 577155
+  },
+  {
+    "id": 575802,
+    "category": "conference",
+    "year": 2011,
+    "title": "Generalization of 2D SLAM observability condition",
+    "authors": [
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "5th European Conference on Mobile Robots",
+    "details": "Örebro, Sweden, 7.–9. September 2011, pp. 277–282",
+    "croris": 575802
+  },
+  {
+    "id": 574315,
+    "category": "conference",
+    "year": 2011,
+    "title": "An Improved CamShift Algorithm Using Stereo Vision For Object Tracking",
+    "authors": [
+      {
+        "name": "Kovačević, Josip",
+        "lab": false
+      },
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "34th International Convention MIPRO 2011",
+    "details": "Opatija, Croatia, 23.–27. May 2011, pp. 62–65",
+    "croris": 574315
+  },
+  {
+    "id": 574497,
+    "category": "conference",
+    "year": 2011,
+    "title": "Explicit Model Predictive Control for Trajectory Tracking with Mobile Robots",
+    "authors": [
+      {
+        "name": "Maurović, Ivan",
+        "lab": false
+      },
+      {
+        "name": "Baotić, Mato",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+    "details": "Budapest, Hungary, 3.–7. July 2011, pp. 712–717",
+    "croris": 574497
+  },
+  {
+    "id": 572612,
+    "category": "conference",
+    "year": 2011,
+    "title": "Optical Flow Field Segmentation in an Omnidirectional Camera Image Based on Known Camera Motion",
+    "authors": [
+      {
+        "name": "Šamija, Hrvoje",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "34th International Convention MIPRO 2011",
+    "details": "Opatija, Croatia, 23.–27. May 2011, pp. 165–169",
+    "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
+    "croris": 572612
+  },
+  {
+    "id": 165717,
+    "category": "journal",
+    "year": 2010,
+    "title": "Speaker localization and tracking with a microphone array on a mobile robot using von Mises distribution and particle filtering",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Robotics and Autonomous Systems",
+    "details": "vol. 58, no. 11, pp. 1185–1196",
+    "doi": "10.1016/j.robot.2010.08.001",
+    "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
+    "croris": 165717
+  },
+  {
+    "id": 165239,
+    "category": "journal",
+    "year": 2010,
+    "title": "A Takagi-Sugeno Fuzzy Model of Synchronous Generator Unit for Power System Stability Application",
+    "authors": [
+      {
+        "name": "Tečec, Zlatka",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Matuško, Jadranko",
+        "lab": false
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 51, no. 2, pp. 127–137",
+    "croris": 165239
+  },
+  {
+    "id": 162703,
+    "category": "journal",
+    "year": 2010,
+    "title": "Applying optimal sliding mode based load-frequency control in power systems with controllable hydro power plants",
+    "authors": [
+      {
+        "name": "Vrdoljak, Krešimir",
+        "lab": false
+      },
+      {
+        "name": "Perić, Nedjeljko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
+    "details": "vol. 51, no. 1, pp. 3–18",
+    "url": "http://hrcak.srce.hr/index.php?show=clanak&id_clanak_jezik=78592",
+    "croris": 162703
+  },
+  {
+    "id": 156909,
+    "category": "journal",
+    "year": 2010,
+    "title": "Sliding mode based load-frequency control in power systems",
+    "authors": [
+      {
+        "name": "Vrdoljak, Krešimir",
+        "lab": false
+      },
+      {
+        "name": "Perić, Nedjeljko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Electric Power Systems Research",
+    "details": "vol. 80, no. 5, pp. 514–527",
+    "doi": "10.1016/j.epsr.2009.10.026",
+    "url": "http:///www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V30-4XSK7VC-4-17&_cdi=5716&_user=3875467&_pii=S0378779609002673&_orig=search&_coverDate=05%2F31%2F2010&_sk=999199994&view=c&wchp=dGLbVlz-zSkWA&md5=0432accb82ab2e472d4252e81af69990&ie=/sdarticle.p",
+    "croris": 156909
+  },
+  {
+    "id": 564319,
+    "category": "conference",
+    "year": 2010,
+    "title": "Mobile robot pose tracking by correlation of laser range finder scans in Hough domain",
+    "authors": [
+      {
+        "name": "Graovac, Davor",
+        "lab": false
+      },
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "19th IEEE International Workshop on Robotics in Alpe-Adria-Danube Region",
+    "details": "Budapest, Hungary, 23.–25. June 2010, pp. 273–278",
+    "url": "http://conf.uni-obuda.hu/raad2010/",
+    "croris": 564319
+  },
+  {
+    "id": 568825,
+    "category": "conference",
+    "year": 2010,
+    "title": "Autonomous motion planning for a floor-cleaning machine",
+    "authors": [
+      {
+        "name": "Horvatić, Sanja",
+        "lab": false
+      },
+      {
+        "name": "Đakulović (Seder), Marija",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "30th Conference on Transportation Systems with International Participation, Automation in Transportation 2010",
+    "details": "Istanbul, Turkey, 9.–14. November 2010, pp. 31–34",
+    "croris": 568825
+  },
+  {
+    "id": 565908,
+    "category": "conference",
+    "year": 2010,
+    "title": "Modelling of Mobile Robot Dynamics",
+    "authors": [
+      {
+        "name": "Ivanjko, Edouard",
+        "lab": false
+      },
+      {
+        "name": "Petrinić, Toni",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "EUROSIM 2010, 7th EUROSIM Congress on Modelling and Simulation",
+    "details": "Prague, Czech Republic, 6.–10. September 2010",
+    "croris": 565908
+  },
+  {
+    "id": 564318,
+    "category": "conference",
+    "year": 2010,
+    "title": "Experimental comparison of AdaBoost algorithms applied on Leg Detection with Different Range Sensor Setups",
+    "authors": [
+      {
+        "name": "Jurić-Kavelj, Srećko",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "19th IEEE International Workshop on Robotics in Alpe-Adria-Danube Region",
+    "details": "Budapest, Hungary, 23.–25. June 2010, pp. 267–272",
+    "url": "http://conf.uni-obuda.hu/raad2010/",
+    "croris": 564318
+  },
+  {
+    "id": 561107,
+    "category": "conference",
+    "year": 2010,
+    "title": "Exactly Sparse Delayed State Filter based robust SLAM with Stereo Vision",
+    "authors": [
+      {
+        "name": "Kitanov, Andrej",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "The joint conference of the 41st International Symposium on Robotics (ISR 2010) and the 6th German Conference on Robotics (ROBOTIK 2010)",
+    "details": "Munich, Germany, 7.–9. July 2010, pp. 136–142",
+    "url": "http://act.rasip.fer.hr/groups_amor_SLAM.php#slam",
+    "croris": 561107
+  },
+  {
+    "id": 560490,
+    "category": "conference",
+    "year": 2010,
+    "title": "Applying von Mises Distribution to Microphone Array Probabilistic Sensor Modelling",
+    "authors": [
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "The joint conference of the 41st International Symposium on Robotics (ISR 2010) and the 6th German Conference on Robotics (ROBOTIK 2010)",
+    "details": "Munich, Germany, 7.–9. July 2010, pp. 21–27",
+    "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
+    "croris": 560490
+  },
+  {
+    "id": 564095,
+    "category": "conference",
+    "year": 2010,
+    "title": "Control of nonholonomial mobile robots with differential drive",
+    "authors": [
+      {
+        "name": "Petrinić, Toni",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "33rd International Convention MIPRO 2010",
+    "details": "Opatija, Croatia, 24.–28. May 2010, pp. 108–113",
+    "croris": 564095
+  },
+  {
+    "id": 569561,
+    "category": "conference",
+    "year": 2010,
+    "title": "The use of Matlab software system in intelligent transportation system development",
+    "authors": [
+      {
+        "name": "Šolman, Miroslav",
+        "lab": false
+      },
+      {
+        "name": "Brezak, Mišel",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "Skup o prometnim sustavima s međunarodnim sudjelovanjem – Automatizacija u prometu (30; 2010)",
+    "details": "Zagreb, Croatia, pp. 6–9",
+    "croris": 569561
+  }
+]

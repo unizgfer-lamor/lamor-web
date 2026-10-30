@@ -1,0 +1,109 @@
+# Configuration for the CRORIS publications pipeline (`lamor-pubs sync|export|pdfmap`).
+#
+#   sync    downloads raw records from the CRORIS API into lamor-pubs.sqlite (network only)
+#   export  turns the database into src/data/publications.json + report.md (offline)
+#   pdfmap  maps PDFs from the old website's publication lists onto CRORIS records
+
+# Lab researchers whose CRORIS publication lists define the lab's bibliography.
+# `name` is "Surname, Name" as CRORIS writes authors; it is also used to mark lab authors.
+researchers:
+  - {id: 14743, name: "Petrović, Ivan"}
+  - {id: 29108, name: "Marković, Ivan"}
+  - {id: 44396, name: "Petrović, Luka"}
+  - {id: 26770, name: "Seder, Marija"}
+
+# Extra people (e.g. PhD students without their own entry above) whose names are highlighted
+# as lab authors. They do not pull in publications. Format: "Surname, Name".
+lab_members: []
+
+# Only publications from this year on are exported.
+min_year: 2010
+
+# A publication counts for a researcher only if they have one of these CRORIS roles on it
+# (905 autor; 906 urednik, 907 mentor and 908 neposredni voditelj are ignored).
+author_role_ids: [905]
+
+# CRORIS `status` values that are exported (a missing status counts as published).
+include_status: [objavljeno, prihvaćeno]
+
+# Category rules: a record is exported only if its `vrsta` is listed under a category and its
+# `tip` is not excluded. Everything else (theses, books, abstracts, unpublished talks...) is skipped.
+categories:
+  journal:
+    vrsta: ["prilog u časopisu"]
+    exclude_tip: ["uvodnik", "prikaz, osvrt, kritika"]
+  conference:
+    # "neobjavljen" = presented, but the proceedings are not (yet) recorded in CRORIS.
+    vrsta: ["prilog sa skupa (u zborniku)", "prilog sa skupa (neobjavljen)"]
+    exclude_tip: []
+    # A category may override the global include_status list.
+    include_status: [objavljeno, prihvaćeno, neobjavljeno]
+# Any `tip` containing one of these substrings is skipped in every category.
+exclude_tip_contains: ["sažetak"]
+
+# CRORIS allows 100 requests/minute/IP; stay below it.
+requests_per_minute: 90
+# `sync` runs a full refetch automatically when the last successful run is older than this
+# (CRORIS only publishes a rolling 30-day list of updated records).
+full_sync_after_days: 28
+
+# Words that are upper-cased when a venue name is re-cased (only all-lowercase or
+# sentence-case names such as "Ieee transactions on robotics" are re-cased).
+venue_acronyms: [
+  IEEE, IFAC, ACM, IET, SPIE, IEICE, IAPR, RSJ, ASME, AIAA, SICE, ISA, IFIP, EURASIP, ICAS, KoREMA,
+  ICRA, IROS, ECMR, MED, CDC, ECC, ACC, ITSC, IV, ICAR, ISR, ICCV, CVPR, ECCV, BMVC, WACV, ICPR, ICIP,
+  RSS, AAAI, IJCAI, NeurIPS, ICML, ICLR, CoRL, HRI, RO-MAN, SSRR, MFI, ICUAS,
+  RAAD, MIPRO, ELMAR, EDPE, EPE, PEMC, ICIT, ISIE, IECON, ICINCO, ECMS, ETFA, MSC, CCA, ICCA, ICM,
+  SYROCO, IAS, SMC, TENCON, CITS, UKACC, NAVITEC, ENC, GNSS, GPS, SLAM, UAV, MAV, AUV,
+  ROV, LiDAR, RGB-D, 3D, 2D, 6D, II, III, VI, VII, VIII, IX, XI, XII, XIII, XIV, XV, XVI, XVII,
+  XVIII, XIX, XX, XXI, XXII, XXIII, XXIV, XXV, XXVI, XXVII, XXVIII, XXIX, XXX, USA, UK, EU,
+]
+
+# Exact venue replacements, applied last: {"venue as exported": "venue as wanted"}.
+# (Keys may also be the raw CRORIS string before re-casing.)
+venue_overrides:
+  "Automatika: časopis za automatiku, mjerenje, elektroniku, računarstvo i komunikacije": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications"
+  "IEEE Transactions on Systems Man Cybernetics-Systems": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+  "Industrial Robot-an International Journal": "Industrial Robot: An International Journal"
+  "International Journal of Control Automation and Systems": "International Journal of Control, Automation and Systems"
+  "Engineering power: bulletin of the Croatian Academy of Engineering": "Engineering Power: Bulletin of the Croatian Academy of Engineering"
+  "2024 IEEE INTERNATIONAL CONFERENCE ON MULTISENSOR FUSION AND INTEGRATION (MFI 2024)": "2024 IEEE International Conference on Multisensor Fusion and Integration (MFI 2024)"
+  "STRATEGIJA RAZVOJA VODOOPSKRBE I ODVODNJE GRADA ZAGREBA": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba"
+  "10th IFAC Symposioum on Robotic Control (SYROCO2012)": "10th IFAC Symposium on Robot Control (SYROCO2012)"
+  "18th IFAC World Congress Milano (Italy) August 28 - September 2, 2011": "18th IFAC World Congress"
+  "18th international conference on Intelligent Autonomous Systems (IAS18)": "18th International Conference on Intelligent Autonomous Systems (IAS-18)"
+  "International Conference On Intelligent Autonomous Systems (IAS-16)": "16th International Conference on Intelligent Autonomous Systems (IAS-16)"
+
+# CRORIS stores conference cities with Croatian exonyms; map them to English names.
+place_names:
+  Atena: Athens
+  Beč: Vienna
+  Beograd: Belgrade
+  Bruxelles: Brussels
+  Budimpešta: Budapest
+  Bukurešt: Bucharest
+  Den Haag: The Hague
+  Firenca: Florence
+  Hag: The Hague
+  Kopenhagen: Copenhagen
+  Krakov: Kraków
+  Lisabon: Lisbon
+  Milano: Milan
+  Moskva: Moscow
+  München: Munich
+  Napulj: Naples
+  Pariz: Paris
+  Peking: Beijing
+  Prag: Prague
+  Rim: Rome
+  Rodos: Rhodes
+  Skoplje: Skopje
+  Solun: Thessaloniki
+  Sofija: Sofia
+  Stockholm: Stockholm
+  Štokholm: Stockholm
+  Tokio: Tokyo
+  Torino: Turin
+  Varšava: Warsaw
+  Venecija: Venice
+  Ženeva: Geneva

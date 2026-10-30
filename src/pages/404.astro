@@ -1,0 +1,15 @@
+---
+import Module from '../components/Module.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/url';
+---
+
+<BaseLayout title="Page not found" searchable={false}>
+  <Module title="Page not found" as="h1">
+    <p>Sorry, this page does not exist (anymore). The LAMOR website moved to a new system, so some old links changed.</p>
+    <p>
+      Try the <a href={url('/')}>homepage</a>, the <a href={url('/news/')}>news archive</a>, or the
+      <a href={url('/publications/')}>publications</a>.
+    </p>
+  </Module>
+</BaseLayout>

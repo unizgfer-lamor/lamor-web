@@ -1,0 +1,203 @@
+{
+  "crosbiId": 954023,
+  "autori": "Štironja, Vlaho-Josip; Mikulić, Davorin; Tomić, Dubravko; Petrović, Luka; Marković, Ivan; Bosiljevac, Marko; Šipuš, Zvonimir; Petrović, Ivan",
+  "naslov": "Object Distance Estimation from Electromagnetic Interactions in Robotics",
+  "vrsta": "prilog sa skupa (neobjavljen)",
+  "tip": "neobjavljeni prilog sa skupa",
+  "mjesto": "Bratislava, Slovačka",
+  "godina": "2026",
+  "doi": "10.1007/978-3-032-29127-1_30",
+  "status": "neobjavljeno",
+  "citati": [
+    {
+      "vrstaCitataId": 1040,
+      "vrstaCitataNaziv": "CROSBI",
+      "citat": "Štironja, Vlaho-Josip; Mikulić, Davorin; Tomić, Dubravko; Petrović, Luka; Marković, Ivan; Bosiljevac, Marko; Šipuš, Zvonimir; Petrović, Ivan\nObject Distance Estimation from Electromagnetic Interactions in Robotics // 35rd International Conference on Robotics in Alpe-Adria-Danube Region\nBratislava, Slovačka, 17.06.2026-19.06.2026. doi: 10.1007/978-3-032-29127-1_30"
+    }
+  ],
+  "naslovi": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Object Distance Estimation from Electromagnetic Interactions in Robotics",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "sazeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Estimating an object's distance from electromagnetic wave interactions is critical for robotic perception - especially in scenarios with occlusion or degraded visibility. Traditional radar systems rely on hand-crafted signal processing pipelines which limit adaptability to novel sensor configurations.  In this work, we present a hybrid approach that combines lightweight signal processing with a data-driven inverse mapping from transmit–receive wave measurements to object distance.  We first transform raw signals, FMCW radar intermediate-frequency signals and S-parameters, into the frequency and time domain, respectively, applying peak detection and Hamming windowing to extract propagation path features. These features are then used to train Gaussian Process Regression models that predict object coordinates with uncertainty estimates.  We evaluate the method on both simulated S-parameters and measured radar data designed to emulate future flexible electromagnetic skins.  The results demonstrate enhanced sensing modalities and inherently learned geometry of the sensor, highlighting the potential of combining minimal signal preprocessing with probabilistic learning for general-purpose robotic electromagnetic perception.",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "kljucneRijeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Gaussian Processes; Radar;  S-parameters; Distance Estimation;",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "skup": [
+    {
+      "cfEventId": 200050,
+      "naziv": "35rd International Conference on Robotics in Alpe-Adria-Danube Region",
+      "href": "https://www.croris.hr/dogadanja-api/dogadanje/200050"
+    }
+  ],
+  "osobeResources": {
+    "_embedded": {
+      "osobe": [
+        {
+          "crorisId": 47291,
+          "ime": "Vlaho-Josip",
+          "prezime": "Štironja",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/47291"
+            }
+          }
+        },
+        {
+          "crorisId": 37877,
+          "ime": "Dubravko",
+          "prezime": "Tomić",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/37877"
+            }
+          }
+        },
+        {
+          "crorisId": 42635,
+          "ime": "Davorin",
+          "prezime": "Mikulić",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/42635"
+            }
+          }
+        },
+        {
+          "crorisId": 44396,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Luka",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/44396"
+            }
+          }
+        },
+        {
+          "crorisId": 29108,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Marković",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/29108"
+            }
+          }
+        },
+        {
+          "crorisId": 987,
+          "titulaIspredImena": "izv. prof. dr. sc.",
+          "ime": "Marko",
+          "prezime": "Bosiljevac",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/987"
+            }
+          }
+        },
+        {
+          "crorisId": 11445,
+          "titulaIspredImena": "akademik",
+          "ime": "Zvonimir",
+          "prezime": "Šipuš",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/11445"
+            }
+          }
+        },
+        {
+          "crorisId": 14743,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/14743"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ustanoveResources": {
+    "_embedded": {
+      "ustanove": [
+        {
+          "crorisId": 34,
+          "naziv": "Fakultet elektrotehnike i računarstva",
+          "mbu": 36,
+          "funkcija": {
+            "id": 941,
+            "naziv": "autorova ustanova"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/ustanova/34"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "osobe": {
+      "href": "https://www.croris.hr/crosbi-api/osoba/publikacija/954023"
+    },
+    "ustanove": {
+      "href": "https://www.croris.hr/crosbi-api/ustanova/publikacija/954023"
+    },
+    "self": {
+      "href": "https://www.croris.hr/crosbi-api/publikacija/954023"
+    }
+  }
+}

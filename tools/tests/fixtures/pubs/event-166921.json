@@ -1,0 +1,33 @@
+{
+  "id": 166921,
+  "datumPocetka": "04.09.2019.",
+  "datumZavrsetka": "06.09.2019.",
+  "naziv": [
+    {
+      "cfLangCode": "hr",
+      "naziv": "ECMR 2019 – European Conference on Mobile Robots 2019",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "mjestoOdrzavanja": [
+    {
+      "venueId": 169685,
+      "mjesto": {
+        "naziv": {},
+        "cfGeoBBoxId": 11738,
+        "defaultNaziv": "Prag"
+      },
+      "drzava": {
+        "cfCountryCode": "CZ",
+        "cfName": "Češka Republika"
+      }
+    }
+  ],
+  "vrstaOrganizacije": "na lokaciji",
+  "_links": {
+    "self": {
+      "href": "https://www.croris.hr/dogadanja-api/dogadanje/166921"
+    }
+  }
+}

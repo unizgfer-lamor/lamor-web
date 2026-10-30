@@ -1,0 +1,24 @@
+---
+import { getEntry, render } from 'astro:content';
+import Module from '../components/Module.astro';
+import NewsItem from '../components/NewsItem.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getNews } from '../lib/collections';
+import { url } from '../lib/url';
+
+const intro = await getEntry('pages', 'home');
+const { Content } = intro ? await render(intro) : { Content: undefined };
+const news = (await getNews()).slice(0, 8);
+---
+
+<BaseLayout home searchable={false} editPath={intro?.filePath}>
+  <Module title={intro?.data.title ?? 'Laboratory for Autonomous Systems and Mobile Robotics'} as="h1">
+    {Content && <div class="prose"><Content /></div>}
+  </Module>
+  <Module title="News">
+    <ul class="news-list">
+      {news.map((entry) => <NewsItem entry={entry} />)}
+    </ul>
+    <p class="archive-link"><a class="button" href={url('/news/')}>News archive</a></p>
+  </Module>
+</BaseLayout>

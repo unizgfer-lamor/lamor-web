@@ -1,0 +1,65 @@
+---
+import Module from '../components/Module.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getSettings } from '../lib/site';
+
+const settings = await getSettings();
+const home = new URL(import.meta.env.BASE_URL, Astro.site);
+const osm = 'https://www.openstreetmap.org/?mlat=45.80059&mlon=15.97112#map=17/45.80059/15.97112';
+const google = 'https://www.google.com/maps/search/?api=1&query=Faculty+of+Electrical+Engineering+and+Computing+Zagreb';
+---
+
+<BaseLayout title="Contact" description={`How to reach ${settings.short_title}: address, phone and e-mail.`}>
+  <Module title="Where are we?" as="h1">
+    {settings.map_url && <iframe class="map-frame" src={settings.map_url} title="Map: FER, Unska 3, Zagreb" loading="lazy" />}
+    <p class="muted">
+      Open in <a href={osm}>OpenStreetMap</a> · <a href={google}>Google Maps</a>
+    </p>
+  </Module>
+  <Module title="Contact details">
+    <table class="data-table">
+      <tbody>
+        <tr>
+          <th scope="row">Address</th>
+          <td>
+            {
+              settings.address.map((line, i) => (
+                <>
+                  {i === settings.address.length - 2 && <br />}
+                  {line}
+                  <br />
+                </>
+              ))
+            }
+          </td>
+        </tr>
+        {
+          settings.phone && (
+            <tr>
+              <th scope="row">Phone</th>
+              <td>
+                <a href={`tel:${settings.phone.replace(/\s+/g, '')}`}>{settings.phone}</a>
+              </td>
+            </tr>
+          )
+        }
+        {
+          settings.fax && (
+            <tr>
+              <th scope="row">Fax</th>
+              <td>{settings.fax}</td>
+            </tr>
+          )
+        }
+        <tr>
+          <th scope="row">E-mail</th>
+          <td><a href={`mailto:${settings.email}`}>{settings.email}</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Website</th>
+          <td><a href={home.href}>{home.host}{home.pathname.replace(/\/$/, '')}</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </Module>
+</BaseLayout>

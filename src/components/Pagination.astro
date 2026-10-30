@@ -1,0 +1,31 @@
+---
+import type { Page } from 'astro';
+
+interface Props {
+  page: Page<unknown>;
+  /** URL of page N; page 1 is `first`. */
+  first: string;
+}
+
+const { page, first } = Astro.props;
+const pageUrl = (n: number) => (n === 1 ? first : `${first}${n}/`);
+// Show first, last, current ±2, with gaps.
+const numbers = [...new Set([1, page.lastPage, ...[-2, -1, 0, 1, 2].map((d) => page.currentPage + d)])]
+  .filter((n) => n >= 1 && n <= page.lastPage)
+  .sort((a, b) => a - b);
+---
+
+{
+  page.lastPage > 1 && (
+    <nav class="pagination" aria-label="News pages">
+      {page.url.prev && <a href={page.url.prev} rel="prev">‹ Newer</a>}
+      {numbers.map((n, i) => (
+        <>
+          {i > 0 && n - numbers[i - 1] > 1 && <span class="gap">…</span>}
+          {n === page.currentPage ? <span aria-current="page">{n}</span> : <a href={pageUrl(n)}>{n}</a>}
+        </>
+      ))}
+      {page.url.next && <a href={page.url.next} rel="next">Older ›</a>}
+    </nav>
+  )
+}

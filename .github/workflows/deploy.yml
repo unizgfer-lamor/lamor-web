@@ -1,0 +1,76 @@
+# Builds the site and publishes it to GitHub Pages on every push to main.
+# Repository settings → Pages → Source must be "GitHub Actions".
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'tools/**'
+      - '.github/workflows/publications-sync.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: false
+
+      # PDFs are stored with Git LFS. Cache the LFS objects between runs so a deploy only
+      # downloads PDFs that changed (GitHub's free LFS bandwidth is 10 GiB/month).
+      - name: List LFS objects
+        run: git lfs ls-files --long | cut -d ' ' -f1 | sort > .lfs-assets-id
+      - name: Restore LFS cache
+        uses: actions/cache@v6
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('.lfs-assets-id') }}
+          restore-keys: lfs-
+      - name: Pull LFS objects
+        run: git lfs pull
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      # Site URL and base path come from the Pages configuration: https://<org>.github.io/<repo>/
+      # until a custom domain (lamor.fer.hr) is set in Settings → Pages, then https://lamor.fer.hr/.
+      # Repository variables SITE_URL / BASE_PATH override them if needed.
+      - id: pages
+        uses: actions/configure-pages@v6
+      - name: Build
+        run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.origin }}
+          BASE_PATH: ${{ vars.BASE_PATH || steps.pages.outputs.base_path }}
+      - name: Check internal links
+        run: node scripts/check-dist.mjs
+        env:
+          BASE_PATH: ${{ vars.BASE_PATH || steps.pages.outputs.base_path }}
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

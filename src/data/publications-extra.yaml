@@ -1,0 +1,48 @@
+# Publications that are not (or not correctly) in CRORIS, shown on the website together with the
+# generated list. Same fields as src/data/publications.json:
+#
+#   id:        unique string, e.g. legacy-2015-some-title (never a number)
+#   category:  journal | conference
+#   year:      number
+#   title, venue, details: text
+#   authors:   list of {name: "Surname, Name", lab: true|false}
+#   status, doi, url, pdf: optional
+#
+# Entries with ids starting with legacy- were imported by `lamor-pubs pdfmap` from the old website's
+# publication lists (papers it could not find in CRORIS). pdfmap only appends ids that are missing,
+# so edits to existing entries are kept; comments other than this header are not preserved.
+
+- id: legacy-2024-gisr-geometric-initialization-and
+  category: journal
+  year: 2024
+  title: 'GISR: Geometric Initialization and Silhouette-Based Refinement for Single-View Robot Pose and Configuration Estimation'
+  authors:
+  - name: Bilić, Ivan
+    lab: false
+  - name: Marić, Filip
+    lab: false
+  - name: Bonsignorio, Fabio
+    lab: false
+  - name: Petrović, Ivan
+    lab: true
+  venue: IEEE Robotics & Automation Letters
+  details: ''
+  pdf: /images/50036607/2024-ibilic-gisr-ral.pdf
+- id: legacy-2018-self-calibration-of-mobile-manipulator
+  category: conference
+  year: 2018
+  title: Self-Calibration of Mobile Manipulator Kinematics and Sensor Extrinsic Parameters Through Contact-Based Interaction
+  authors:
+  - name: Limoyo, Oliver
+    lab: false
+  - name: Ablett, Trevor
+    lab: false
+  - name: Marić, Filip
+    lab: false
+  - name: Volpatti, Luke
+    lab: false
+  - name: Kelly, Jonathan
+    lab: false
+  venue: IEEE International Conference on Robotics and Automation (ICRA)
+  details: Brisbane, Australia, 2018
+  url: https://arxiv.org/pdf/1803.06406.pdf

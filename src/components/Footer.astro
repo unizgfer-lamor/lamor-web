@@ -1,0 +1,37 @@
+---
+import { editUrl, type getSettings } from '../lib/site';
+import { url } from '../lib/url';
+
+interface Props {
+  settings: Awaited<ReturnType<typeof getSettings>>;
+  editPath?: string;
+}
+
+const { settings, editPath } = Astro.props;
+const edit = editUrl(settings.repo_url, editPath);
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <address class="footer-address">
+      {
+        settings.address.map((line, i) => (
+          <>
+            {i === settings.address.length - 2 && <br />}
+            {line}
+            <br />
+          </>
+        ))
+      }
+    </address>
+    <p class="footer-contact">
+      <a href={url('/contact/')}>&gt; Contact</a>
+      <a href={`mailto:${settings.email}`}>&gt; Email</a>
+    </p>
+    <div class="footer-bottom">
+      <span>Copyright © {year} All rights reserved. University of Zagreb, Faculty of Electrical Engineering and Computing</span>
+      {edit && <a class="edit-link" href={edit}>Edit this page</a>}
+    </div>
+  </div>
+</footer>

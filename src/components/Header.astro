@@ -1,0 +1,60 @@
+---
+import { url } from '../lib/url';
+import type { getSettings } from '../lib/site';
+
+interface Props {
+  settings: Awaited<ReturnType<typeof getSettings>>;
+}
+
+const { settings } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<div class="container header-row">
+  <div class="header-logos">
+    <a href={url('/')} title={`${settings.title} — home`}>
+      <img src={url('/design/LAMOR_logo.png')} alt={`${settings.short_title} — ${settings.title}`} width="351" height="150" />
+    </a>
+    <a href="https://www.unizg.hr/" title="University of Zagreb">
+      <img src={url('/design/unizg_logo.png')} alt="University of Zagreb" width="100" height="100" />
+    </a>
+    <a href="https://www.fer.unizg.hr/en" title="Faculty of Electrical Engineering and Computing">
+      <img class="logo-fer" src={url('/design/fer_logo.png')} alt="FER — Faculty of Electrical Engineering and Computing" width="672" height="419" />
+    </a>
+  </div>
+  <div class="header-right">
+    <div id="site-search" class="site-search" role="search" aria-label="Search this site"></div>
+    <div class="header-links">
+      <a href={url('/contact/')}>Contact</a>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ base }}>
+  // Pagefind's search UI only exists after a production build (`npm run build`), so load it lazily
+  // and hide the search box when it is unavailable (e.g. in `astro dev`).
+  (function () {
+    var el = document.getElementById('site-search');
+    if (!el) return;
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = base + 'pagefind/pagefind-ui.css';
+    var js = document.createElement('script');
+    js.src = base + 'pagefind/pagefind-ui.js';
+    js.onload = function () {
+      document.head.appendChild(css);
+      new window.PagefindUI({
+        element: el,
+        baseUrl: base,
+        showSubResults: false,
+        showImages: false,
+        excerptLength: 20,
+        translations: { placeholder: 'Search...' },
+      });
+    };
+    js.onerror = function () {
+      el.hidden = true;
+    };
+    document.head.appendChild(js);
+  })();
+</script>

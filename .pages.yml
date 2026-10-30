@@ -1,0 +1,600 @@
+# Pages CMS configuration — https://pagescms.org
+# Log in at https://app.pagescms.org with GitHub (or via an e-mail invitation from a collaborator)
+# to edit the website through forms. Every save is a commit to the repository and triggers a deploy.
+
+settings:
+  content:
+    merge: true # keep frontmatter keys that are not listed below instead of deleting them
+
+media:
+  - name: images
+    label: Images
+    input: public/images
+    output: /images
+    categories: [image]
+    rename: safe
+  - name: files
+    label: Documents
+    input: public/files
+    output: /files
+    categories: [document, audio, video, compressed, spreadsheet]
+    rename: safe
+
+content:
+  - name: news
+    label: News
+    type: collection
+    path: src/content/news
+    format: yaml-frontmatter
+    filename: '{year}-{month}-{day}-{primary}.md'
+    view:
+      fields: [title, date, author]
+      primary: title
+      sort: [date, title]
+      search: [title, lead]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: author
+        label: Author
+        type: string
+      - name: image
+        label: Image
+        description: Shown next to the news item (about 240 px wide is enough).
+        type: image
+        options:
+          media: images
+          path: public/images/news
+      - name: imageAlt
+        label: Image description
+        description: Short description of the image for screen readers.
+        type: string
+      - name: lead
+        label: Lead
+        description: Short text shown in the news list on the homepage.
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          path: public/images/news
+      - name: body
+        label: Full text (optional)
+        description: If filled in, the news list shows a "More…" link to the full article.
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          path: public/images/news
+      - name: attachments
+        label: Attachments
+        type: object
+        list: true
+        fields:
+          - name: file
+            label: File
+            type: file
+            options:
+              media: files
+              path: public/files/news
+          - name: label
+            label: Link text
+            type: string
+      - name: draft
+        label: Draft (hide from the website)
+        type: boolean
+        default: false
+
+  - name: people
+    label: People
+    type: collection
+    path: src/content/people
+    format: yaml-frontmatter
+    filename: '{primary}.md'
+    view:
+      fields: [name, category, role]
+      primary: name
+      sort: [category, order, name]
+      search: [name, role, group, affiliation]
+      default:
+        sort: category
+        order: asc
+    fields:
+      - name: name
+        label: Name (with title, e.g. "Prof. Ivan Petrović")
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - { name: faculty, label: Faculty }
+            - { name: senior, label: Senior researcher }
+            - { name: phd, label: PhD student }
+            - { name: manager, label: Project manager }
+            - { name: alumni, label: Alumni }
+            - { name: guest, label: Guest }
+            - { name: intern, label: Master student internship }
+      - name: role
+        label: Role
+        type: string
+      - name: group
+        label: Research group
+        type: string
+      - name: photo
+        label: Photo
+        description: Portrait, roughly 2:3 (e.g. 230×356 px).
+        type: image
+        options:
+          media: images
+          path: public/images/people
+      - name: profile
+        label: Profile URL
+        description: e.g. https://www.fer.unizg.hr/en/ivan.petrovic
+        type: string
+      - name: email
+        label: E-mail
+        type: string
+      - name: affiliation
+        label: Current affiliation (alumni and guests)
+        type: string
+      - name: croris_id
+        label: CRORIS person id
+        type: number
+      - name: order
+        label: Order within the category (smaller first)
+        type: number
+        default: 100
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: src/content/projects
+    format: yaml-frontmatter
+    filename: '{acronym}.md'
+    view:
+      fields: [acronym, status, end]
+      primary: acronym
+      sort: [status, order, acronym]
+      search: [acronym, title]
+    fields:
+      - name: acronym
+        label: Acronym
+        type: string
+        required: true
+      - name: title
+        label: Full title
+        type: string
+        required: true
+      - name: status
+        label: Status
+        type: select
+        required: true
+        options:
+          values:
+            - { name: ongoing, label: Ongoing }
+            - { name: past, label: Past }
+      - name: logo
+        label: Logo
+        type: image
+        options:
+          media: images
+          path: public/images/projects
+      - name: sidebar
+        label: Show the logo in the "Current projects" sidebar
+        type: boolean
+        default: false
+      - name: website
+        label: Website
+        type: string
+      - name: funding
+        label: Funding (programme and budget)
+        type: text
+      - name: start
+        label: Start date
+        type: date
+        default: ''
+        options:
+          format: yyyy-MM-dd
+      - name: end
+        label: End date
+        type: date
+        default: ''
+        options:
+          format: yyyy-MM-dd
+      - name: duration
+        label: Duration (free text, only if dates are unknown)
+        type: string
+      - name: pi
+        label: Principal investigator
+        type: string
+      - name: team
+        label: Project team
+        type: string
+        list: true
+      - name: partners
+        label: Partners
+        type: string
+        list: true
+      - name: order
+        label: Order (smaller first)
+        type: number
+        default: 100
+      - name: body
+        label: Short description
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          path: public/images/projects
+
+  - name: equipment
+    label: Equipment
+    type: collection
+    path: src/content/equipment
+    format: yaml-frontmatter
+    filename: '{primary}.md'
+    view:
+      fields: [name, kind]
+      primary: name
+      sort: [kind, order, name]
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: kind
+        label: Kind
+        type: select
+        required: true
+        options:
+          values:
+            - { name: robot, label: Robot }
+            - { name: sensor, label: Sensor }
+      - name: image
+        label: Image
+        type: image
+        options:
+          media: images
+          path: public/images/equipment
+      - name: manufacturer
+        label: Manufacturer
+        type: string
+      - name: link
+        label: Link
+        type: string
+      - name: order
+        label: Order (smaller first)
+        type: number
+        default: 100
+      - name: body
+        label: Applications
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+
+  - name: partners
+    label: Partners
+    type: collection
+    path: src/content/partners
+    format: yaml-frontmatter
+    filename: '{primary}.md'
+    view:
+      fields: [name, country]
+      primary: name
+      sort: [order, name]
+    fields:
+      - name: name
+        label: Institution
+        type: string
+        required: true
+      - name: country
+        label: Country
+        type: string
+      - name: logo
+        label: Logo
+        type: image
+        options:
+          media: images
+          path: public/images/partners
+      - name: website
+        label: Website
+        type: string
+      - name: order
+        label: Order (smaller first)
+        type: number
+        default: 100
+
+  - name: courses
+    label: Courses
+    type: collection
+    path: src/content/courses
+    format: yaml-frontmatter
+    filename: '{primary}.md'
+    view:
+      fields: [name, level]
+      primary: name
+      sort: [level, order, name]
+    fields:
+      - name: name
+        label: Course name (English)
+        type: string
+        required: true
+      - name: name_hr
+        label: Course name (Croatian)
+        type: string
+      - name: level
+        label: Level
+        type: select
+        required: true
+        options:
+          values:
+            - { name: undergraduate, label: Undergraduate }
+            - { name: graduate, label: Graduate }
+            - { name: phd, label: PhD }
+      - name: url
+        label: Course page on FER web (English)
+        description: e.g. https://www.fer.unizg.hr/en/course/...
+        type: string
+      - name: url_hr
+        label: Course page on FER web (Croatian)
+        description: e.g. https://www.fer.unizg.hr/predmet/...
+        type: string
+      - name: order
+        label: Order (smaller first)
+        type: number
+        default: 100
+      - name: body
+        label: Description
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+
+  - name: theses
+    label: Theses
+    type: collection
+    path: src/content/theses
+    format: yaml-frontmatter
+    filename: '{year}-{author}.md'
+    view:
+      fields: [author, year, title]
+      primary: title
+      sort: [year, author]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - name: author
+        label: Author
+        type: string
+        required: true
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: year
+        label: Year
+        type: number
+        required: true
+      - name: type
+        label: Type
+        type: string
+        default: Doctoral thesis
+      - name: supervisors
+        label: Supervisors
+        type: string
+        list: true
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: files
+          path: public/files/theses
+      - name: url
+        label: Link (e.g. university repository)
+        type: string
+
+  - name: pages
+    label: Pages
+    type: collection
+    path: src/content/pages
+    format: yaml-frontmatter
+    filename: '{primary}.md'
+    view:
+      fields: [title]
+      primary: title
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description (for search engines)
+        type: string
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          path: public/images/pages
+
+  - name: publication-overrides
+    label: Publication corrections
+    type: file
+    path: src/data/publication-overrides.yaml
+    format: yaml
+    list: true
+    fields:
+      - name: id
+        label: CROSBI id
+        description: The number in the CROSBI link of the publication.
+        type: number
+        required: true
+      - name: hide
+        label: Hide this publication
+        type: boolean
+        default: false
+      - name: category
+        label: Category
+        type: select
+        options:
+          values: [journal, conference]
+      - name: title
+        label: Title
+        type: string
+      - name: venue
+        label: Journal / conference
+        type: string
+      - name: details
+        label: Details (volume, pages, …)
+        type: string
+      - name: doi
+        label: DOI
+        type: string
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: files
+          path: public/files/papers
+      - name: note
+        label: Note (not shown)
+        type: text
+
+  - name: publications-extra
+    label: Extra publications (not in CROSBI)
+    type: file
+    path: src/data/publications-extra.yaml
+    format: yaml
+    list: true
+    fields:
+      - name: id
+        label: Unique id (e.g. legacy-2015-some-title)
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values: [journal, conference]
+      - name: year
+        label: Year
+        type: number
+        required: true
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: authors
+        label: Authors (in order, "Surname, Name")
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: lab
+            label: LAMOR member
+            type: boolean
+            default: false
+      - name: venue
+        label: Journal / conference
+        type: string
+      - name: details
+        label: Details (volume, pages, …)
+        type: string
+      - name: doi
+        label: DOI
+        type: string
+      - name: url
+        label: Link
+        type: string
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: files
+          path: public/files/papers
+
+  - name: site
+    label: Site settings
+    type: file
+    path: src/data/site.yaml
+    format: yaml
+    fields:
+      - name: title
+        label: Laboratory name
+        type: string
+      - name: short_title
+        label: Short name
+        type: string
+      - name: description
+        label: Description (for search engines)
+        type: text
+      - name: email
+        label: E-mail
+        type: string
+      - name: phone
+        label: Phone
+        type: string
+      - name: fax
+        label: Fax
+        type: string
+      - name: address
+        label: Address lines
+        type: string
+        list: true
+      - name: map_url
+        label: Map embed URL
+        type: string
+      - name: repo_url
+        label: GitHub repository URL (for "Edit this page" links)
+        type: string
+      - name: carousel
+        label: Homepage carousel
+        type: object
+        list: true
+        fields:
+          - name: src
+            label: Image (wide, about 3400×870 px)
+            type: image
+            options:
+              media: images
+              path: public/images/carousel
+          - name: alt
+            label: Image description
+            type: string
+      - name: external_sites
+        label: External sites (sidebar)
+        description: The first one is shown as a wide banner, the rest as icons.
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Name
+            type: string
+          - name: url
+            label: URL
+            type: string
+          - name: image
+            label: Image
+            type: image
+            options:
+              media: images
+              path: public/images/sidebar

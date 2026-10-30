@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import type { getSettings } from '../lib/site';
+import { url } from '../lib/url';
+
+interface Props {
+  settings: Awaited<ReturnType<typeof getSettings>>;
+}
+
+const { settings } = Astro.props;
+const projects = (await getCollection('projects', ({ data }) => data.status === 'ongoing' && data.sidebar)).sort(
+  (a, b) => a.data.order - b.data.order || a.data.acronym.localeCompare(b.data.acronym),
+);
+const [banner, ...icons] = settings.external_sites;
+---
+
+{
+  projects.length > 0 && (
+    <section class="side-module" aria-labelledby="side-projects">
+      <h2 class="side-title" id="side-projects">Current projects</h2>
+      <div class="logo-grid">
+        {projects.map(({ id, data }) => {
+          const href = data.website ?? url(`/research/projects/#${id}`);
+          return (
+            <a href={href} title={`${data.acronym} — ${data.title}`}>
+              {data.logo ? (
+                <img src={url(data.logo)} alt={data.acronym} loading="lazy" />
+              ) : (
+                <span class="logo-text">{data.acronym}</span>
+              )}
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )
+}
+
+{
+  banner && (
+    <section class="side-module" aria-labelledby="side-external">
+      <h2 class="side-title" id="side-external">External sites</h2>
+      <div class="external-sites">
+        <a class="external-banner" href={banner.url} title={banner.label}>
+          {banner.image ? <img src={url(banner.image)} alt={banner.label} loading="lazy" /> : banner.label}
+        </a>
+        {icons.length > 0 && (
+          <div class="external-icons">
+            {icons.map((site) => (
+              <a href={site.url} title={site.label}>
+                {site.image ? (
+                  <img src={url(site.image)} alt={site.label} width="72" height="72" style="object-fit: contain" loading="lazy" />
+                ) : (
+                  site.label
+                )}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}

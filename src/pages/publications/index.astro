@@ -1,0 +1,75 @@
+---
+import { getCollection } from 'astro:content';
+import Module from '../../components/Module.astro';
+import PublicationList from '../../components/PublicationList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublications } from '../../lib/collections';
+import { url } from '../../lib/url';
+
+const journal = await getPublications('journal');
+const conference = await getPublications('conference');
+const theses = (await getCollection('theses')).sort(
+  (a, b) => b.data.year - a.data.year || a.data.author.localeCompare(b.data.author, 'hr'),
+);
+const thesisYears = [...new Set(theses.map((t) => t.data.year))];
+
+const sections = [
+  { id: 'journal', title: 'Journal papers', count: journal.length },
+  { id: 'conference', title: 'Conference papers', count: conference.length },
+  { id: 'theses', title: 'Theses', count: theses.length },
+];
+---
+
+<BaseLayout title="Publications" description="Journal papers, conference papers and theses of LAMOR.">
+  <div class="pubs">
+    <Module title="Publications" as="h1">
+      <p>
+        Journal and conference papers are retrieved automatically from <a href="https://www.croris.hr/crosbi/">CROSBI</a>, the
+        Croatian scientific bibliography. Names of LAMOR members are underlined.
+      </p>
+      <fieldset class="pub-filter">
+        <legend>Show:</legend>
+        {
+          sections.map((s) => (
+            <label>
+              <input type="checkbox" id={`show-${s.id}`} checked />
+              {s.title} ({s.count})
+            </label>
+          ))
+        }
+      </fieldset>
+    </Module>
+
+    <Module title="Journal papers" id="journal">
+      {journal.length > 0 ? <PublicationList items={journal} idPrefix="journal" /> : <p>No journal papers yet.</p>}
+    </Module>
+
+    <Module title="Conference papers" id="conference">
+      {conference.length > 0 ? <PublicationList items={conference} idPrefix="conference" /> : <p>No conference papers yet.</p>}
+    </Module>
+
+    <Module title="Theses" id="theses">
+      {
+        thesisYears.map((year) => (
+          <>
+            <h3 class="pub-year">{year}</h3>
+            <ul class="pub-list">
+              {theses
+                .filter((t) => t.data.year === year)
+                .map(({ data }) => (
+                  <li class="pub">
+                    {data.author}. <span class="pub-title">{data.title}</span> // {data.type} ({data.year}).
+                    {data.supervisors.length > 0 && <span class="muted"> Supervisors: {data.supervisors.join(', ')}.</span>}
+                    <span class="pub-links">
+                      {data.pdf && <a href={url(data.pdf)}>PDF</a>}
+                      {data.url && <a href={data.url}>Link</a>}
+                    </span>
+                  </li>
+                ))}
+            </ul>
+          </>
+        ))
+      }
+    </Module>
+  </div>
+</BaseLayout>

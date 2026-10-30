@@ -1,0 +1,10 @@
+# Large binaries migrated from the old website are stored with Git LFS (see README → "PDFs and Git LFS").
+# Only these legacy paths are tracked: files uploaded through Pages CMS go to public/files/ and
+# public/images/<section>/ as regular files, because the CMS commits through the GitHub API,
+# which cannot create LFS pointers.
+public/images/[0-9]*/*.pdf filter=lfs diff=lfs merge=lfs -text
+public/images/[0-9]*/*.PDF filter=lfs diff=lfs merge=lfs -text
+public/_news/[0-9]*/** filter=lfs diff=lfs merge=lfs -text
+
+# Generated publication database
+tools/publications/*.sqlite binary

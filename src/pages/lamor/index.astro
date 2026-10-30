@@ -1,0 +1,25 @@
+---
+import { url } from '../../lib/url';
+
+// The old CMS lived under /lamor; its news links looked like /lamor?@=33ulz. Those ids are not
+// stable, so such links go to the news archive and everything else to the homepage.
+const home = url('/');
+const news = url('/news/');
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LAMOR</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={new URL(home, Astro.site)} />
+    <noscript><meta http-equiv="refresh" content={`0; url=${home}`} /></noscript>
+    <script is:inline define:vars={{ home, news }}>
+      location.replace(location.search.indexOf('@=') !== -1 ? news : home);
+    </script>
+  </head>
+  <body>
+    <p><a href={home}>Continue to the LAMOR homepage</a></p>
+  </body>
+</html>

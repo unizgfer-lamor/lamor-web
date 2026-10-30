@@ -1,0 +1,43 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatIsoDay } from '../lib/dates';
+import { renderMarkdown } from '../lib/markdown';
+import { url } from '../lib/url';
+
+interface Props {
+  entry: CollectionEntry<'news'>;
+}
+
+const { entry } = Astro.props;
+const { title, date, image, imageAlt, lead } = entry.data;
+const href = url(`/news/${entry.id}/`);
+const hasBody = Boolean(entry.body?.trim());
+// Older items without a lead show the start of the article instead.
+const leadHtml = renderMarkdown(lead || entry.body?.trim().split(/\n\s*\n/)[0]);
+---
+
+<li class:list={['news-item', { 'no-image': !image }]}>
+  <div class="news-date"><time datetime={date.toISOString()}>{formatIsoDay(date)}</time></div>
+  <h3 class="news-title"><a href={href}>{title}</a></h3>
+  {
+    image && (
+      <div class="news-image">
+        <a href={href} tabindex="-1" aria-hidden="true">
+          <img src={url(image)} alt={imageAlt ?? ''} loading="lazy" decoding="async" />
+        </a>
+      </div>
+    )
+  }
+  <div class="news-lead prose">
+    <Fragment set:html={leadHtml} />
+    {
+      hasBody && (
+        <span class="news-more">
+          <a href={href} aria-label={`Read more: ${title}`}>
+            More…
+          </a>
+        </span>
+      )
+    }
+  </div>
+</li>

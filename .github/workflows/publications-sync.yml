@@ -1,0 +1,71 @@
+# Sync publications from CRORIS and open a pull request with the regenerated list.
+#
+# Requires the repository setting
+#   Settings → Actions → General → Workflow permissions →
+#   "Allow GitHub Actions to create and approve pull requests"
+# to be enabled, otherwise the create-pull-request step fails with a permissions error.
+name: Publications sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Refetch every publication and event (slow, ~10–15 minutes)
+        type: boolean
+        default: false
+  # enable when ready
+  # schedule:
+  #   - cron: '0 4 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publications-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: false
+
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: '3.12'
+
+      - name: Sync from CRORIS
+        run: uv run --project tools lamor-pubs sync ${{ inputs.full && '--full' || '' }}
+
+      - name: Export publications.json
+        run: uv run --project tools lamor-pubs export
+
+      # The database changes on every run (sync timestamps); only propose a PR when the
+      # publication list shown on the website actually changed.
+      - name: Check for changes to the website data
+        id: changes
+        run: |
+          if git diff --quiet -- src/data/publications.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "publications.json unchanged, no pull request needed."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: automation/pubs-sync
+          delete-branch: true
+          commit-message: Update publications from CRORIS
+          title: Update publications from CRORIS
+          body-path: tools/publications/report.md
+          add-paths: |
+            tools/publications/lamor-pubs.sqlite
+            src/data/publications.json
+            tools/publications/report.md

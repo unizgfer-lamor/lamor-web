@@ -1,0 +1,33 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Module from '../../components/Module.astro';
+import NewsItem from '../../components/NewsItem.astro';
+import Pagination from '../../components/Pagination.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getNews } from '../../lib/collections';
+import { formatIsoDay } from '../../lib/dates';
+import { url } from '../../lib/url';
+
+export const getStaticPaths = (async ({ paginate }) => paginate(await getNews(), { pageSize: 10 })) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const newest = page.data[0]?.data.date;
+const oldest = page.data.at(-1)?.data.date;
+const title = page.currentPage === 1 ? 'News' : `News — page ${page.currentPage}`;
+---
+
+<BaseLayout title={title} searchable={false}>
+  <Module title="News" as="h1">
+    {
+      newest && oldest && (
+        <p class="muted">
+          {page.total} news items · this page: {formatIsoDay(newest)} – {formatIsoDay(oldest)}
+        </p>
+      )
+    }
+    <ul class="news-list">
+      {page.data.map((entry) => <NewsItem entry={entry} />)}
+    </ul>
+    <Pagination page={page} first={url('/news/')} />
+  </Module>
+</BaseLayout>

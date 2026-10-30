@@ -1,0 +1,35 @@
+---
+import Module from '../../components/Module.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPeople } from '../../lib/collections';
+
+const groups = [
+  { title: 'Alumni', category: 'alumni' },
+  { title: 'Guests', category: 'guest' },
+  { title: 'Master Students Internships', category: 'intern' },
+] as const;
+const people = await getPeople(groups.map((g) => g.category));
+---
+
+<BaseLayout title="Alumni" description="Former members and guests of LAMOR.">
+  <h1 class="sr-only">Alumni and guests</h1>
+  {
+    groups.map((group) => {
+      const members = people.filter((p) => p.data.category === group.category);
+      return (
+        members.length > 0 && (
+          <Module title={group.title}>
+            <ul class="plain-list">
+              {members.map(({ data }) => (
+                <li>
+                  <span>{data.profile ? <a href={data.profile}>{data.name}</a> : data.name}</span>
+                  <span>{data.affiliation}</span>
+                </li>
+              ))}
+            </ul>
+          </Module>
+        )
+      );
+    })
+  }
+</BaseLayout>

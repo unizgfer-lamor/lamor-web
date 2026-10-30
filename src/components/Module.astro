@@ -1,0 +1,15 @@
+---
+interface Props {
+  title?: string;
+  id?: string;
+  /** Use "h1" for the first block on a page. */
+  as?: 'h1' | 'h2';
+}
+
+const { title, id, as: Heading = 'h2' } = Astro.props;
+---
+
+<section class="module" id={id}>
+  {title && <Heading class="module-title">{title}</Heading>}
+  <slot />
+</section>

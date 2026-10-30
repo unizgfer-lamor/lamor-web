@@ -1,0 +1,170 @@
+{
+  "crosbiId": 282380,
+  "bibIrbId": 1076273,
+  "autori": "Peršić, Juraj ; Petrović, Luka ; Marković, Ivan ; Petrović, Ivan",
+  "naslov": "Online Multi-Sensor Calibration Based on Moving Object Tracking",
+  "vrsta": "prilog u časopisu",
+  "tip": "izvorni znanstveni rad",
+  "godina": "2021",
+  "casopis": "Advanced robotics",
+  "volumen": "35",
+  "svescic": "3-4",
+  "stranice": "str. 130-140",
+  "pocetnaStranica": "130",
+  "zavrsnaStranica": "140",
+  "doi": "10.1080/01691864.2020.1819874",
+  "issn": "0169-1864",
+  "eissn": "1568-5535",
+  "status": "objavljeno",
+  "indeksiranost": [
+    "Scopus",
+    "Current Contents Connect (CCC)",
+    "Web of Science Core Collection, Science Citation Index Expanded (WoSCC-SCI-Exp)",
+    "Web of Science Core Collection, SCI-Exp, SSCI & A&HCI (WoSCC-SCI-Exp, SSCI, A&HCI) "
+  ],
+  "citati": [
+    {
+      "vrstaCitataId": 1040,
+      "vrstaCitataNaziv": "CROSBI",
+      "citat": "Peršić, Juraj ; Petrović, Luka ; Marković, Ivan ; Petrović, Ivan\nOnline Multi-Sensor Calibration Based on Moving Object Tracking // Advanced robotics, 35 (2021), 3-4; 130-140. doi: 10.1080/01691864.2020.1819874"
+    }
+  ],
+  "naslovi": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Online Multi-Sensor Calibration Based on Moving Object Tracking",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "sazeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Modern autonomous systems often fuse information from many different sensors to enhance their perception capabilities. For successful fusion, sensor calibration is necessary, while performing it online is crucial for long-term reliability. Contrary to currently common online approach of using ego-motion estimation, we propose an online calibration method based on detection and tracking of moving objects. Our motivation comes from the practical perspective that many perception sensors of an autonomous system are part of the pipeline for detection and tracking of moving objects. Thus, by using information already present in the system, our method provides resource inexpensive solution for the long-term reliability of the system. The method consists of a calibration-agnostic track to track association, computationally lightweight decalibration detection, and a graph-based rotation calibration. We tested the proposed method on a real-world dataset involving radar, lidar and camera sensors where it was able to detect decalibration after several seconds, while estimating rotation with 0.2 ◦ error from a 20 s long scenario.",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "kljucneRijeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Multi-sensor Calibration ; Online Calibration ; Moving Object Tracking ; Radar ; Lidar ; Camera",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "discipline": [
+    {
+      "id": 15177,
+      "naziv": "Elektrotehnika",
+      "sifra": "2.03.                                   "
+    },
+    {
+      "id": 15183,
+      "naziv": "Računarstvo",
+      "sifra": "2.09.                                   "
+    },
+    {
+      "id": 15189,
+      "naziv": "Temeljne tehničke znanosti",
+      "sifra": "2.15.                                   "
+    }
+  ],
+  "osobeResources": {
+    "_embedded": {
+      "osobe": [
+        {
+          "crorisId": 29108,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Marković",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/29108"
+            }
+          }
+        },
+        {
+          "crorisId": 14743,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/14743"
+            }
+          }
+        },
+        {
+          "crorisId": 44396,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Luka",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/44396"
+            }
+          }
+        },
+        {
+          "crorisId": 40118,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Juraj",
+          "prezime": "Peršić",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/40118"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ustanoveResources": {
+    "_embedded": {
+      "ustanove": [
+        {
+          "crorisId": 34,
+          "naziv": "Fakultet elektrotehnike i računarstva",
+          "mbu": 36,
+          "funkcija": {
+            "id": 941,
+            "naziv": "autorova ustanova"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/ustanova/34"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "osobe": {
+      "href": "https://www.croris.hr/crosbi-api/osoba/publikacija/282380"
+    },
+    "ustanove": {
+      "href": "https://www.croris.hr/crosbi-api/ustanova/publikacija/282380"
+    },
+    "self": {
+      "href": "https://www.croris.hr/crosbi-api/publikacija/282380"
+    }
+  }
+}

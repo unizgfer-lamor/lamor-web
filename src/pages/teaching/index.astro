@@ -1,0 +1,54 @@
+---
+import { render } from 'astro:content';
+import Module from '../../components/Module.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getSorted } from '../../lib/collections';
+
+const courses = (await getSorted('courses')).sort(
+  (a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name),
+);
+const groups = [
+  { title: 'Undergraduate', level: 'undergraduate' },
+  { title: 'Graduate', level: 'graduate' },
+  { title: 'PhD', level: 'phd' },
+].map((g) => ({ ...g, items: courses.filter((c) => c.data.level === g.level) }));
+const rendered = new Map(await Promise.all(courses.map(async (c) => [c.id, (await render(c)).Content] as const)));
+---
+
+<BaseLayout title="Teaching" description="Courses taught by LAMOR members at FER.">
+  {
+    groups
+      .filter((g) => g.items.length > 0)
+      .map((group, gi) => (
+        <Module title={group.title} as={gi === 0 ? 'h1' : 'h2'}>
+          {group.items.map(({ id, data }) => {
+            const Content = rendered.get(id)!;
+            return (
+              <table class="data-table" id={id}>
+                <tbody>
+                  <tr>
+                    <th scope="row">Name</th>
+                    <td>
+                      <strong>{data.url ? <a href={data.url}>{data.name}</a> : data.name}</strong>
+                    </td>
+                  </tr>
+                  {data.name_hr && (
+                    <tr>
+                      <th scope="row">Name (HR)</th>
+                      <td lang="hr">{data.url_hr ? <a href={data.url_hr}>{data.name_hr}</a> : data.name_hr}</td>
+                    </tr>
+                  )}
+                  <tr>
+                    <th scope="row">Description</th>
+                    <td class="prose">
+                      <Content />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            );
+          })}
+        </Module>
+      ))
+  }
+</BaseLayout>

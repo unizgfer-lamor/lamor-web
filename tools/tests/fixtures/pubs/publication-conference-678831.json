@@ -1,0 +1,167 @@
+{
+  "crosbiId": 678831,
+  "bibIrbId": 1012034,
+  "autori": "Petrović, Luka ; Peršić, Juraj ; Seder, Marija ; Marković, Ivan",
+  "naslov": "Stochastic Optimization for Trajectory Planning with Heteroscedastic Gaussian Processes",
+  "vrsta": "prilog sa skupa (u zborniku)",
+  "tip": "izvorni znanstveni rad",
+  "godina": "2019",
+  "nadredenaPublikacija": "European Conference on Mobile Robots (ECMR)",
+  "stranice": "str. 1-6",
+  "pocetnaStranica": "1",
+  "zavrsnaStranica": "6",
+  "doi": "10.1109/ecmr.2019.8870970",
+  "status": "objavljeno",
+  "citati": [
+    {
+      "vrstaCitataId": 1040,
+      "vrstaCitataNaziv": "CROSBI",
+      "citat": "Petrović, Luka ; Peršić, Juraj ; Seder, Marija ; Marković, Ivan\nStochastic Optimization for Trajectory Planning with Heteroscedastic Gaussian Processes // European Conference on Mobile Robots (ECMR). \n2019. str. 1-6. doi: 10.1109/ECMR.2019.8870970"
+    }
+  ],
+  "naslovi": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Stochastic Optimization for Trajectory Planning with Heteroscedastic Gaussian Processes",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "sazeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Trajectory optimization methods for motion planning attempt to generate trajectories that minimize a suitable objective function. Such methods efficiently find solutions even for high degree-of-freedom robots. However, a globally optimal solution is often intractable in practice and state-of-the-art trajectory optimization methods are thus prone to local minima, especially in cluttered environments. In this paper, we propose a novel motion planning algorithm that employs stochastic optimization based on the cross-entropy method in order to tackle the local minima problem. We represent trajectories as samples from a continuous-time Gaussian process and introduce heteroscedasticity to generate powerful trajectory priors better suited for collision avoidance in motion planning problems. Our experimental evaluation shows that the proposed approach yields a more thorough exploration of the solution space and a higher success rate in complex environments than a current Gaussian process motion planning state-of-the-art trajectory optimization method, namely GPMP2, while having comparable execution time.",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "kljucneRijeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Motion Planning ; Trajectory Optimization ; Gaussian Processes ; Stochastic Optimization",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "skup": [
+    {
+      "cfEventId": 166921,
+      "naziv": "ECMR 2019 – European Conference on Mobile Robots 2019",
+      "href": "https://www.croris.hr/dogadanja-api/dogadanje/166921"
+    }
+  ],
+  "discipline": [
+    {
+      "id": 15177,
+      "naziv": "Elektrotehnika",
+      "sifra": "2.03.                                   "
+    },
+    {
+      "id": 15183,
+      "naziv": "Računarstvo",
+      "sifra": "2.09.                                   "
+    },
+    {
+      "id": 15189,
+      "naziv": "Temeljne tehničke znanosti",
+      "sifra": "2.15.                                   "
+    }
+  ],
+  "osobeResources": {
+    "_embedded": {
+      "osobe": [
+        {
+          "crorisId": 26770,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Marija",
+          "prezime": "Seder",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/26770"
+            }
+          }
+        },
+        {
+          "crorisId": 29108,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Marković",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/29108"
+            }
+          }
+        },
+        {
+          "crorisId": 44396,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Luka",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/44396"
+            }
+          }
+        },
+        {
+          "crorisId": 40118,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Juraj",
+          "prezime": "Peršić",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/40118"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ustanoveResources": {
+    "_embedded": {
+      "ustanove": [
+        {
+          "crorisId": 34,
+          "naziv": "Fakultet elektrotehnike i računarstva",
+          "mbu": 36,
+          "funkcija": {
+            "id": 941,
+            "naziv": "autorova ustanova"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/ustanova/34"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "osobe": {
+      "href": "https://www.croris.hr/crosbi-api/osoba/publikacija/678831"
+    },
+    "ustanove": {
+      "href": "https://www.croris.hr/crosbi-api/ustanova/publikacija/678831"
+    },
+    "self": {
+      "href": "https://www.croris.hr/crosbi-api/publikacija/678831"
+    }
+  }
+}

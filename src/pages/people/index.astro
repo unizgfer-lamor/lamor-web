@@ -1,0 +1,34 @@
+---
+import Module from '../../components/Module.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPeople } from '../../lib/collections';
+
+const groups = [
+  { title: 'Faculty', category: 'faculty' },
+  { title: 'Senior Researchers', category: 'senior' },
+  { title: 'PhD Students', category: 'phd' },
+  { title: 'Project Managers', category: 'manager' },
+] as const;
+const people = await getPeople(groups.map((g) => g.category));
+---
+
+<BaseLayout title="People" description="Current members of LAMOR.">
+  <h1 class="sr-only">People</h1>
+  {
+    groups.map((group) => {
+      const members = people.filter((p) => p.data.category === group.category);
+      return (
+        members.length > 0 && (
+          <Module title={group.title}>
+            <ul class="people-grid">
+              {members.map((person) => (
+                <PersonCard person={person} />
+              ))}
+            </ul>
+          </Module>
+        )
+      );
+    })
+  }
+</BaseLayout>

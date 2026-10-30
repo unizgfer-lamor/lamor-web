@@ -1,0 +1,100 @@
+---
+import { render } from 'astro:content';
+import Module from '../../components/Module.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getSorted } from '../../lib/collections';
+import { formatIsoDay } from '../../lib/dates';
+import { url } from '../../lib/url';
+
+const projects = await getSorted('projects');
+const groups = [
+  { title: 'Ongoing Projects', id: 'ongoing', items: projects.filter((p) => p.data.status === 'ongoing') },
+  { title: 'Past Projects', id: 'past', items: projects.filter((p) => p.data.status === 'past') },
+];
+const rendered = new Map(await Promise.all(projects.map(async (p) => [p.id, (await render(p)).Content] as const)));
+const dmy = (d: Date) => formatIsoDay(d).split('-').reverse().join('.');
+const duration = (p: (typeof projects)[number]['data']) =>
+  p.start || p.end ? `${p.start ? dmy(p.start) : '?'} – ${p.end ? dmy(p.end) : '?'}` : p.duration;
+---
+
+<BaseLayout title="Projects" description="Ongoing and past research projects of LAMOR.">
+  {
+    groups.map((group, gi) => (
+      <Module title={group.title} id={group.id} as={gi === 0 ? 'h1' : 'h2'}>
+        {group.items.map(({ id, data }) => {
+          const Content = rendered.get(id)!;
+          const when = duration(data);
+          return (
+            <article class="project" id={id}>
+              <h3 class="project-title">
+                <strong>{data.acronym}</strong> – {data.title}
+              </h3>
+              <table class="data-table">
+                <tbody>
+                  {data.logo && (
+                    <tr>
+                      <td class="project-logo" colspan="2">
+                        <img src={url(data.logo)} alt={`${data.acronym} logo`} loading="lazy" />
+                      </td>
+                    </tr>
+                  )}
+                  <tr>
+                    <th scope="row">Short description</th>
+                    <td class="prose">
+                      <Content />
+                    </td>
+                  </tr>
+                  {data.funding && (
+                    <tr>
+                      <th scope="row">Funding</th>
+                      <td>{data.funding}</td>
+                    </tr>
+                  )}
+                  {when && (
+                    <tr>
+                      <th scope="row">Duration</th>
+                      <td>{when}</td>
+                    </tr>
+                  )}
+                  {data.pi && (
+                    <tr>
+                      <th scope="row">Principal investigator</th>
+                      <td>{data.pi}</td>
+                    </tr>
+                  )}
+                  {data.team.length > 0 && (
+                    <tr>
+                      <th scope="row">Project team</th>
+                      <td>{data.team.join(', ')}</td>
+                    </tr>
+                  )}
+                  {data.partners.length > 0 && (
+                    <tr>
+                      <th scope="row">Partners</th>
+                      <td>
+                        {data.partners.map((partner, i) => (
+                          <>
+                            {i > 0 && <br />}
+                            {partner}
+                          </>
+                        ))}
+                      </td>
+                    </tr>
+                  )}
+                  {data.website && (
+                    <tr>
+                      <th scope="row">Website</th>
+                      <td>
+                        <a href={data.website}>{data.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </article>
+          );
+        })}
+      </Module>
+    ))
+  }
+</BaseLayout>

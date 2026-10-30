@@ -1,0 +1,69 @@
+---
+import '../styles/global.css';
+import Carousel from '../components/Carousel.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import Nav from '../components/Nav.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { getSettings } from '../lib/site';
+import { url } from '../lib/url';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Homepage layout: carousel under the navigation bar. */
+  home?: boolean;
+  /** Content file shown on this page (enables the "Edit this page" link). */
+  editPath?: string;
+  /** Include this page in the site search index. */
+  searchable?: boolean;
+  image?: string;
+}
+
+const { title, description, home = false, editPath, searchable = true, image } = Astro.props;
+const settings = await getSettings();
+const pageTitle = title ? `${title} | ${settings.short_title}` : `${settings.title} | ${settings.short_title}`;
+const pageDescription = description || settings.description;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(url(image ?? '/design/LAMOR_logo.png'), Astro.site);
+---
+
+<!doctype html>
+<html lang="en" class={home ? 'is-home' : undefined}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" href={url('/design/favicon.png')} />
+    <link rel="alternate" type="application/rss+xml" title={`${settings.short_title} news`} href={url('/rss.xml')} />
+    <link rel="sitemap" href={url('/sitemap-index.xml')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={settings.title} />
+    <meta property="og:title" content={title ?? settings.title} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <Header settings={settings} />
+      <div class="container">
+        <Nav />
+      </div>
+    </header>
+    {home && <Carousel slides={settings.carousel} />}
+    <div class="container content-row">
+      <main id="main" class="main-col" data-pagefind-body={searchable ? '' : undefined}>
+        <slot />
+      </main>
+      <aside class="side-col" aria-label="Sidebar">
+        <Sidebar settings={settings} />
+      </aside>
+    </div>
+    <Footer settings={settings} editPath={editPath} />
+  </body>
+</html>

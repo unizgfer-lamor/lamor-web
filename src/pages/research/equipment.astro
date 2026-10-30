@@ -1,0 +1,65 @@
+---
+import { render } from 'astro:content';
+import Module from '../../components/Module.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getSorted } from '../../lib/collections';
+import { url } from '../../lib/url';
+
+const equipment = await getSorted('equipment');
+const groups = [
+  { title: 'Robots', items: equipment.filter((e) => e.data.kind === 'robot') },
+  { title: 'Sensors', items: equipment.filter((e) => e.data.kind === 'sensor') },
+];
+const rendered = new Map(await Promise.all(equipment.map(async (e) => [e.id, (await render(e)).Content] as const)));
+---
+
+<BaseLayout title="Equipment" description="Robots and sensors in the LAMOR laboratory.">
+  {
+    groups.map((group, gi) => (
+      <Module title={group.title} as={gi === 0 ? 'h1' : 'h2'}>
+        {group.items.map(({ id, data, body }) => {
+          const Content = rendered.get(id)!;
+          return (
+            <article class="equipment-item" id={id}>
+              {data.image && (
+                <figure>
+                  <img src={url(data.image)} alt={data.name} loading="lazy" />
+                </figure>
+              )}
+              <table class="data-table">
+                <tbody>
+                  <tr>
+                    <th scope="row">Name</th>
+                    <td>{data.name}</td>
+                  </tr>
+                  {data.manufacturer && (
+                    <tr>
+                      <th scope="row">Manufacturer</th>
+                      <td>{data.manufacturer}</td>
+                    </tr>
+                  )}
+                  {body?.trim() && (
+                    <tr>
+                      <th scope="row">Applications</th>
+                      <td class="prose">
+                        <Content />
+                      </td>
+                    </tr>
+                  )}
+                  {data.link && (
+                    <tr>
+                      <th scope="row">Link</th>
+                      <td>
+                        <a href={data.link}>{data.link.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </article>
+          );
+        })}
+      </Module>
+    ))
+  }
+</BaseLayout>

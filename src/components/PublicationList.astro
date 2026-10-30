@@ -1,0 +1,74 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { url } from '../lib/url';
+
+interface Props {
+  items: CollectionEntry<'publications'>[];
+  /** Prefix for the year anchors (`#journal-2024`), unique per list on the page. */
+  idPrefix: string;
+}
+
+const { items, idPrefix } = Astro.props;
+
+type Publication = CollectionEntry<'publications'>['data'];
+const CROSBI_TYPE = { journal: 'prilog-casopis', conference: 'prilog-skup' } as const;
+
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const link = (href: string, label: string) => `<a href="${esc(href)}">${label}</a>`;
+
+// Built as one string: line breaks between template expressions would add stray spaces
+// ("Name ; Name", "Title ,") to the citation.
+function citation(p: Publication): string {
+  const authors = p.authors.map((a) => (a.lab ? `<span class="lab">${esc(a.name)}</span>` : esc(a.name))).join('; ');
+  const title = esc(p.title).replace(/[.\s]+$/, '');
+  let text = `${authors}. <span class="pub-title">${title}</span>`;
+  if (p.venue) text += ` // <span class="pub-venue">${esc(p.venue)}</span>`;
+  if (p.details) text += `, ${esc(p.details)}`;
+  text += ` (${p.year}).`;
+  if (p.status) text += ` <span class="pub-status">(${esc(p.status)})</span>`;
+  const links = [
+    p.pdf && link(url(p.pdf), 'PDF'),
+    p.doi && link(`https://doi.org/${p.doi}`, 'DOI'),
+    !p.doi && p.url && link(p.url, 'Link'),
+    p.croris && link(`https://www.croris.hr/crosbi/publikacija/${CROSBI_TYPE[p.category]}/${p.croris}`, 'CROSBI'),
+  ].filter(Boolean);
+  if (links.length) text += ` <span class="pub-links">${links.join('')}</span>`;
+  return text;
+}
+
+const firstAuthor = (p: CollectionEntry<'publications'>) => p.data.authors[0]?.name ?? '';
+const years = [...new Set(items.map((p) => p.data.year))].sort((a, b) => b - a);
+const byYear = new Map(
+  years.map((year) => [
+    year,
+    items
+      .filter((p) => p.data.year === year)
+      .sort((a, b) => firstAuthor(a).localeCompare(firstAuthor(b), 'hr') || a.data.title.localeCompare(b.data.title)),
+  ]),
+);
+---
+
+<ul class="year-bar" aria-label="Jump to year">
+  {
+    years.map((year) => (
+      <li>
+        <a href={`#${idPrefix}-${year}`}>{year}</a>
+      </li>
+    ))
+  }
+</ul>
+
+{
+  years.map((year) => (
+    <>
+      <h3 class="pub-year" id={`${idPrefix}-${year}`}>
+        {year}
+      </h3>
+      <ol class="pub-list">
+        {byYear.get(year)!.map(({ data }) => (
+          <li class="pub" set:html={citation(data)} />
+        ))}
+      </ol>
+    </>
+  ))
+}

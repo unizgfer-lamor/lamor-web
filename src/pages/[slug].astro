@@ -1,0 +1,23 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import Module from '../components/Module.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Free-form Markdown pages from src/content/pages/ (e.g. students-corner.md -> /students-corner/).
+// "home" is the homepage intro and is rendered by index.astro.
+export const getStaticPaths = (async () => {
+  const reserved = new Set(['home', 'news', 'research', 'teaching', 'publications', 'people', 'contact', 'lamor', 'design', 'images', 'files']);
+  const pages = await getCollection('pages', ({ id }) => !reserved.has(id));
+  return pages.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.description} editPath={entry.filePath}>
+  <Module title={entry.data.title} as="h1">
+    <div class="prose"><Content /></div>
+  </Module>
+</BaseLayout>

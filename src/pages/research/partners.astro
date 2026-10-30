@@ -1,0 +1,28 @@
+---
+import Module from '../../components/Module.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getSorted } from '../../lib/collections';
+import { url } from '../../lib/url';
+
+const partners = await getSorted('partners');
+---
+
+<BaseLayout title="Our partners" description="Institutions collaborating with LAMOR.">
+  <Module title="Collaborating Institutions" as="h1">
+    <p>LAMOR collaborates with the following institutions:</p>
+    <table>
+      <tbody>
+        {
+          partners.map(({ data }) => (
+            <tr>
+              <td class="partner-logo">{data.logo && <img src={url(data.logo)} alt="" loading="lazy" />}</td>
+              <td>
+                {data.website ? <a href={data.website}>{data.name}</a> : data.name}{data.country && `, ${data.country}`}
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </Module>
+</BaseLayout>

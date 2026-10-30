@@ -1,0 +1,157 @@
+{
+  "crosbiId": 900279,
+  "autori": "Mesić, Mia; Androš Dubraja, Lidija",
+  "naslov": "The influence of preparation parameters on the morphology and ferroelectric properties of metalorganic thin films based on bicyclic amines",
+  "vrsta": "prilog sa skupa (u zborniku)",
+  "tip": "sažetak izlaganja sa skupa",
+  "mjesto": "Split",
+  "izdavac": "Croatian Chemical Society",
+  "godina": "2025",
+  "nadredenaPublikacija": "29th Croatian Meeting of Chemists and Chemical Engineers with international participationand : 7th Symposium Vladimir Prelog : Book of abstracts",
+  "stranice": "str. 87-87",
+  "pocetnaStranica": "87",
+  "zavrsnaStranica": "87",
+  "eissn": "2757-0754",
+  "status": "objavljeno",
+  "citati": [
+    {
+      "vrstaCitataId": 1040,
+      "vrstaCitataNaziv": "CROSBI",
+      "citat": "Mesić, Mia; Androš Dubraja, Lidija\nThe influence of preparation parameters on the morphology and ferroelectric properties of metalorganic thin films based on bicyclic amines // 29th Croatian Meeting of Chemists and Chemical Engineers with international participationand : 7th Symposium Vladimir Prelog : Book of abstracts / Cindro, Nikola; Kokan, Zoran; Namjesnik, Danijel et al. (ur.). \nSplit: Croatian Chemical Society, 2025. str. 87-87"
+    }
+  ],
+  "naslovi": [
+    {
+      "cfLangCode": "en",
+      "naziv": "The influence of preparation parameters on the morphology and ferroelectric properties of metalorganic thin films based on bicyclic amines",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "sazeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Ferroelectric materials continue to attract significant interest due to their potential in advanced technologies and the ongoing discovery of new hybrid systems. In this study, we focus on metal-organic complexes, as promising candidates for functional ferroelectric materials. These compounds are interesting since they have the potential to exhibit switchable polarization — property desirable for applications in sensors, memory devices, and nonlinear optics.[1] The aim is to develop thin films in order to enable their integration into practical devices. Despite its potential, metal-organic thin films have not yet been thoroughly studied. Several methods exist to produce metal-organic thin films such as dip coating, spin coating, drop casting etc. However, many parameters need to be carefully optimized to obtain quality films, such as precursor solution characteristics (concentration, pH, composition of solvents) and other conditions (temperature, relative humidity, withdrawal rate for dip-coating, etc). All these parameters, as well as preparation methods, strongly affect film morphology and properties.[2] Humidity plays a critical role by influencing structural organization during film formation. In this work, thin films of cinchonine trichlorocobaltate were deposited on Si(100) and ITO-coated glass substrates via dip coating under controlled humidity. Scanning electron microscopy (SEM) analysis revealed that low humidity favors uniform film formation, while higher humidity levels induce morphological changes characterized by nano- and mesoscale pinholes. Optimized parameters yielded homogeneous films suitable for ferroelectric characterization, contributing to the development of novel metal-organic ferroelectric systems.",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "kljucneRijeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "thin films; ferroelectrics",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "poveznice": [
+    {
+      "urlId": 327076,
+      "urlVrstaId": 990,
+      "urlVrstaNaziv": "URL rada koji je dostupan u otvorenom pristupu",
+      "url": "https://29hskiki.hkd.hr/29HSKIKI_Book_of-Abstracts.pdf"
+    }
+  ],
+  "skup": [
+    {
+      "cfEventId": 187337,
+      "naziv": "29th Croatian Meeting of Chemists and Chemical Engineers (29HSKIKI) and 7th Symposium Vladimir Prelog",
+      "href": "https://www.croris.hr/dogadanja-api/dogadanje/187337"
+    }
+  ],
+  "discipline": [
+    {
+      "id": 17337,
+      "naziv": "Kemija",
+      "sifra": "1.04                                    "
+    }
+  ],
+  "osobeResources": {
+    "_embedded": {
+      "osobe": [
+        {
+          "crorisId": 43877,
+          "ime": "Mia",
+          "prezime": "Mesić",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/43877"
+            }
+          }
+        },
+        {
+          "crorisId": 29022,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Lidija",
+          "prezime": "Androš Dubraja",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/29022"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ustanoveResources": {
+    "_embedded": {
+      "ustanove": [
+        {
+          "crorisId": 66,
+          "naziv": "INSTITUT RUĐER BOŠKOVIĆ",
+          "mbu": 98,
+          "funkcija": {
+            "id": 941,
+            "naziv": "autorova ustanova"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/ustanova/66"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "projektiResources": {
+    "_embedded": {
+      "projekti": [
+        {
+          "crorisId": 4386,
+          "naziv": "Metal-organski molekulski materijali kao potencijalni feroelektrici",
+          "funkcija": {
+            "id": 1020,
+            "naziv": "rezultat rada na projektu"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/projekt/4386"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "osobe": {
+      "href": "https://www.croris.hr/crosbi-api/osoba/publikacija/900279"
+    },
+    "ustanove": {
+      "href": "https://www.croris.hr/crosbi-api/ustanova/publikacija/900279"
+    },
+    "projekti": {
+      "href": "https://www.croris.hr/crosbi-api/projekt/publikacija/900279"
+    },
+    "self": {
+      "href": "https://www.croris.hr/crosbi-api/publikacija/900279"
+    }
+  }
+}

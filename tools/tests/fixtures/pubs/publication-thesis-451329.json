@@ -1,0 +1,123 @@
+{
+  "crosbiId": 451329,
+  "bibIrbId": 1210683,
+  "autori": "Petrović, Luka",
+  "naslov": "High-dimensional trajectory optimization for robot motion planning based on Gaussian processes",
+  "vrsta": "ocjenski radovi",
+  "tip": "doktorski rad",
+  "mjesto": "Zagreb",
+  "godina": "2022",
+  "brojStranica": "135",
+  "mentori": "Marković, Ivan",
+  "status": "obranjeno",
+  "citati": [
+    {
+      "vrstaCitataId": 1040,
+      "vrstaCitataNaziv": "CROSBI",
+      "citat": "Petrović, Luka\nHigh-dimensional trajectory optimization for robot motion planning based on Gaussian processes / Marković, Ivan (mentor). \nZagreb, Fakultet elektrotehnike i računarstva, 2022"
+    }
+  ],
+  "naslovi": [
+    {
+      "cfLangCode": "en",
+      "naziv": "High-dimensional trajectory optimization for robot motion planning based on Gaussian processes",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "sazeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "Motion planning is one of the fundamental tasks in robotics with the goal of producing feasible robot trajectories in configuration space that reach a desired goal optimally according to a given criterion. The rapid growth in complexity of both robots and their operating environments has accentuated the need for reliable high- dimensional motion planning. The principal purpose of this thesis is the development of novel high-dimensional motion planning methods that enable safe and efficient robot operation in real-world environments. We rely on trajectory optimization in order to produce robot trajectories that are smooth, collision-free and satisfy arbitrary task-dependent criteria. A common theme throughout this thesis is reliance on continuous-time Gaussian processes as trajectory representations that underpin efficient collision-checking and generate smooth robot trajectories. The trajectory optimization approach to motion planning results in computationally efficient methods for robots with many degrees of freedom, but these methods are often unable to find a feasible solution in complex environments due to getting stuck in local minima. One of the goals of this thesis is to develop methods that ameliorate the local minima problem while retaining other desirable properties of trajectory optimization, such as computational efficient and trajectory smoothness. With this in mind, this thesis first introduces heteroscedastic Gaussian process priors crafted for improving collision avoidance. Coupled with the proposed cross-entropy based stochastic trajectory optimization, the resultant motion planning method has the ability to plan collision-free trajectories even for high-dimensional robots in cluttered environments. Besides collision avoidance, there often exist multiple different costs and constraints that have to be taken into account during planning, for example adhering to joint and velocity limits, kinematic singularity avoidance and torque minimization. To this end, this thesis proposes mixtures of Gaussian processes as trajectory representations that can generate multiple solution trajectories and a stochastic gradient estimation method supporting the inclusion of non-differentiable optimization costs. Finally, deploying robots in real-world environments with human presence requires additional considerations regarding perception, mapping and human trajectory prediction due to limited onboard resources. ¿is thesis presents an integrated motion planning, perception and human trajectory prediction framework that utilizes a single robot-mounted RGB-D camera to achieve predictive real-time motion planning in dynamic environments.",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "kljucneRijeci": [
+    {
+      "cfLangCode": "en",
+      "naziv": "high-dimensional motion planning, trajectory optimization, Gaussian processes, collision avoidance, singularity avoidance, stochastic optimization, cross-entropy optimization, mixtures of Gaussian processes, robotic arm, mobile manipulator",
+      "original": true,
+      "cfTrans": "o"
+    }
+  ],
+  "discipline": [
+    {
+      "id": 15177,
+      "naziv": "Elektrotehnika",
+      "sifra": "2.03.                                   "
+    },
+    {
+      "id": 15183,
+      "naziv": "Računarstvo",
+      "sifra": "2.09.                                   "
+    }
+  ],
+  "osobeResources": {
+    "_embedded": {
+      "osobe": [
+        {
+          "crorisId": 44396,
+          "titulaIspredImena": "dr. sc.",
+          "ime": "Luka",
+          "prezime": "Petrović",
+          "funkcija": {
+            "id": 905,
+            "naziv": "autor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/44396"
+            }
+          }
+        },
+        {
+          "crorisId": 29108,
+          "titulaIspredImena": "prof. dr. sc.",
+          "ime": "Ivan",
+          "prezime": "Marković",
+          "funkcija": {
+            "id": 907,
+            "naziv": "mentor"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/osoba/29108"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ustanoveResources": {
+    "_embedded": {
+      "ustanove": [
+        {
+          "crorisId": 34,
+          "naziv": "Fakultet elektrotehnike i računarstva",
+          "mbu": 36,
+          "funkcija": {
+            "id": 953,
+            "naziv": "ustanova koja je dodijelila akademski/stručni stupanj"
+          },
+          "_links": {
+            "self": {
+              "href": "https://www.croris.hr/crosbi-api/ustanova/34"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "osobe": {
+      "href": "https://www.croris.hr/crosbi-api/osoba/publikacija/451329"
+    },
+    "ustanove": {
+      "href": "https://www.croris.hr/crosbi-api/ustanova/publikacija/451329"
+    },
+    "self": {
+      "href": "https://www.croris.hr/crosbi-api/publikacija/451329"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { url } from '../lib/url';
+
+interface Props {
+  person: CollectionEntry<'people'>;
+}
+
+const { data } = Astro.props.person;
+const initials = data.name
+  .replace(/^(Asst\.|Assoc\.|Prof\.|Dr\.|dr\. sc\.|\s)+/gi, '')
+  .split(/\s+/)
+  .filter((w) => /^\p{Lu}/u.test(w))
+  .map((w) => w[0])
+  .slice(0, 2)
+  .join('');
+---
+
+<li class="person">
+  {
+    data.photo ? (
+      <img class="person-photo" src={url(data.photo)} alt={data.name} width="115" height="178" loading="lazy" />
+    ) : (
+      <span class="person-photo placeholder" aria-hidden="true">
+        {initials}
+      </span>
+    )
+  }
+  <div class="person-info">
+    <p>{data.profile ? <a href={data.profile}>{data.name}</a> : data.name}</p>
+    {data.role && <p>{data.role}</p>}
+    {data.group && <p>{data.group}</p>}
+    {data.email && (
+      <p>
+        <a href={`mailto:${data.email}`}>{data.email}</a>
+      </p>
+    )}
+  </div>
+</li>

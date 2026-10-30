@@ -1,0 +1,44 @@
+# Validates pull requests: content schemas, a build under a sub-path, internal links, tool tests.
+name: Check
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: false # PDFs stay LFS pointer files; enough to check that links resolve
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Type and content check
+        run: npx astro check
+      - name: Build under a sub-path (catches links that ignore the base path)
+        run: npm run build
+        env:
+          BASE_PATH: /zz-test/
+      - name: Check internal links
+        run: node scripts/check-dist.mjs
+        env:
+          BASE_PATH: /zz-test/
+
+  tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: false
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: '3.12'
+      - name: Python tests
+        run: uv run --project tools pytest tools/tests
