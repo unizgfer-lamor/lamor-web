@@ -1,15 +1,15 @@
 # Publications export report
 
-- Generated: 2026-10-21T10:07:26+00:00
-- Last sync: 2026-10-21T10:02:24+00:00 (incremental; listed 694, fetched 1, new 0, changed 0, deleted 0, errors 0)
-- Distinct CRORIS ids in the database: 694 (listed by researchers now: 694, deleted: 0, orphaned: 0)
-- Exported: **199** (67 journal, 132 conference)
+- Generated: 2026-11-04T12:45:04+00:00
+- Last sync: 2026-11-04T12:44:27+00:00 (incremental; listed 695, fetched 1, new 1, changed 0, deleted 0, errors 0)
+- Distinct CRORIS ids in the database: 695 (listed by researchers now: 695, deleted: 0, orphaned: 0)
+- Exported: **200** (68 journal, 132 conference)
 
 ## Exported per year
 
 | Year | Journal | Conference | Total |
 |---|---:|---:|---:|
-| 2026 | 5 | 3 | 8 |
+| 2026 | 6 | 3 | 9 |
 | 2025 | 5 | 13 | 18 |
 | 2024 | 3 | 6 | 9 |
 | 2023 | 2 | 9 | 11 |
@@ -26,7 +26,7 @@
 | 2012 | 3 | 8 | 11 |
 | 2011 | 4 | 13 | 17 |
 | 2010 | 4 | 8 | 12 |
-| **all** | **67** | **132** | **199** |
+| **all** | **68** | **132** | **200** |
 
 ## Not exported
 
@@ -48,14 +48,8 @@ Kept record first; the others are CRORIS double entries of the same paper.
 
 ## Changes since the previous export
 
-7 new, 0 changed, 0 removed.
+1 new, 0 changed, 0 removed.
 
-### New (7)
+### New (1)
 
-- 2026 conference [954023]: Object Distance Estimation from Electromagnetic Interactions in Robotics
-- 2025 conference [888419]: Event and Frame-based Stereo Odometry with Adaptive Frequency and Multisurface Matching
-- 2025 conference [888422]: A Transformer-Based Pipeline for Efficient Hand Gesture Recognition
-- 2025 conference [924297]: Model Predictive Control of Wheeled Robots Based on Hierarchical Planning
-- 2025 conference [888421]: Smooth Control of Soft Robots by Reinforcement Learning with Policy Regularization
-- 2022 conference [722088]: Autonomous topology creation of industrial environments for automated guided vehicles
-- 2022 conference [809016]: Smooth Motion Planning of an Omnidirectional Mobile Robot in Dynamic Environments
+- 2026 journal [976035]: Radar-Inertial Odometry With Online Spatio-Temporal Calibration via Continuous-Time IMU Modeling

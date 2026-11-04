@@ -145,6 +145,38 @@
     "croris": 922026
   },
   {
+    "id": 976035,
+    "category": "journal",
+    "year": 2026,
+    "title": "Radar-Inertial Odometry With Online Spatio-Temporal Calibration via Continuous-Time IMU Modeling",
+    "authors": [
+      {
+        "name": "Štironja, Vlaho-Josip",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Peršić, Juraj",
+        "lab": false
+      },
+      {
+        "name": "Marković, Ivan",
+        "lab": true
+      },
+      {
+        "name": "Petrović, Ivan",
+        "lab": true
+      }
+    ],
+    "venue": "IEEE Robotics & Automation Letters",
+    "details": "vol. 11, no. 11, pp. 13613–13620",
+    "doi": "10.1109/lra.2026.3742287",
+    "croris": 976035
+  },
+  {
     "id": 894835,
     "category": "conference",
     "year": 2026,

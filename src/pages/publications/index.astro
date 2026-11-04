@@ -8,16 +8,35 @@ import { url } from '../../lib/url';
 
 const journal = await getPublications('journal');
 const conference = await getPublications('conference');
-const theses = (await getCollection('theses')).sort(
-  (a, b) => b.data.year - a.data.year || a.data.author.localeCompare(b.data.author, 'hr'),
-);
-const thesisYears = [...new Set(theses.map((t) => t.data.year))];
+const theses = (await getCollection('theses')).sort((a, b) => a.data.author.localeCompare(b.data.author, 'hr'));
 
 const sections = [
   { id: 'journal', title: 'Journal papers', count: journal.length },
   { id: 'conference', title: 'Conference papers', count: conference.length },
   { id: 'theses', title: 'Theses', count: theses.length },
-];
+] as const;
+
+// Year is the main structure; inside each year: journal papers, conference papers, theses.
+const years = [
+  ...new Set([...journal, ...conference].map((p) => p.data.year).concat(theses.map((t) => t.data.year))),
+].sort((a, b) => b - a);
+
+const blocks = years.map((year) => ({
+  year,
+  journal: journal.filter((p) => p.data.year === year),
+  conference: conference.filter((p) => p.data.year === year),
+  theses: theses.filter((t) => t.data.year === year),
+}));
+
+// The first group of each type also carries the old section anchor (#journal, #conference, #theses),
+// so existing links such as /publications/#theses still land on that type.
+const firstYear = Object.fromEntries(
+  sections.map((s) => [s.id, blocks.find((b) => b[s.id].length > 0)?.year]),
+) as Record<(typeof sections)[number]['id'], number | undefined>;
+
+// Classes used by the CSS filter to hide a year when all of its groups are unchecked.
+const has = (b: (typeof blocks)[number]) =>
+  ['pub-y', ...sections.filter((s) => b[s.id].length > 0).map((s) => `has-${s.id}`)].join(' ');
 ---
 
 <BaseLayout title="Publications" description="Journal papers, conference papers and theses of LAMOR.">
@@ -38,25 +57,38 @@ const sections = [
           ))
         }
       </fieldset>
+      <ul class="year-bar" aria-label="Jump to year">
+        {
+          blocks.map((b) => (
+            <li class={has(b)}>
+              <a href={`#y${b.year}`}>{b.year}</a>
+            </li>
+          ))
+        }
+      </ul>
     </Module>
 
-    <Module title="Journal papers" id="journal">
-      {journal.length > 0 ? <PublicationList items={journal} idPrefix="journal" /> : <p>No journal papers yet.</p>}
-    </Module>
-
-    <Module title="Conference papers" id="conference">
-      {conference.length > 0 ? <PublicationList items={conference} idPrefix="conference" /> : <p>No conference papers yet.</p>}
-    </Module>
-
-    <Module title="Theses" id="theses">
-      {
-        thesisYears.map((year) => (
-          <>
-            <h3 class="pub-year">{year}</h3>
-            <ul class="pub-list">
-              {theses
-                .filter((t) => t.data.year === year)
-                .map(({ data }) => (
+    {
+      blocks.map((b) => (
+        <section class:list={['module', 'pub-year-block', has(b)]} id={`y${b.year}`}>
+          <h2 class="module-title pub-year">{b.year}</h2>
+          {b.journal.length > 0 && (
+            <div class="pub-group" data-type="journal" id={firstYear.journal === b.year ? 'journal' : undefined}>
+              <h3>Journal papers</h3>
+              <PublicationList items={b.journal} />
+            </div>
+          )}
+          {b.conference.length > 0 && (
+            <div class="pub-group" data-type="conference" id={firstYear.conference === b.year ? 'conference' : undefined}>
+              <h3>Conference papers</h3>
+              <PublicationList items={b.conference} />
+            </div>
+          )}
+          {b.theses.length > 0 && (
+            <div class="pub-group" data-type="theses" id={firstYear.theses === b.year ? 'theses' : undefined}>
+              <h3>Theses</h3>
+              <ul class="pub-list">
+                {b.theses.map(({ data }) => (
                   <li class="pub">
                     {data.author}. <span class="pub-title">{data.title}</span> // {data.type} ({data.year}).
                     {data.supervisors.length > 0 && <span class="muted"> Supervisors: {data.supervisors.join(', ')}.</span>}
@@ -66,10 +98,11 @@ const sections = [
                     </span>
                   </li>
                 ))}
-            </ul>
-          </>
-        ))
-      }
-    </Module>
+              </ul>
+            </div>
+          )}
+        </section>
+      ))
+    }
   </div>
 </BaseLayout>

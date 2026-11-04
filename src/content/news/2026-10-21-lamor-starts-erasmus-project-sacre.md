@@ -1,6 +1,8 @@
 ---
 title: LAMOR starts the Erasmus+ project SACRE
 date: 2026-10-21T12:00:00+02:00
+image: /images/projects/sacre.png
+imageAlt: SACRE logo
 lead: |-
   On 1 October 2026 LAMOR started the Erasmus+ cooperation partnership **SACRE - Senior Advancement in Collaborative Robotics and Education**, coordinated by the University of Bremen together with CETEM (Spain), Bimec (Bulgaria) and the University of Zagreb Faculty of Electrical Engineering and Computing.
 

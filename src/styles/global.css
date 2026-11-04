@@ -1313,9 +1313,28 @@ tbody tr:hover {
   accent-color: var(--crimson);
 }
 
-.pubs:has(#show-journal:not(:checked)) #journal,
-.pubs:has(#show-conference:not(:checked)) #conference,
-.pubs:has(#show-theses:not(:checked)) #theses {
+.pub-group h3 {
+  margin: 18px 0 6px;
+  font-size: 17px;
+  color: var(--navy);
+}
+
+.pub-year-block .pub-year {
+  margin-top: 0;
+}
+
+/* Type filter: hide unchecked groups ... */
+.pubs:has(#show-journal:not(:checked)) .pub-group[data-type='journal'],
+.pubs:has(#show-conference:not(:checked)) .pub-group[data-type='conference'],
+.pubs:has(#show-theses:not(:checked)) .pub-group[data-type='theses'],
+/* ... and a whole year (block + year-bar entry) when none of its groups is left visible. */
+.pubs:has(#show-journal:not(:checked)):has(#show-conference:not(:checked)):has(#show-theses:not(:checked)) .pub-y,
+.pubs:has(#show-journal:not(:checked)):has(#show-conference:not(:checked)) .pub-y:not(.has-theses),
+.pubs:has(#show-journal:not(:checked)):has(#show-theses:not(:checked)) .pub-y:not(.has-conference),
+.pubs:has(#show-conference:not(:checked)):has(#show-theses:not(:checked)) .pub-y:not(.has-journal),
+.pubs:has(#show-journal:not(:checked)) .pub-y:not(.has-conference):not(.has-theses),
+.pubs:has(#show-conference:not(:checked)) .pub-y:not(.has-journal):not(.has-theses),
+.pubs:has(#show-theses:not(:checked)) .pub-y:not(.has-journal):not(.has-conference) {
   display: none;
 }
 

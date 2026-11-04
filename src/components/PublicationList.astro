@@ -3,12 +3,11 @@ import type { CollectionEntry } from 'astro:content';
 import { url } from '../lib/url';
 
 interface Props {
+  /** Publications of one category from one year; sorted here by first author, then title. */
   items: CollectionEntry<'publications'>[];
-  /** Prefix for the year anchors (`#journal-2024`), unique per list on the page. */
-  idPrefix: string;
 }
 
-const { items, idPrefix } = Astro.props;
+const { items } = Astro.props;
 
 type Publication = CollectionEntry<'publications'>['data'];
 const CROSBI_TYPE = { journal: 'prilog-casopis', conference: 'prilog-skup' } as const;
@@ -37,38 +36,11 @@ function citation(p: Publication): string {
 }
 
 const firstAuthor = (p: CollectionEntry<'publications'>) => p.data.authors[0]?.name ?? '';
-const years = [...new Set(items.map((p) => p.data.year))].sort((a, b) => b - a);
-const byYear = new Map(
-  years.map((year) => [
-    year,
-    items
-      .filter((p) => p.data.year === year)
-      .sort((a, b) => firstAuthor(a).localeCompare(firstAuthor(b), 'hr') || a.data.title.localeCompare(b.data.title)),
-  ]),
+const sorted = [...items].sort(
+  (a, b) => firstAuthor(a).localeCompare(firstAuthor(b), 'hr') || a.data.title.localeCompare(b.data.title),
 );
 ---
 
-<ul class="year-bar" aria-label="Jump to year">
-  {
-    years.map((year) => (
-      <li>
-        <a href={`#${idPrefix}-${year}`}>{year}</a>
-      </li>
-    ))
-  }
-</ul>
-
-{
-  years.map((year) => (
-    <>
-      <h3 class="pub-year" id={`${idPrefix}-${year}`}>
-        {year}
-      </h3>
-      <ol class="pub-list">
-        {byYear.get(year)!.map(({ data }) => (
-          <li class="pub" set:html={citation(data)} />
-        ))}
-      </ol>
-    </>
-  ))
-}
+<ol class="pub-list">
+  {sorted.map(({ data }) => <li class="pub" set:html={citation(data)} />)}
+</ol>
