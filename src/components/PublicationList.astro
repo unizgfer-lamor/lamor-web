@@ -3,7 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import { url } from '../lib/url';
 
 interface Props {
-  /** Publications of one category from one year; sorted here by first author, then title. */
+  /** Publications of one category from one year; sorted here by date of entry into CROSBI, newest first. */
   items: CollectionEntry<'publications'>[];
 }
 
@@ -35,9 +35,10 @@ function citation(p: Publication): string {
   return text;
 }
 
-const firstAuthor = (p: CollectionEntry<'publications'>) => p.data.authors[0]?.name ?? '';
+// CROSBI has no "date added" field, but its IDs are assigned sequentially on entry, so a higher ID
+// means a more recently added record. Manual entries without a CROSBI ID go last, by title.
 const sorted = [...items].sort(
-  (a, b) => firstAuthor(a).localeCompare(firstAuthor(b), 'hr') || a.data.title.localeCompare(b.data.title),
+  (a, b) => (b.data.croris ?? 0) - (a.data.croris ?? 0) || a.data.title.localeCompare(b.data.title),
 );
 ---
 
