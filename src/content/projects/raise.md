@@ -1,7 +1,7 @@
 ---
 acronym: RAiSE
 title: Robotics, AI, and Computer Science for Engineering
-status: ongoing
+status: past
 logo: /images/projects/raise.png
 funding: CEEPUS
 duration: Academic year 2025/2026
@@ -17,7 +17,7 @@ partners:
 - Ss. Cyril and Methodius University in Skopje, North Macedonia
 - Johannes Kepler University Linz, Austria
 - University of Information Science and Technology "St Paul the Apostle", Macedonia
-sidebar: true
+sidebar: false
 order: 60
 ---
 
