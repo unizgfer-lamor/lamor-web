@@ -34,7 +34,7 @@ jobs:
         with:
           lfs: false
 
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: '3.12'
 
