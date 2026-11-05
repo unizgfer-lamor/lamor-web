@@ -3,7 +3,7 @@ import { getPublications } from './collections';
 
 type Publication = CollectionEntry<'publications'>['data'];
 
-/** Order used on the publications page and in lamor.bib: newest year first, then newest CROSBI entry first. */
+/** Order used on the publications page: newest year first, then newest CROSBI entry first. */
 export function byYearThenEntry(a: { data: Publication }, b: { data: Publication }): number {
   return (
     b.data.year - a.data.year ||
