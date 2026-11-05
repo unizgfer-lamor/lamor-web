@@ -9,6 +9,7 @@
 #   venue:     journal / conference name as it should be shown
 #   title:     corrected title
 #   pdf:       root-relative path of a PDF in public/, e.g. /images/50020777/Borrmann2014.pdf
+#   bibtex:    a complete BibTeX entry that replaces the generated one
 #   note:      free text for maintainers (not shown on the site)
 #   (year, authors, details, status, doi and url can be overridden the same way)
 #

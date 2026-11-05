@@ -23,7 +23,11 @@
       }
     ],
     "venue": "Robotics and Autonomous Systems",
-    "details": "vol. 2026, pp. 105617–1",
+    "details": "vol. 2026, article no. 105617",
+    "bib": {
+      "volume": "2026",
+      "pages": "105617"
+    },
     "doi": "10.1016/j.robot.2026.105617",
     "croris": 953188
   },
@@ -68,6 +72,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 203, article no. 105518",
+    "bib": {
+      "volume": "203",
+      "pages": "105518"
+    },
     "croris": 945215
   },
   {
@@ -87,6 +95,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 195, pp. 105220–105235",
+    "bib": {
+      "volume": "195",
+      "pages": "105220--105235"
+    },
     "doi": "10.1016/j.robot.2025.105220",
     "croris": 931642
   },
@@ -115,6 +127,10 @@
     ],
     "venue": "IEEE Access",
     "details": "vol. 14, pp. 11110–11128",
+    "bib": {
+      "volume": "14",
+      "pages": "11110--11128"
+    },
     "doi": "10.1109/access.2026.3655617",
     "url": "https://ieeexplore.ieee.org/document/11357560",
     "croris": 920965
@@ -140,6 +156,11 @@
     ],
     "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
     "details": "vol. 56, no. 4, pp. 2893–2906",
+    "bib": {
+      "volume": "56",
+      "number": "4",
+      "pages": "2893--2906"
+    },
     "doi": "10.1109/tsmc.2026.3656177",
     "url": "https://ieeexplore.ieee.org/document/11372945",
     "croris": 922026
@@ -173,6 +194,11 @@
     ],
     "venue": "IEEE Robotics & Automation Letters",
     "details": "vol. 11, no. 11, pp. 13613–13620",
+    "bib": {
+      "volume": "11",
+      "number": "11",
+      "pages": "13613--13620"
+    },
     "doi": "10.1109/lra.2026.3742287",
     "croris": 976035
   },
@@ -205,6 +231,12 @@
     ],
     "venue": "International Workshop on Active Inference (IWAI)",
     "details": "Montréal, Canada, 15.–17. October 2025, pp. 167–181",
+    "bib": {
+      "booktitle": "Active Inference: 6th International Workshop, IWAI 2025, Montreal, QC, Canada, October 15–17, 2025, Revised Selected Papers",
+      "publisher": "Springer Cham",
+      "address": "Montréal, Canada",
+      "pages": "167--181"
+    },
     "doi": "10.1007/978-3-032-16955-6_10",
     "url": "https://link.springer.com/chapter/10.1007/978-3-032-16955-6_10",
     "croris": 894835
@@ -250,6 +282,12 @@
     ],
     "venue": "IFAC World Congress (IFAC WC)",
     "details": "Busan, South Korea, 23.–28. August 2026, pp. 1–6",
+    "bib": {
+      "booktitle": "IFAC 2026 World Congress Proceedings",
+      "publisher": "International Fedeation on Automatic Control",
+      "address": "Busan, South Korea",
+      "pages": "1--6"
+    },
     "croris": 938210
   },
   {
@@ -293,6 +331,9 @@
     ],
     "venue": "35rd International Conference on Robotics in Alpe-Adria-Danube Region (RAAD 2026)",
     "details": "Bratislava, Slovakia, 17.–19. June 2026",
+    "bib": {
+      "address": "Bratislava, Slovakia"
+    },
     "doi": "10.1007/978-3-032-29127-1_30",
     "croris": 954023
   },
@@ -321,6 +362,10 @@
     ],
     "venue": "IEEE Transactions on Robotics",
     "details": "vol. 41, pp. 2340–2357",
+    "bib": {
+      "volume": "41",
+      "pages": "2340--2357"
+    },
     "doi": "10.1109/tro.2025.3548538",
     "url": "https://ieeexplore.ieee.org/document/10916510",
     "croris": 870879
@@ -342,6 +387,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 66, no. 4, pp. 625–637",
+    "bib": {
+      "volume": "66",
+      "number": "4",
+      "pages": "625--637"
+    },
     "doi": "10.1080/00051144.2025.2535068",
     "url": "https://www.tandfonline.com/doi/full/10.1080/00051144.2025.2535068",
     "croris": 889982
@@ -379,6 +429,10 @@
     ],
     "venue": "IEEE Transactions on Robotics",
     "details": "vol. 41, pp. 1002–1018",
+    "bib": {
+      "volume": "41",
+      "pages": "1002--1018"
+    },
     "doi": "10.1109/tro.2024.3521862",
     "url": "https://ieeexplore.ieee.org/document/10814707/",
     "croris": 864926
@@ -404,6 +458,10 @@
     ],
     "venue": "Control Engineering Practice",
     "details": "vol. 162, pp. 1–15",
+    "bib": {
+      "volume": "162",
+      "pages": "1--15"
+    },
     "doi": "10.1016/j.conengprac.2025.106346",
     "url": "https://www.sciencedirect.com/science/article/pii/S0967066125001091",
     "croris": 893624
@@ -437,6 +495,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 184, article no. 104860",
+    "bib": {
+      "volume": "184",
+      "pages": "104860"
+    },
     "doi": "10.1016/j.robot.2024.104860",
     "url": "https://linkinghub.elsevier.com/retrieve/pii/S0921889024002446",
     "croris": 858444
@@ -466,6 +528,12 @@
     ],
     "venue": "2025 11th International Conference on Automation, Robotics, and Applications (ICARA)",
     "details": "Zagreb, Croatia, 12.–14. February 2025, pp. 45–50",
+    "bib": {
+      "booktitle": "2025 11th International Conference on Automation, Robotics, and Applications (ICARA)",
+      "publisher": "IEEE",
+      "address": "Zagreb, Croatia",
+      "pages": "45--50"
+    },
     "doi": "10.1109/icara64554.2025.10977682",
     "croris": 924973
   },
@@ -494,6 +562,12 @@
     ],
     "venue": "IFAC Symposium on Robotics (IFAC Robotics)",
     "details": "Paris, France, 15.–18. July 2025, pp. 157–162",
+    "bib": {
+      "booktitle": "Proceedings of the 14th IFAC Symposium on Robotics ROBOTICS 2025",
+      "publisher": "Elsevier B.V",
+      "address": "Paris, France",
+      "pages": "157--162"
+    },
     "doi": "10.1016/j.ifacol.2025.10.213",
     "url": "https://www.sciencedirect.com/science/article/pii/S240589632501612X",
     "croris": 887938
@@ -523,6 +597,12 @@
     ],
     "venue": "European Conference on Mobile Robots (ECMR) 2025",
     "details": "Padova, Italy, 2.–5. September 2025, pp. 1–8",
+    "bib": {
+      "booktitle": "Proceedings on the 12th European Conference on Mobile Robots 2025 (ECMR)",
+      "publisher": "IEEE",
+      "address": "Padova, Italy",
+      "pages": "1--8"
+    },
     "doi": "10.1109/ecmr65884.2025.11163197",
     "url": "https://ieeexplore.ieee.org/abstract/document/11163197",
     "croris": 888427
@@ -544,6 +624,12 @@
     ],
     "venue": "48th ICT and Electronics Convention MIPRO 2025",
     "details": "Opatija, Croatia, 2.–6. June 2025, pp. 1–6",
+    "bib": {
+      "booktitle": "48th ICT and Electronics Convention MIPRO 2025",
+      "publisher": "Croatian Society for Information, Communication and Electronic Technology – MIPRO",
+      "address": "Opatija, Croatia",
+      "pages": "1--6"
+    },
     "croris": 888415
   },
   {
@@ -567,6 +653,9 @@
     ],
     "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
     "details": "Genova, Italy, 30. June–4. July 2025",
+    "bib": {
+      "address": "Genova, Italy"
+    },
     "croris": 888419
   },
   {
@@ -594,6 +683,12 @@
     ],
     "venue": "67th International Symposium ELMAR-2025",
     "details": "Zadar, Croatia, 15.–17. September 2025, pp. 283–286",
+    "bib": {
+      "booktitle": "Proceedings ELMAR-2025: 67th International Symposium ELMAR-2025",
+      "publisher": "Hrvatsko društvo Elektronika u pomorstvu (ELMAR), Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Zadar, Croatia",
+      "pages": "283--286"
+    },
     "doi": "10.1109/elmar66948.2025.11193984",
     "url": "https://ieeexplore.ieee.org/document/11193984",
     "croris": 887960
@@ -623,6 +718,12 @@
     ],
     "venue": "International Conference on Computer Vision 2025 (ICCV 2025)",
     "details": "Honolulu, HI, USA, 19.–23. October 2025, pp. 26126–26135",
+    "bib": {
+      "booktitle": "Proceedings of 2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "address": "Honolulu, HI, USA",
+      "pages": "26126--26135"
+    },
     "doi": "10.1109/iccv51701.2025.02424",
     "url": "https://ieeexplore.ieee.org/document/11445343",
     "croris": 894838
@@ -664,6 +765,9 @@
     ],
     "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
     "details": "Genova, Italy, 30. June–4. July 2025",
+    "bib": {
+      "address": "Genova, Italy"
+    },
     "croris": 888422
   },
   {
@@ -695,6 +799,12 @@
     ],
     "venue": "2025 11th International Conference on Automation, Robotics, and Applications (ICARA)",
     "details": "Zagreb, Croatia, 12.–14. February 2025, article no. 10977646",
+    "bib": {
+      "booktitle": "2025 11th International Conference on Automation, Robotics, and Applications (ICARA)",
+      "publisher": "IEEE",
+      "address": "Zagreb, Croatia",
+      "pages": "10977646"
+    },
     "doi": "10.1109/icara64554.2025.10977646",
     "croris": 937536
   },
@@ -719,6 +829,9 @@
     ],
     "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
     "details": "Genova, Italy, 30. June–4. July 2025",
+    "bib": {
+      "address": "Genova, Italy"
+    },
     "croris": 924297
   },
   {
@@ -758,6 +871,12 @@
     ],
     "venue": "IEEE International Conference on Development and Learning (ICDL) 2025",
     "details": "Prague, Czech Republic, 16.–19. September 2025, pp. 1–6",
+    "bib": {
+      "booktitle": "2025 IEEE International Conference on Development and Learning (ICDL)",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Prague, Czech Republic",
+      "pages": "1--6"
+    },
     "doi": "10.1109/icdl63968.2025.11204455",
     "url": "https://ieeexplore.ieee.org/document/11204455",
     "croris": 888424
@@ -795,6 +914,9 @@
     ],
     "venue": "Intelligent Autonomous Systems 19 (IAS-19)",
     "details": "Genova, Italy, 30. June–4. July 2025",
+    "bib": {
+      "address": "Genova, Italy"
+    },
     "croris": 888421
   },
   {
@@ -826,6 +948,12 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
     "details": "Hangzhou, China, 19.–25. October 2025, pp. 4961–4967",
+    "bib": {
+      "booktitle": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Hangzhou, China",
+      "pages": "4961--4967"
+    },
     "doi": "10.1109/iros60139.2025.11246946",
     "url": "https://ieeexplore.ieee.org/document/11246946",
     "croris": 895123
@@ -851,6 +979,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 172, article no. 104584",
+    "bib": {
+      "volume": "172",
+      "pages": "104584"
+    },
     "doi": "10.1016/j.robot.2023.104584",
     "url": "https://api.elsevier.com/content/article/PII:S0921889023002233?httpAccept=text/xml",
     "croris": 837202
@@ -880,6 +1012,11 @@
     ],
     "venue": "Rad Hrvatske akademije znanosti i umjetnosti. Tehničke znanosti",
     "details": "vol. 561, no. 24, pp. 25–53",
+    "bib": {
+      "volume": "561",
+      "number": "24",
+      "pages": "25--53"
+    },
     "doi": "10.21857/m8vqrt3p19",
     "url": "https://dizbi.hazu.hr/a/?pr=i&id=2643788",
     "croris": 858637
@@ -901,6 +1038,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 177, article no. 104712",
+    "bib": {
+      "volume": "177",
+      "pages": "104712"
+    },
     "doi": "10.1016/j.robot.2024.104712",
     "croris": 945476
   },
@@ -929,6 +1070,12 @@
     ],
     "venue": "SpliTech 2024",
     "details": "Split, Croatia, 25.–28. June 2024, pp. 1–6",
+    "bib": {
+      "booktitle": "Proceedings of SpliTech 2024 - 9th International Conference on Smart and Sustainable Technologies",
+      "publisher": "Fakultet elektrotehnike, strojarstva i brodogradnje",
+      "address": "Split, Croatia",
+      "pages": "1--6"
+    },
     "doi": "10.23919/splitech61897.2024.10612577",
     "url": "https://doi.org/10.48550/arXiv.2405.06473",
     "croris": 862956
@@ -958,6 +1105,12 @@
     ],
     "venue": "66th International Symposium on Electronics in Marine (ELMAR-2024)",
     "details": "Zadar, Croatia, 16.–18. September 2024, pp. 363–366",
+    "bib": {
+      "booktitle": "Proceedings ELMAR-2024: 66th International Symposium ELMAR-2024",
+      "publisher": "Hrvatsko društvo Elektronika u pomorstvu (ELMAR), Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Zadar, Croatia",
+      "pages": "363--366"
+    },
     "doi": "10.1109/elmar62909.2024.10694397",
     "url": "https://ieeexplore.ieee.org/document/10694397/",
     "croris": 872536
@@ -991,6 +1144,12 @@
     ],
     "venue": "33rd International Conference on Robotics in Alpe-Adria-Danube Region (RAAD 2024)",
     "details": "Cluj-Napoca, Romania, 5.–7. June 2024, pp. 65–73",
+    "bib": {
+      "booktitle": "Advances in Service and Industrial Robotics",
+      "publisher": "Springer Cham",
+      "address": "Cluj-Napoca, Romania",
+      "pages": "65--73"
+    },
     "doi": "10.1007/978-3-031-59257-7_7",
     "url": "https://link.springer.com/chapter/10.1007/978-3-031-59257-7_7",
     "croris": 837813
@@ -1020,6 +1179,12 @@
     ],
     "venue": "18th International Conference on Intelligent Autonomous Systems (IAS-18)",
     "details": "Suwon, South Korea, 4.–7. July 2023, pp. 133–146",
+    "bib": {
+      "booktitle": "Intelligent Autonomous Systems 18: Volume 1 Proceedings of the 18th International Conference IAS18-2023",
+      "publisher": "Springer",
+      "address": "Suwon, South Korea",
+      "pages": "133--146"
+    },
     "doi": "10.1007/978-3-031-44851-5_11",
     "url": "https://link.springer.com/chapter/10.1007/978-3-031-44851-5_11",
     "croris": 837826
@@ -1053,6 +1218,12 @@
     ],
     "venue": "2024 IEEE International Conference on Multisensor Fusion and Integration (MFI 2024)",
     "details": "Plzeň, Czech Republic, 4.–6. September 2024, pp. 1–6",
+    "bib": {
+      "booktitle": "2024 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI)",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Plzeň, Czech Republic",
+      "pages": "1--6"
+    },
     "doi": "10.1109/mfi62651.2024.10705786",
     "url": "http://xplorestaging.ieee.org/ielx8/10705756/10705757/10705786.pdf?arnumber=10705786",
     "croris": 858451
@@ -1086,6 +1257,12 @@
     ],
     "venue": "33rd International Conference on Robotics in Alpe-Adria-Danube Region (RAAD 2024)",
     "details": "Cluj-Napoca, Romania, 5.–7. June 2024, pp. 485–493",
+    "bib": {
+      "booktitle": "Advances in Service and Industrial Robotics",
+      "publisher": "Springer Cham",
+      "address": "Cluj-Napoca, Romania",
+      "pages": "485--493"
+    },
     "doi": "10.1007/978-3-031-59257-7_48",
     "croris": 837803
   },
@@ -1118,6 +1295,11 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 166, no. 104450, pp. 1–21",
+    "bib": {
+      "volume": "166",
+      "number": "104450",
+      "pages": "1--21"
+    },
     "doi": "10.1016/j.robot.2023.104450",
     "url": "https://www.sciencedirect.com/science/article/pii/S0921889023000891",
     "croris": 328355
@@ -1143,6 +1325,11 @@
     ],
     "venue": "Sensors",
     "details": "vol. 23, no. 17, article no. 7421",
+    "bib": {
+      "volume": "23",
+      "number": "17",
+      "pages": "7421"
+    },
     "doi": "10.3390/s23177421",
     "croris": 809008
   },
@@ -1171,6 +1358,12 @@
     ],
     "venue": "IFAC World Congress",
     "details": "Yokohama, Japan, 9.–14. July 2023, pp. 1003–1008",
+    "bib": {
+      "booktitle": "Proceedings of 22nd IFAC World Congress",
+      "publisher": "Elsevier B.V",
+      "address": "Yokohama, Japan",
+      "pages": "1003--1008"
+    },
     "doi": "10.1016/j.ifacol.2023.10.1696",
     "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405896323021055",
     "croris": 837198
@@ -1204,6 +1397,12 @@
     ],
     "venue": "Robotics in Alpe-Adria-Danube Region (RAAD)",
     "details": "Bled, Slovenia, 14.–16. June 2023, pp. 409–416",
+    "bib": {
+      "booktitle": "Advances in Service and Industrial Robotics",
+      "publisher": "Springer Link",
+      "address": "Bled, Slovenia",
+      "pages": "409--416"
+    },
     "doi": "10.1007/978-3-031-32606-6_48",
     "url": "https://link.springer.com/chapter/10.1007/978-3-031-32606-6_48",
     "croris": 945543
@@ -1233,6 +1432,12 @@
     ],
     "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
     "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 378–391",
+    "bib": {
+      "booktitle": "Intelligent Autonomous Systems 17: proceedings of the 17th International Conference IAS-17",
+      "publisher": "Springer",
+      "address": "Zagreb, Croatia",
+      "pages": "378--391"
+    },
     "doi": "10.1007/978-3-031-22216-0_26",
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-22216-0_26",
     "croris": 837789
@@ -1254,6 +1459,12 @@
     ],
     "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
     "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 778–789",
+    "bib": {
+      "booktitle": "Intelligent Autonomous Systems 17: proceedings of the 17th International Conference IAS-17",
+      "publisher": "Springer",
+      "address": "Zagreb, Croatia",
+      "pages": "778--789"
+    },
     "croris": 825704
   },
   {
@@ -1277,6 +1488,12 @@
     ],
     "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
     "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 909–922",
+    "bib": {
+      "booktitle": "Intelligent Autonomous Systems 17: proceedings of the 17th International Conference IAS-17",
+      "publisher": "Springer",
+      "address": "Zagreb, Croatia",
+      "pages": "909--922"
+    },
     "doi": "10.1007/978-3-031-22216-0_61",
     "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-22216-0_61",
     "croris": 837200
@@ -1314,6 +1531,12 @@
     ],
     "venue": "11th European Conference on Mobile Robots (ECMR 2023)",
     "details": "Coimbra, Portugal, 4.–7. September 2023, pp. 1–6",
+    "bib": {
+      "booktitle": "Proceedings of the 11th European Conference on Mobile Robots",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Coimbra, Portugal",
+      "pages": "1--6"
+    },
     "doi": "10.1109/ecmr59166.2023.10256407",
     "url": "https://ieeexplore.ieee.org/document/10256407",
     "croris": 799658
@@ -1343,6 +1566,10 @@
     ],
     "venue": "IEEE International Conference on Robotics and Automation (ICRA) 2023",
     "details": "29. May–2. June 2023, pp. 1–6",
+    "bib": {
+      "booktitle": "IEEE International Conference on Robotics and Automation (ICRA) 2023",
+      "pages": "1--6"
+    },
     "croris": 731013
   },
   {
@@ -1366,6 +1593,12 @@
     ],
     "venue": "11th European Conference on Mobile Robots (ECMR 2023)",
     "details": "Coimbra, Portugal, 4.–7. September 2023, pp. 1–7",
+    "bib": {
+      "booktitle": "Proceedings of the 11th European Conference on Mobile Robots",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Coimbra, Portugal",
+      "pages": "1--7"
+    },
     "doi": "10.1109/ecmr59166.2023.10256310",
     "url": "https://ieeexplore.ieee.org/document/10256310",
     "croris": 799657
@@ -1391,6 +1624,12 @@
     ],
     "venue": "46th International ICT Convention MIPRO 2023",
     "details": "Opatija, Croatia, 22.–26. May 2023, pp. 350–355",
+    "bib": {
+      "booktitle": "2023 46th ICT and Electronics Convention (MIPRO)",
+      "publisher": "Croatian Society for Information, Communication and Electronic Technology - MIPRO",
+      "address": "Opatija, Croatia",
+      "pages": "350--355"
+    },
     "doi": "10.23919/mipro57284.2023.10159985",
     "url": "https://ieeexplore.ieee.org/document/10159985",
     "croris": 735883
@@ -1416,6 +1655,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 155, article no. 104189",
+    "bib": {
+      "volume": "155",
+      "pages": "104189"
+    },
     "doi": "10.1016/j.robot.2022.104189",
     "croris": 312297
   },
@@ -1440,6 +1683,11 @@
     ],
     "venue": "IEEE Transactions on Robotics",
     "details": "vol. 39, no. 1, pp. 273–288",
+    "bib": {
+      "volume": "39",
+      "number": "1",
+      "pages": "273--288"
+    },
     "doi": "10.1109/tro.2022.3188121",
     "croris": 312298
   },
@@ -1480,6 +1728,10 @@
     ],
     "venue": "IEEE Robotics & Automation Letters",
     "details": "vol. 1, pp. 1–2",
+    "bib": {
+      "volume": "1",
+      "pages": "1--2"
+    },
     "doi": "10.1109/lra.2022.3141763",
     "croris": 303930
   },
@@ -1500,6 +1752,11 @@
     ],
     "venue": "Sensors",
     "details": "vol. 22, no. 4, article no. 1455",
+    "bib": {
+      "volume": "22",
+      "number": "4",
+      "pages": "1455"
+    },
     "doi": "10.3390/s22041455",
     "url": "https://www.mdpi.com/1424-8220/22/4/1455",
     "croris": 307375
@@ -1529,6 +1786,10 @@
     ],
     "venue": "Applied Soft Computing",
     "details": "vol. 126, article no. 109245",
+    "bib": {
+      "volume": "126",
+      "pages": "109245"
+    },
     "doi": "10.1016/j.asoc.2022.109245",
     "croris": 311978
   },
@@ -1553,6 +1814,11 @@
     ],
     "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
     "details": "vol. 52, no. 12, pp. 7378–7390",
+    "bib": {
+      "volume": "52",
+      "number": "12",
+      "pages": "7378--7390"
+    },
     "doi": "10.1109/tsmc.2022.3155378",
     "url": "https://ieeexplore.ieee.org/document/9733096",
     "croris": 307178
@@ -1590,6 +1856,10 @@
     ],
     "venue": "Robotics and Computer-Integrated Manufacturing",
     "details": "vol. 73, article no. 102241",
+    "bib": {
+      "volume": "73",
+      "pages": "102241"
+    },
     "doi": "10.1016/j.rcim.2021.102241",
     "url": "https://www.sciencedirect.com/science/article/pii/S0736584521001228",
     "croris": 298046
@@ -1619,6 +1889,11 @@
     ],
     "venue": "Sensors",
     "details": "vol. 22, no. 23, article no. 9269",
+    "bib": {
+      "volume": "22",
+      "number": "23",
+      "pages": "9269"
+    },
     "doi": "10.3390/s22239269",
     "url": "https://www.mdpi.com/1424-8220/22/23/9269",
     "croris": 323044
@@ -1640,6 +1915,11 @@
     ],
     "venue": "45th Jubilee International ICT Convention MIPRO 2022",
     "details": "Opatija, Croatia, 23.–27. May 2022, article no. 8387",
+    "bib": {
+      "booktitle": "MIPRO Savjetovanje SIDE - Pametna industrija i digitalni ekosustavi",
+      "address": "Opatija, Croatia",
+      "pages": "8387"
+    },
     "croris": 722088
   },
   {
@@ -1663,6 +1943,11 @@
     ],
     "venue": "17th International Conference on Intelligent Autonomous Systems (IAS-17)",
     "details": "Zagreb, Croatia, 13.–16. June 2022, pp. 798–810",
+    "bib": {
+      "booktitle": "17th International Conference on Intelligent Autonomous Systems – IAS-17",
+      "address": "Zagreb, Croatia",
+      "pages": "798--810"
+    },
     "croris": 722066
   },
   {
@@ -1698,6 +1983,11 @@
     ],
     "venue": "Intelligent Autonomous Vehicles - 11th IAV 2022",
     "details": "Prague, Czech Republic, 6.–8. July 2022, article no. 19",
+    "bib": {
+      "booktitle": "11th IFAC Symposium on Intelligent Autonomous Vehicles",
+      "address": "Prague, Czech Republic",
+      "pages": "19"
+    },
     "croris": 722087
   },
   {
@@ -1717,6 +2007,9 @@
     ],
     "venue": "2022 International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)",
     "details": "Malé, Maldives, 16.–18. November 2022",
+    "bib": {
+      "address": "Malé, Maldives"
+    },
     "doi": "10.1109/iceccme55909.2022.9988732",
     "croris": 809016
   },
@@ -1741,6 +2034,10 @@
     ],
     "venue": "IEEE Signal Processing Letters",
     "details": "vol. 28, pp. 1555–1559",
+    "bib": {
+      "volume": "28",
+      "pages": "1555--1559"
+    },
     "doi": "10.1109/lsp.2021.3099980",
     "croris": 297721
   },
@@ -1765,6 +2062,11 @@
     ],
     "venue": "Advanced Robotics",
     "details": "vol. 35, no. 3-4, pp. 141–152",
+    "bib": {
+      "volume": "35",
+      "number": "3-4",
+      "pages": "141--152"
+    },
     "croris": 282379
   },
   {
@@ -1788,6 +2090,11 @@
     ],
     "venue": "Advanced Robotics",
     "details": "vol. 35, no. 3-4, pp. 153–167",
+    "bib": {
+      "volume": "35",
+      "number": "3-4",
+      "pages": "153--167"
+    },
     "doi": "10.1080/01691864.2021.1875042",
     "url": "https://www.tandfonline.com/doi/full/10.1080/01691864.2021.1875042",
     "croris": 290392
@@ -1821,6 +2128,11 @@
     ],
     "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
     "details": "vol. 51, no. 8, pp. 4868–4882",
+    "bib": {
+      "volume": "51",
+      "number": "8",
+      "pages": "4868--4882"
+    },
     "doi": "10.1109/tsmc.2019.2945110",
     "url": "https://ieeexplore.ieee.org/document/8876884?source=authoralert",
     "croris": 269993
@@ -1854,6 +2166,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 145, article no. 103865",
+    "bib": {
+      "volume": "145",
+      "pages": "103865"
+    },
     "doi": "10.1016/j.robot.2021.103865",
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889021001500?via%3Dihub",
     "croris": 298636
@@ -1891,6 +2207,10 @@
     ],
     "venue": "IEEE Transactions on Robotics",
     "details": "vol. 1, pp. 1–20",
+    "bib": {
+      "volume": "1",
+      "pages": "1--20"
+    },
     "doi": "10.1109/tro.2021.3123841",
     "croris": 303942
   },
@@ -1919,6 +2239,11 @@
     ],
     "venue": "Advanced Robotics",
     "details": "vol. 35, no. 3-4, pp. 130–140",
+    "bib": {
+      "volume": "35",
+      "number": "3-4",
+      "pages": "130--140"
+    },
     "doi": "10.1080/01691864.2020.1819874",
     "croris": 282380
   },
@@ -1947,6 +2272,11 @@
     ],
     "venue": "IEEE Transactions on Robotics",
     "details": "vol. 37, no. 5, pp. 1401–1415",
+    "bib": {
+      "volume": "37",
+      "number": "5",
+      "pages": "1401--1415"
+    },
     "doi": "10.1109/tro.2021.3061364",
     "croris": 292934
   },
@@ -1971,6 +2301,11 @@
     ],
     "venue": "European Conference on Mobile Robots",
     "details": "Bonn, Germany, 1.–3. September 2021, pp. 1–6",
+    "bib": {
+      "booktitle": "European Conference on Mobile Robots",
+      "address": "Bonn, Germany",
+      "pages": "1--6"
+    },
     "croris": 705974
   },
   {
@@ -1998,6 +2333,11 @@
     ],
     "venue": "44th International Convention MIPRO 2021",
     "details": "Opatija, Croatia, 27. September–1. October 2021, pp. 1–6",
+    "bib": {
+      "booktitle": "International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+      "address": "Opatija, Croatia",
+      "pages": "1--6"
+    },
     "croris": 703220
   },
   {
@@ -2025,6 +2365,11 @@
     ],
     "venue": "European Conference on Mobile Robots",
     "details": "Bonn, Germany, 1.–3. September 2021, pp. 1–6",
+    "bib": {
+      "booktitle": "European Conference on Mobile Robots",
+      "address": "Bonn, Germany",
+      "pages": "1--6"
+    },
     "croris": 705975
   },
   {
@@ -2052,6 +2397,11 @@
     ],
     "venue": "44th International Convention MIPRO 2021",
     "details": "Opatija, Croatia, 27. September–1. October 2021, pp. 1–6",
+    "bib": {
+      "booktitle": "International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+      "address": "Opatija, Croatia",
+      "pages": "1--6"
+    },
     "croris": 703221
   },
   {
@@ -2071,6 +2421,11 @@
     ],
     "venue": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
     "details": "Prague, Czech Republic, 27. September–1. October 2021, pp. 5788–5793",
+    "bib": {
+      "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "address": "Prague, Czech Republic",
+      "pages": "5788--5793"
+    },
     "croris": 718409
   },
   {
@@ -2098,6 +2453,11 @@
     ],
     "venue": "16th International Conference on Intelligent Autonomous Systems (IAS-16)",
     "details": "Singapore, 22.–25. June 2021, p. 1",
+    "bib": {
+      "booktitle": "International Conference on Intelligent Autonomous Systems (IAS-16)",
+      "address": "Singapore",
+      "pages": "1"
+    },
     "doi": "10.1007/978-3-030-95892-3_33",
     "croris": 709899
   },
@@ -2130,6 +2490,11 @@
     ],
     "venue": "International Conference on Control, Automation and Systems (ICCAS)",
     "details": "Jeju City, South Korea, 12.–15. October 2021, pp. 1760–1765",
+    "bib": {
+      "booktitle": "International Conference on Control, Automation and Systems (ICCAS)",
+      "address": "Jeju City, South Korea",
+      "pages": "1760--1765"
+    },
     "doi": "10.23919/iccas52745.2021.9650039",
     "croris": 709903
   },
@@ -2158,6 +2523,11 @@
     ],
     "venue": "International Conference on Advanced Robotics (ICAR)",
     "details": "Ljubljana, Slovenia, 7.–10. December 2021, pp. 1–6",
+    "bib": {
+      "booktitle": "International Conference on Advanced Robotics (ICAR)",
+      "address": "Ljubljana, Slovenia",
+      "pages": "1--6"
+    },
     "croris": 709902
   },
   {
@@ -2181,6 +2551,12 @@
     ],
     "venue": "Aerial Robotic Systems Physically Interacting with the Environment (AIRPHARO)",
     "details": "Biograd na Moru, Croatia, 4.–5. October 2021, article no. 9571038",
+    "bib": {
+      "booktitle": "Aerial Robotic Systems Physically Interacting with the Environment (AIRPHARO)",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Biograd na Moru, Croatia",
+      "pages": "9571038"
+    },
     "doi": "10.1109/airpharo52252.2021.9571038",
     "url": "https://ieeexplore.ieee.org/abstract/document/9571038",
     "croris": 710648
@@ -2210,6 +2586,11 @@
     ],
     "venue": "44th International Convention MIPRO 2021",
     "details": "Opatija, Croatia, 27. September–1. October 2021, pp. 1143–1148",
+    "bib": {
+      "booktitle": "International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+      "address": "Opatija, Croatia",
+      "pages": "1143--1148"
+    },
     "doi": "10.23919/mipro52101.2021.9596800",
     "croris": 703219
   },
@@ -2242,6 +2623,11 @@
     ],
     "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
     "details": "Xi’an, China, 30. May–5. June 2021, pp. 13164–13170",
+    "bib": {
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Xi’an, China",
+      "pages": "13164--13170"
+    },
     "doi": "10.1109/icra48506.2021.9561938",
     "url": "https://ieeexplore.ieee.org/document/9561938",
     "croris": 708973
@@ -2279,6 +2665,11 @@
     ],
     "venue": "IEEE Transactions on Cybernetics",
     "details": "vol. 50, no. 3, pp. 1321–1332",
+    "bib": {
+      "volume": "50",
+      "number": "3",
+      "pages": "1321--1332"
+    },
     "doi": "10.1109/tcyb.2019.2933390",
     "croris": 267642
   },
@@ -2303,6 +2694,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 132, article no. 103598",
+    "bib": {
+      "volume": "132",
+      "pages": "103598"
+    },
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889020304383",
     "croris": 280127
   },
@@ -2327,6 +2722,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 61, no. 2, pp. 295–311",
+    "bib": {
+      "volume": "61",
+      "number": "2",
+      "pages": "295--311"
+    },
     "doi": "10.1080/00051144.2020.1733324",
     "url": "https://www.tandfonline.com/doi/full/10.1080/00051144.2020.1733324",
     "croris": 276456
@@ -2356,6 +2756,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 133, article no. 103618",
+    "bib": {
+      "volume": "133",
+      "pages": "103618"
+    },
     "doi": "10.1016/j.robot.2020.103618",
     "croris": 282305
   },
@@ -2380,6 +2784,11 @@
     ],
     "venue": "43rd International Convention MIPRO 2020",
     "details": "Opatija, Croatia, 28. September–2. October 2020, pp. 948–953",
+    "bib": {
+      "booktitle": "2020 43rd International Convention on Information, Communication and Electronic Technology (MIPRO)",
+      "address": "Opatija, Croatia",
+      "pages": "948--953"
+    },
     "doi": "10.23919/mipro48935.2020.9245396",
     "croris": 710718
   },
@@ -2408,6 +2817,11 @@
     ],
     "venue": "IROS 2020 Workshop on Bringing Geometric Methods to Robot Learning, Optimization and Control (IROS’20)",
     "details": "Las Vegas, NV, USA, 29. October 2020, article no. 09196704",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’20) Workshop on Bringing Geometric Methods to Robot Learning, Optimization and Control",
+      "address": "Las Vegas, NV, USA",
+      "pages": "09196704"
+    },
     "url": "https://arxiv.org/abs/1909.09318",
     "croris": 711031
   },
@@ -2440,6 +2854,10 @@
     ],
     "venue": "International Conference on Robotics and Automation (ICRA 2017)",
     "details": "Paris, France, 31. May–31. August 2020, pp. 7101–7107",
+    "bib": {
+      "address": "Paris, France",
+      "pages": "7101--7107"
+    },
     "doi": "10.1109/icra40945.2020.9196704",
     "croris": 707105
   },
@@ -2480,6 +2898,11 @@
     ],
     "venue": "28th Mediterranean Conference on Control and Automation (MED 2020)",
     "details": "France, 15.–18. September 2020, pp. 1–6",
+    "bib": {
+      "booktitle": "28th Mediterranean Conference on Control and Automation (MED 2020)",
+      "address": "France",
+      "pages": "1--6"
+    },
     "doi": "10.1109/med48518.2020.9183266",
     "croris": 689789
   },
@@ -2508,6 +2931,11 @@
     ],
     "venue": "21st IFAC World Congress",
     "details": "Berlin, Germany, 12.–17. July 2020, pp. 9584–9589",
+    "bib": {
+      "booktitle": "21st IFAC World Congress",
+      "address": "Berlin, Germany",
+      "pages": "9584--9589"
+    },
     "doi": "10.1016/j.ifacol.2020.12.2447",
     "croris": 689790
   },
@@ -2532,6 +2960,12 @@
     ],
     "venue": "2020 International Conference on Unmanned Aircraft Systems (ICUAS 2020)",
     "details": "Athens, Greece, 1.–4. September 2020, pp. 958–967",
+    "bib": {
+      "booktitle": "2020 International Conference on Unmanned Aircraft Systems (ICUAS)",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Athens, Greece",
+      "pages": "958--967"
+    },
     "doi": "10.1109/icuas48674.2020.9213840",
     "url": "https://ieeexplore.ieee.org/document/9213840",
     "croris": 694592
@@ -2557,6 +2991,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 114, pp. 217–230",
+    "bib": {
+      "volume": "114",
+      "pages": "217--230"
+    },
     "doi": "10.1016/j.robot.2018.11.023",
     "url": "https://doi.org/10.1016/j.robot.2018.11.023",
     "croris": 258760
@@ -2586,6 +3024,10 @@
     ],
     "venue": "Robotics and Computer-Integrated Manufacturing",
     "details": "vol. 57, pp. 182–196",
+    "bib": {
+      "volume": "57",
+      "pages": "182--196"
+    },
     "doi": "10.1016/j.rcim.2018.11.004",
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0736584518302965",
     "croris": 256783
@@ -2611,6 +3053,11 @@
     ],
     "venue": "Engineering Power: Bulletin of the Croatian Academy of Engineering",
     "details": "vol. 14, no. 2, pp. 11–17",
+    "bib": {
+      "volume": "14",
+      "number": "2",
+      "pages": "11--17"
+    },
     "url": "https://www.hatz.hr/wp-content/uploads/2019/07/Engeneering_Power_Vol_14-2_2019_1.pdf",
     "croris": 277625
   },
@@ -2643,6 +3090,11 @@
     ],
     "venue": "22nd International Conference on Information Fusion (FUSION 2019)",
     "details": "Ottawa, Canada, 2.–5. July 2019, pp. 1–6",
+    "bib": {
+      "booktitle": "International Conference on Information Fusion (FUSION)",
+      "address": "Ottawa, Canada",
+      "pages": "1--6"
+    },
     "croris": 678792
   },
   {
@@ -2666,6 +3118,11 @@
     ],
     "venue": "ECMR 2019 – European Conference on Mobile Robots 2019",
     "details": "Prague, Czech Republic, 4.–6. September 2019, pp. 1–6",
+    "bib": {
+      "booktitle": "European Conference on Mobile Robots (ECMR)",
+      "address": "Prague, Czech Republic",
+      "pages": "1--6"
+    },
     "croris": 678830
   },
   {
@@ -2693,6 +3150,12 @@
     ],
     "venue": "International Conference on Computer, Information and Telecommunication Systems (CITS 2019)",
     "details": "Beijing, China, 28.–31. August 2019, article no. 8862144",
+    "bib": {
+      "booktitle": "International Conference on Computer, Information and Telecommunication Systems - CITS 2019",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Beijing, China",
+      "pages": "8862144"
+    },
     "doi": "10.1109/cits.2019.8862144",
     "croris": 683144
   },
@@ -2717,6 +3180,11 @@
     ],
     "venue": "4th Iberian Robotics Conference (ROBOT 2019)",
     "details": "Porto, Portugal, 20.–22. November 2019, pp. 1–12",
+    "bib": {
+      "booktitle": "Iberian Robotics Conference",
+      "address": "Porto, Portugal",
+      "pages": "1--12"
+    },
     "croris": 681275
   },
   {
@@ -2752,6 +3220,11 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019)",
     "details": "China, 4.–8. November 2019, pp. 8258–8264",
+    "bib": {
+      "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "address": "China",
+      "pages": "8258--8264"
+    },
     "doi": "10.1109/iros40897.2019.8968441",
     "croris": 683551
   },
@@ -2792,6 +3265,11 @@
     ],
     "venue": "IEEE International Conference on Robotics and Automation: Long-term Human Motion Prediction Workshop (ICRA2019)",
     "details": "Montréal, Canada, 20.–24. May 2019, pp. 1–2",
+    "bib": {
+      "booktitle": "IEEE International Conference on Robotics and Automation (ICRA2019), Long-term Human Motion Prediction Workshop",
+      "address": "Montréal, Canada",
+      "pages": "1--2"
+    },
     "croris": 676818
   },
   {
@@ -2819,6 +3297,11 @@
     ],
     "venue": "ECMR 2019 – European Conference on Mobile Robots 2019",
     "details": "Prague, Czech Republic, 4.–6. September 2019, pp. 1–6",
+    "bib": {
+      "booktitle": "European Conference on Mobile Robots (ECMR)",
+      "address": "Prague, Czech Republic",
+      "pages": "1--6"
+    },
     "doi": "10.1109/ecmr.2019.8870970",
     "croris": 678831
   },
@@ -2879,6 +3362,12 @@
     ],
     "venue": "1st IFAC Workshop on Robot Control - WROCO 2019",
     "details": "Daegu, South Korea, 18.–20. September 2019, article no. 1",
+    "bib": {
+      "booktitle": "The 1st IFAC Workshop on Robot Control - WROCO 2019",
+      "publisher": "International Federation of Automatic Control (IFAC)",
+      "address": "Daegu, South Korea",
+      "pages": "1"
+    },
     "doi": "10.1016/j.ifacol.2019.11.055",
     "croris": 682396
   },
@@ -2919,6 +3408,12 @@
     ],
     "venue": "International Conference of Electrical Drives and Power Electronics (EDPE)",
     "details": "Vysoké Tatry, Slovakia, 24.–26. September 2019, pp. 273–278",
+    "bib": {
+      "booktitle": "International Conference on Electrical Drives & Power Electronics - EDPE 2019",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Vysoké Tatry, Slovakia",
+      "pages": "273--278"
+    },
     "croris": 683147
   },
   {
@@ -2950,6 +3445,11 @@
     ],
     "venue": "42nd International Convention MIPRO 2019",
     "details": "Opatija, Croatia, 20.–24. May 2019, pp. 1–6",
+    "bib": {
+      "booktitle": "International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO 2019)",
+      "address": "Opatija, Croatia",
+      "pages": "1--6"
+    },
     "croris": 675248
   },
   {
@@ -2977,6 +3477,11 @@
     ],
     "venue": "Journal of Field Robotics",
     "details": "vol. 35, no. 4, pp. 578–595",
+    "bib": {
+      "volume": "35",
+      "number": "4",
+      "pages": "578--595"
+    },
     "doi": "10.1002/rob.21762",
     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21762",
     "croris": 241937
@@ -3006,6 +3511,11 @@
     ],
     "venue": "International Journal of Robotics Research",
     "details": "vol. 37, no. 6, pp. 585–610",
+    "bib": {
+      "volume": "37",
+      "number": "6",
+      "pages": "585--610"
+    },
     "doi": "10.1177/0278364918767756",
     "url": "https://doi.org/10.1177/0278364918767756",
     "croris": 249274
@@ -3035,6 +3545,11 @@
     ],
     "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
     "details": "vol. 48, no. 8, pp. 1321–1331",
+    "bib": {
+      "volume": "48",
+      "number": "8",
+      "pages": "1321--1331"
+    },
     "doi": "10.1109/tsmc.2017.2668603",
     "url": "http://ieeexplore.ieee.org/document/7878681/",
     "croris": 237384
@@ -3068,6 +3583,11 @@
     ],
     "venue": "International Conference on Intelligent Robots and Systems (IROS'18)",
     "details": "Madrid, Spain, 1.–5. October 2018, pp. 128–142",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'18)",
+      "address": "Madrid, Spain",
+      "pages": "128--142"
+    },
     "url": "https://arxiv.org/pdf/1803.09493.pdf",
     "croris": 670071
   },
@@ -3092,6 +3612,11 @@
     ],
     "venue": "12th IFAC Symposium on Robot Control (SYROCO2018)",
     "details": "Budapest, Hungary, 27.–30. August 2018, pp. 160–165",
+    "bib": {
+      "booktitle": "12th IFAC Symposium on Robot Control (SYROCO2018)",
+      "address": "Budapest, Hungary",
+      "pages": "160--165"
+    },
     "doi": "10.1016/j.ifacol.2018.11.535",
     "croris": 665036
   },
@@ -3120,6 +3645,11 @@
     ],
     "venue": "12th IFAC Symposium on Robot Control (SYROCO2018)",
     "details": "Budapest, Hungary, 27.–30. August 2018, pp. 1–6",
+    "bib": {
+      "booktitle": "12th IFAC Symposium on Robot Control (SYROCO2018)",
+      "address": "Budapest, Hungary",
+      "pages": "1--6"
+    },
     "croris": 665034
   },
   {
@@ -3143,6 +3673,11 @@
     ],
     "venue": "12th IFAC Symposium on Robot Control (SYROCO2018)",
     "details": "Budapest, Hungary, 27.–30. August 2018, pp. 1–6",
+    "bib": {
+      "booktitle": "12th IFAC Symposium on Robot Control (SYROCO2018)",
+      "address": "Budapest, Hungary",
+      "pages": "1--6"
+    },
     "croris": 665360
   },
   {
@@ -3170,6 +3705,10 @@
     ],
     "venue": "Automatica",
     "details": "vol. 82, pp. 226–234",
+    "bib": {
+      "volume": "82",
+      "pages": "226--234"
+    },
     "doi": "10.1016/j.automatica.2017.04.056",
     "url": "http://www.sciencedirect.com/science/article/pii/S0005109817302509",
     "croris": 238222
@@ -3195,6 +3734,11 @@
     ],
     "venue": "IEEE Signal Processing Letters",
     "details": "vol. 24, no. 11, pp. 1719–1723",
+    "bib": {
+      "volume": "24",
+      "number": "11",
+      "pages": "1719--1723"
+    },
     "doi": "10.1109/lsp.2017.2723765",
     "url": "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7968489",
     "croris": 241127
@@ -3224,6 +3768,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 92, pp. 197–220",
+    "bib": {
+      "volume": "92",
+      "pages": "197--220"
+    },
     "doi": "10.1016/j.robot.2017.03.013",
     "url": "http://www.sciencedirect.com/science/article/pii/S0921889016303475",
     "croris": 238167
@@ -3249,6 +3797,11 @@
     ],
     "venue": "International Journal of Control, Automation and Systems",
     "details": "vol. 15, no. 1, pp. 293–302",
+    "bib": {
+      "volume": "15",
+      "number": "1",
+      "pages": "293--302"
+    },
     "doi": "10.1007/s12555-015-0192-y",
     "url": "http://link.springer.com/article/10.1007/s12555-015-0192-y",
     "croris": 226863
@@ -3274,6 +3827,11 @@
     ],
     "venue": "IEEE Transactions on Control Systems Technology",
     "details": "vol. 25, no. 2, pp. 653–660",
+    "bib": {
+      "volume": "25",
+      "number": "2",
+      "pages": "653--660"
+    },
     "doi": "10.1109/tcst.2016.2558479",
     "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7468507",
     "croris": 226876
@@ -3299,6 +3857,10 @@
     ],
     "venue": "20th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
     "details": "Xi’an, China, 10.–13. July 2017",
+    "bib": {
+      "booktitle": "20th International Conference on Information Fusion (FUSION)",
+      "address": "Xi’an, China"
+    },
     "croris": 648552
   },
   {
@@ -3326,6 +3888,10 @@
     ],
     "venue": "20th World Congress of the International Federation of Automatic Control (IFAC)",
     "details": "Toulouse, France, 9.–14. July 2017",
+    "bib": {
+      "booktitle": "IFAC World Congress",
+      "address": "Toulouse, France"
+    },
     "croris": 646175
   },
   {
@@ -3361,6 +3927,10 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2017)",
     "details": "Vancouver, Canada, 24.–29. September 2017",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2017)",
+      "address": "Vancouver, Canada"
+    },
     "croris": 649924
   },
   {
@@ -3388,6 +3958,10 @@
     ],
     "venue": "Iberian Robotics Conference (ROBOT)",
     "details": "Sevilla, Spain, 22.–24. November 2017",
+    "bib": {
+      "booktitle": "Iberian Robotics Conference (ROBOT)",
+      "address": "Sevilla, Spain"
+    },
     "croris": 651323
   },
   {
@@ -3419,6 +3993,10 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
     "details": "Vancouver, Canada, 24.–28. September 2017",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2017)",
+      "address": "Vancouver, Canada"
+    },
     "croris": 649923
   },
   {
@@ -3442,6 +4020,10 @@
     ],
     "venue": "The European Conference on Mobile Robotics (ECMR2017)",
     "details": "Paris, France, 6.–8. September 2017",
+    "bib": {
+      "booktitle": "The European Conference on Mobile Robotics (ECMR2017)",
+      "address": "Paris, France"
+    },
     "croris": 649925
   },
   {
@@ -3465,6 +4047,11 @@
     ],
     "venue": "Iberian Robotics Conference (ROBOT)",
     "details": "Sevilla, Spain, 22.–24. November 2017, pp. 629–640",
+    "bib": {
+      "booktitle": "Iberian Robotics Conference (ROBOT)",
+      "address": "Sevilla, Spain",
+      "pages": "629--640"
+    },
     "doi": "10.1007/978-3-319-70836-2_52",
     "croris": 651324
   },
@@ -3489,6 +4076,12 @@
     ],
     "venue": "19th International Conference on Electrical Drives and Power Electronics (EDPE 2017) 8th Joint Croatian-Slovak Conference",
     "details": "Dubrovnik, Croatia, 4.–6. October 2017, pp. 359–364",
+    "bib": {
+      "booktitle": "Proceedings of 19th International Conference on Electrical Drives and Power Electronics (EDPE 2017.)",
+      "publisher": "Hrvatsko društvo za komunikacije, računarstvo, elektroniku, mjerenja I automatiku (KoREMA)",
+      "address": "Dubrovnik, Croatia",
+      "pages": "359--364"
+    },
     "doi": "10.1109/edpe.2017.8123230",
     "croris": 655819
   },
@@ -3517,6 +4110,10 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 83, pp. 338–348",
+    "bib": {
+      "volume": "83",
+      "pages": "338--348"
+    },
     "doi": "10.1016/j.robot.2016.05.001",
     "url": "http://www.sciencedirect.com/science/article/pii/S0921889015303286",
     "croris": 227854
@@ -3546,6 +4143,11 @@
     ],
     "venue": "Journal of Advances in Information Fusion",
     "details": "vol. 11, no. 2, pp. 157–172",
+    "bib": {
+      "volume": "11",
+      "number": "2",
+      "pages": "157--172"
+    },
     "url": "https://confcats_isif.s3.amazonaws.com/web-files/journals/entries/JAIF_Vol11_2_4.pdf",
     "croris": 226684
   },
@@ -3578,6 +4180,12 @@
     ],
     "venue": "15. Oldenburger 3D-Tage: Optische 3D-Messtechnik - Photogrammetrie - Laserscanning",
     "details": "Oldenburg, Germany, 3.–4. February 2016, pp. 108–119",
+    "bib": {
+      "booktitle": "Photogrammetrie Laserscanning Optische 3D-Messtechnik",
+      "publisher": "Wichmann Verlag",
+      "address": "Oldenburg, Germany",
+      "pages": "108--119"
+    },
     "croris": 634003
   },
   {
@@ -3605,6 +4213,11 @@
     ],
     "venue": "2016 IEEE-RAS International Conference on Humanoid Robotics",
     "details": "Cancún, Mexico, 15.–19. November 2016",
+    "bib": {
+      "booktitle": "Proceedings of the 2016 IEEE-RAS International Conference on Humanoid Robotics (Humanoids2016)",
+      "publisher": "IEEE-RAS",
+      "address": "Cancún, Mexico"
+    },
     "croris": 639992
   },
   {
@@ -3628,6 +4241,11 @@
     ],
     "venue": "19th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
     "details": "Heidelberg, Germany, 5.–8. July 2016, pp. 2109–2115",
+    "bib": {
+      "booktitle": "19th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
+      "address": "Heidelberg, Germany",
+      "pages": "2109--2115"
+    },
     "croris": 635093
   },
   {
@@ -3659,6 +4277,10 @@
     ],
     "venue": "39th International Convention MIPRO 2016",
     "details": "Opatija, Croatia, 30. May–3. June 2016",
+    "bib": {
+      "booktitle": "International Convention on Information and Communication Technology, Electronics and Microelectronics (Mipro)",
+      "address": "Opatija, Croatia"
+    },
     "croris": 634191
   },
   {
@@ -3682,6 +4304,11 @@
     ],
     "venue": "19th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
     "details": "Heidelberg, Germany, 5.–8. July 2016, pp. 2245–2250",
+    "bib": {
+      "booktitle": "19th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
+      "address": "Heidelberg, Germany",
+      "pages": "2245--2250"
+    },
     "croris": 635091
   },
   {
@@ -3705,6 +4332,11 @@
     ],
     "venue": "2016 IEEE International Conference on Systems, Man, and Cybernetics",
     "details": "Budapest, Hungary, 9.–12. October 2016, article no. 2182",
+    "bib": {
+      "booktitle": "Proceedings of 2016 IEEE International Conference on Systems, Man, and Cybernetics",
+      "address": "Budapest, Hungary",
+      "pages": "2182"
+    },
     "doi": "10.1109/smc.2016.7844562",
     "croris": 658417
   },
@@ -3733,6 +4365,12 @@
     ],
     "venue": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba",
     "details": "Zagreb, Croatia, 17.–18. May 2016, pp. 181–186",
+    "bib": {
+      "booktitle": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba",
+      "publisher": "Društvo građevinskih inženjera Zagreb",
+      "address": "Zagreb, Croatia",
+      "pages": "181--186"
+    },
     "croris": 635849
   },
   {
@@ -3764,6 +4402,12 @@
     ],
     "venue": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba",
     "details": "Zagreb, Croatia, 17.–18. May 2016, pp. 187–194",
+    "bib": {
+      "booktitle": "Strategija razvoja vodoopskrbe i odvodnje Grada Zagreba",
+      "publisher": "Društvo građevinskih inženjera Zagreb",
+      "address": "Zagreb, Croatia",
+      "pages": "187--194"
+    },
     "croris": 635851
   },
   {
@@ -3795,6 +4439,11 @@
     ],
     "venue": "International Journal of Robotics Research",
     "details": "vol. 34, no. 4/5, pp. 674–704",
+    "bib": {
+      "volume": "34",
+      "number": "4/5",
+      "pages": "674--704"
+    },
     "doi": "10.1177/0278364914548708",
     "url": "http://ijr.sagepub.com/content/34/4-5/674",
     "croris": 208561
@@ -3820,6 +4469,11 @@
     ],
     "venue": "IEEE Signal Processing Letters",
     "details": "vol. 22, no. 12, pp. 2229–2233",
+    "bib": {
+      "volume": "22",
+      "number": "12",
+      "pages": "2229--2233"
+    },
     "doi": "10.1109/lsp.2015.2472962",
     "url": "http://ieeexplore.ieee.org/document/7222395/",
     "croris": 220742
@@ -3845,6 +4499,10 @@
     ],
     "venue": "Aerospace Science and Technology",
     "details": "vol. 40, pp. 33–46",
+    "bib": {
+      "volume": "40",
+      "pages": "33--46"
+    },
     "doi": "10.1016/j.ast.2014.09.019",
     "url": "http://dx.doi.org/10.1016/j.ast.2014.09.019",
     "croris": 209277
@@ -3874,6 +4532,12 @@
     ],
     "venue": "11th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2014)",
     "details": "Vienna, Austria, 1.–3. September 2014, pp. 205–222",
+    "bib": {
+      "booktitle": "Informatics in Control, Automation and Robotics: 11th International Conference, ICINCO 2014: Revised Selected Papers",
+      "publisher": "Springer Cham",
+      "address": "Vienna, Austria",
+      "pages": "205--222"
+    },
     "doi": "10.1007/978-3-319-26453-0_12",
     "url": "https://link.springer.com/chapter/10.1007/978-3-319-26453-0_12",
     "croris": 876317
@@ -3895,6 +4559,10 @@
     ],
     "venue": "European Conference on Mobile Robots 2015",
     "details": "Lincoln, United Kingdom, 2.–4. September 2015",
+    "bib": {
+      "booktitle": "Proceeding of the European Conference on Mobile Robots 2015",
+      "address": "Lincoln, United Kingdom"
+    },
     "croris": 628289
   },
   {
@@ -3918,6 +4586,10 @@
     ],
     "venue": "18th International Conference on Electrical Drives and Power Electronics, EDPE",
     "details": "Vysoké Tatry, Slovakia, 21.–23. September 2015",
+    "bib": {
+      "booktitle": "Proceedings of 18th International Conference on Electrical Drives and Power Electronics",
+      "address": "Vysoké Tatry, Slovakia"
+    },
     "croris": 628682
   },
   {
@@ -3945,6 +4617,12 @@
     ],
     "venue": "2015 IEEE Sensors Applications Symposium",
     "details": "Zadar, Croatia, 13.–15. April 2015, pp. 266–271",
+    "bib": {
+      "booktitle": "2015 IEEE Sensors Applications Symposium (SAS) Proceedings",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Zadar, Croatia",
+      "pages": "266--271"
+    },
     "doi": "10.1109/sas.2015.7133614",
     "url": "http://dx.doi.org/10.1109/SAS.2015.7133614",
     "croris": 625623
@@ -3970,6 +4648,10 @@
     ],
     "venue": "Second Iberian Robotics Conference - ROBOT'2015",
     "details": "Lisbon, Portugal, 19.–21. November 2015",
+    "bib": {
+      "booktitle": "Proceeding of the Second Iberian Robotics Conference - ROBOT'2015",
+      "address": "Lisbon, Portugal"
+    },
     "croris": 628290
   },
   {
@@ -4009,6 +4691,11 @@
     ],
     "venue": "Advanced Engineering Informatics",
     "details": "vol. 28, no. 4, pp. 425–440",
+    "bib": {
+      "volume": "28",
+      "number": "4",
+      "pages": "425--440"
+    },
     "doi": "10.1016/j.aei.2014.06.002",
     "url": "http://dx.doi.org/10.1016/j.aei.2014.06.002",
     "croris": 206893
@@ -4030,6 +4717,11 @@
     ],
     "venue": "IEEE Transactions on Robotics",
     "details": "vol. 30, no. 2, pp. 507–515",
+    "bib": {
+      "volume": "30",
+      "number": "2",
+      "pages": "507--515"
+    },
     "doi": "10.1109/tro.2013.2283928",
     "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6646277&sortType%3Dasc_p_Sequence%26filter%3DAND%28p_IS_Number%3A6781558%29",
     "croris": 195478
@@ -4055,6 +4747,10 @@
     ],
     "venue": "Information Fusion",
     "details": "vol. 20, pp. 136–145",
+    "bib": {
+      "volume": "20",
+      "pages": "136--145"
+    },
     "doi": "10.1016/j.inffus.2014.01.003",
     "url": "http://www.sciencedirect.com/science/article/pii/S1566253514000086",
     "croris": 196754
@@ -4076,6 +4772,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 55, no. 4, pp. 386–398",
+    "bib": {
+      "volume": "55",
+      "number": "4",
+      "pages": "386--398"
+    },
     "doi": "10.7305/automatika.2014.09.847",
     "url": "https://automatika.korema.hr/index.php/automatika/article/view/847",
     "croris": 209326
@@ -4105,6 +4806,10 @@
     ],
     "venue": "11th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2014)",
     "details": "Vienna, Austria, 1.–3. September 2014",
+    "bib": {
+      "booktitle": "11th International Conference on Informatics in Control, Automation and Robotics (ICINCO)",
+      "address": "Vienna, Austria"
+    },
     "croris": 612034
   },
   {
@@ -4128,6 +4833,12 @@
     ],
     "venue": "The 13th International Conference on Intelligent Autonomous Systems (IAS)",
     "details": "Padova, Italy, 15.–19. July 2014, pp. 899–911",
+    "bib": {
+      "booktitle": "Proceedings of the 13th International Conference on Intelligent Autonomous Systems (IAS)",
+      "publisher": "Springer",
+      "address": "Padova, Italy",
+      "pages": "899--911"
+    },
     "croris": 609941
   },
   {
@@ -4159,6 +4870,10 @@
     ],
     "venue": "13th International Conference on Intelligent Autonomous Systems",
     "details": "Padova, Italy, 15.–19. July 2014",
+    "bib": {
+      "booktitle": "Proceedings of the 13th International Conference on Intelligent Autonomous Systems",
+      "address": "Padova, Italy"
+    },
     "croris": 612309
   },
   {
@@ -4186,6 +4901,11 @@
     ],
     "venue": "17th International Conference on Information Fusion",
     "details": "Salamanca, Spain, 7.–10. July 2014, pp. 1–7",
+    "bib": {
+      "booktitle": "17th International Conference on Information Fusion (FUSION), Special Session on Directional Estimation",
+      "address": "Salamanca, Spain",
+      "pages": "1--7"
+    },
     "croris": 610615
   },
   {
@@ -4209,6 +4929,11 @@
     ],
     "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
     "details": "China, 31. May–7. June 2014, pp. 5630–5635",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE International Conference on Robotics and Automation (ICRA 2014)",
+      "address": "China",
+      "pages": "5630--5635"
+    },
     "croris": 608799
   },
   {
@@ -4232,6 +4957,11 @@
     ],
     "venue": "The 19th World Congress of the International Federation of Automatic Control",
     "details": "Cape Town, South Africa, 24.–29. August 2014, pp. 10188–10193",
+    "bib": {
+      "booktitle": "The 19th World Congress of the International Federation of Automatic Control",
+      "address": "Cape Town, South Africa",
+      "pages": "10188--10193"
+    },
     "croris": 612297
   },
   {
@@ -4259,6 +4989,12 @@
     ],
     "venue": "37th International Convention MIPRO 2014",
     "details": "Opatija, Croatia, 25.–29. May 2014, pp. 982–986",
+    "bib": {
+      "booktitle": "Proceedings of 37th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO)",
+      "publisher": "Hrvatsko informacijsko i dokumentacijsko društvo",
+      "address": "Opatija, Croatia",
+      "pages": "982--986"
+    },
     "doi": "10.1109/mipro.2014.6859711",
     "url": "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6859711&queryText=Cooperative%20control%20of%20heterogeneous%20robotic%20systems&newsearch=true",
     "croris": 622298
@@ -4284,6 +5020,11 @@
     ],
     "venue": "Applied Soft Computing",
     "details": "vol. 13, no. 11, pp. 4383–4391",
+    "bib": {
+      "volume": "13",
+      "number": "11",
+      "pages": "4383--4391"
+    },
     "doi": "10.1016/j.asoc.2013.06.013",
     "url": "http://authors.elsevier.com/sd/article/S1568494613002020",
     "croris": 194212
@@ -4317,6 +5058,12 @@
     ],
     "venue": "2nd Croatian Computer Vision Workshop (CCVW 2013)",
     "details": "Zagreb, Croatia, 19. September 2013, pp. 31–36",
+    "bib": {
+      "booktitle": "Proceedings of The Croatian Computer Vision Workshop, Year 1",
+      "publisher": "Fakultet elektrotehnike i računarstva Sveučilišta u Zagrebu",
+      "address": "Zagreb, Croatia",
+      "pages": "31--36"
+    },
     "url": "http://arxiv.org/html/1310.0319",
     "croris": 600153
   },
@@ -4337,6 +5084,12 @@
     ],
     "venue": "IEEE EuroCon 2013",
     "details": "Zagreb, Croatia, 24.–26. June 2013, pp. 1921–1926",
+    "bib": {
+      "booktitle": "Proceedings of IEEE Eurocon 2013",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Zagreb, Croatia",
+      "pages": "1921--1926"
+    },
     "croris": 598524
   },
   {
@@ -4356,6 +5109,12 @@
     ],
     "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region",
     "details": "Portorož, Slovenia, 11.–13. September 2013, pp. 72–79",
+    "bib": {
+      "booktitle": "Proceedings of the RAAD 2013",
+      "publisher": "Institut Jožef Stefan",
+      "address": "Portorož, Slovenia",
+      "pages": "72--79"
+    },
     "croris": 599706
   },
   {
@@ -4387,6 +5146,11 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
     "details": "Tokyo, Japan, 3.–8. November 2013, pp. 2644–2649",
+    "bib": {
+      "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems, Tokyo Big Sight, Tokyo, Japan, Conference Digest",
+      "address": "Tokyo, Japan",
+      "pages": "2644--2649"
+    },
     "croris": 602256
   },
   {
@@ -4410,6 +5174,12 @@
     ],
     "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region (RAAD 2013)",
     "details": "Portorož, Slovenia, pp. 17–24",
+    "bib": {
+      "booktitle": "Proceedings of the 22nd International Workshop on Robotics in Alpe-Adria-Danube Region",
+      "publisher": "Institut Jožef Stefan",
+      "address": "Portorož, Slovenia",
+      "pages": "17--24"
+    },
     "croris": 599841
   },
   {
@@ -4453,6 +5223,11 @@
     ],
     "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region (RAAD 2013)",
     "details": "Portorož, Slovenia, pp. 197–203",
+    "bib": {
+      "booktitle": "Proceedings of 22nd International Workshop on Robotics in Alpe-Adria-Danube Region RAAD2013",
+      "address": "Portorož, Slovenia",
+      "pages": "197--203"
+    },
     "url": "https://www.semanticscholar.org/paper/Concept-of-an-intrabody-networked-brain-computer-Jerbi%C4%87-Vasi%C4%87/6364123b80746b1b3def83167a87793ae70eb68d",
     "croris": 597934
   },
@@ -4485,6 +5260,11 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2013), Invited Session on Robot Audition",
     "details": "Tokyo, Japan, 3.–7. November 2013, pp. 2914–2920",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2013), Invited Session on Robot Audition",
+      "address": "Tokyo, Japan",
+      "pages": "2914--2920"
+    },
     "croris": 598543
   },
   {
@@ -4504,6 +5284,12 @@
     ],
     "venue": "36th International Convention MIPRO 2013",
     "details": "Opatija, Croatia, 20.–24. May 2013, pp. 1169–1173",
+    "bib": {
+      "booktitle": "Proceedings of MIPRO 2013 36th International Convention",
+      "publisher": "Hrvatska udruga za informacijsku i komunikacijsku tehnologiju, elektroniku i mikroelektroniku - MIPRO",
+      "address": "Opatija, Croatia",
+      "pages": "1169--1173"
+    },
     "croris": 598026
   },
   {
@@ -4527,6 +5313,11 @@
     ],
     "venue": "22nd International Workshop on Robotics in Alpe-Adria-Danube Region",
     "details": "Portorož, Slovenia, 11.–13. September 2013, pp. 370–375",
+    "bib": {
+      "booktitle": "Proceedings of the RAAD 2013 22nd International Workshop on Robotics in Alpe-Adria-Danube Region",
+      "address": "Portorož, Slovenia",
+      "pages": "370--375"
+    },
     "croris": 599873
   },
   {
@@ -4546,6 +5337,11 @@
     ],
     "venue": "Industrial Robot: An International Journal",
     "details": "vol. 39, no. 5, pp. 484–493",
+    "bib": {
+      "volume": "39",
+      "number": "5",
+      "pages": "484--493"
+    },
     "url": "http://www.emeraldinsight.com/journals.htm?issn=0143-991x&volume=39&issue=5&articleid=17047830&show=abstract",
     "croris": 184537
   },
@@ -4570,6 +5366,11 @@
     ],
     "venue": "International Review of Civil Engineering",
     "details": "vol. 7, no. 4, pp. 5068–5079",
+    "bib": {
+      "volume": "7",
+      "number": "4",
+      "pages": "5068--5079"
+    },
     "url": "http://www.praiseworthyprize.com/IREE_latest.html#Autotuning_Power_System_Stabilizer_based_on_Fuzzy_Plant_Model",
     "croris": 187476
   },
@@ -4594,6 +5395,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 53, no. 2, pp. 199–214",
+    "bib": {
+      "volume": "53",
+      "number": "2",
+      "pages": "199--214"
+    },
     "doi": "10.7305/automatika.53-2.128",
     "url": "https://automatika.korema.hr/index.php/automatika/article/view/128/210",
     "croris": 184538
@@ -4635,6 +5441,11 @@
     ],
     "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
     "details": "Dubrovnik, Croatia, 5.–7. September 2012, pp. 31–38",
+    "bib": {
+      "booktitle": "10th IFAC Symposioum on Robotic Control (SYROCO2012)",
+      "address": "Dubrovnik, Croatia",
+      "pages": "31--38"
+    },
     "croris": 590271
   },
   {
@@ -4662,6 +5473,11 @@
     ],
     "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
     "details": "Dubrovnik, Croatia, 5.–7. September 2012, pp. 108–113",
+    "bib": {
+      "booktitle": "10th IFAC Symposium on Robot Control (SYROCO2012)",
+      "address": "Dubrovnik, Croatia",
+      "pages": "108--113"
+    },
     "url": "http://www.ifac-papersonline.net/Detailed/55701.html",
     "croris": 591102
   },
@@ -4686,6 +5502,11 @@
     ],
     "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
     "details": "Dubrovnik, Croatia, 5.–7. September 2012, pp. 349–354",
+    "bib": {
+      "booktitle": "10th IFAC Symposioum on Robotic Control (SYROCO2012)",
+      "address": "Dubrovnik, Croatia",
+      "pages": "349--354"
+    },
     "croris": 590270
   },
   {
@@ -4705,6 +5526,11 @@
     ],
     "venue": "10th International IARP Workshop HUDEM'2012",
     "details": "Šibenik, Croatia, 24.–26. April 2012, pp. 105–108",
+    "bib": {
+      "booktitle": "Proceedings of 10th International IARP Workshop HUDEM'2012",
+      "address": "Šibenik, Croatia",
+      "pages": "105--108"
+    },
     "url": "http://www.ctro.hr/universalis/287/dokument/knjiga_294803258.pdf",
     "croris": 588919
   },
@@ -4725,6 +5551,11 @@
     ],
     "venue": "10th IFAC Symposium on Robot Control",
     "details": "Dubrovnik, Croatia, 5.–7. September 2012",
+    "bib": {
+      "booktitle": "10th IFAC Symposium on Robot Control - SYROCO 2012",
+      "publisher": "The International Federation of Automatic Control",
+      "address": "Dubrovnik, Croatia"
+    },
     "url": "http://www.ifac-papersonline.net/Detailed/55863.html",
     "croris": 588918
   },
@@ -4745,6 +5576,12 @@
     ],
     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2012)",
     "details": "Vilamoura, Portugal, 7.–12. October 2012, pp. 707–712",
+    "bib": {
+      "booktitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2012), Invited Session on Robot Audition",
+      "publisher": "Omnipress",
+      "address": "Vilamoura, Portugal",
+      "pages": "707--712"
+    },
     "url": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6385600&tag=1",
     "croris": 588197
   },
@@ -4769,6 +5606,10 @@
     ],
     "venue": "10th IFAC Symposium on Robot Control (SYROCO2012)",
     "details": "Dubrovnik, Croatia, 5.–7. September 2012",
+    "bib": {
+      "booktitle": "Proceedings of the 10th IFAC Symposioum on Robotic Control (SYROCO2012), Volume 10, Part 1",
+      "address": "Dubrovnik, Croatia"
+    },
     "url": "http://www.ifac-papersonline.net/Detailed/55679.html",
     "croris": 587860
   },
@@ -4789,6 +5630,11 @@
     ],
     "venue": "2012 IEEE Multi-Conference on Systems and Control",
     "details": "Dubrovnik, Croatia, 3.–5. October 2012, pp. 178–183",
+    "bib": {
+      "booktitle": "Proceedings of 2012 IEEE Multi-Conference on Systems and Control",
+      "address": "Dubrovnik, Croatia",
+      "pages": "178--183"
+    },
     "croris": 592823
   },
   {
@@ -4812,6 +5658,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 52, no. 4, pp. 329–338",
+    "bib": {
+      "volume": "52",
+      "number": "4",
+      "pages": "329--338"
+    },
     "url": "https://automatika.korema.hr/index.php/automatika/article/view/82",
     "croris": 182489
   },
@@ -4836,6 +5687,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 52, no. 2, pp. 118–131",
+    "bib": {
+      "volume": "52",
+      "number": "2",
+      "pages": "118--131"
+    },
     "croris": 173202
   },
   {
@@ -4855,6 +5711,11 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 59, no. 5, pp. 329–342",
+    "bib": {
+      "volume": "59",
+      "number": "5",
+      "pages": "329--342"
+    },
     "doi": "10.1016/j.robot.2011.02.007",
     "url": "http://www.sciencedirect.com/science/article/pii/S0921889011000273",
     "croris": 171677
@@ -4880,6 +5741,11 @@
     ],
     "venue": "Transactions of the Institute of Measurement and Control",
     "details": "vol. 33, no. 3-4, pp. 332–358",
+    "bib": {
+      "volume": "33",
+      "number": "3-4",
+      "pages": "332--358"
+    },
     "doi": "10.1177/0142331208100107",
     "url": "http://tim.sagepub.com/content/33/3-4/332.full.pdf+html",
     "croris": 146486
@@ -4901,6 +5767,11 @@
     ],
     "venue": "18th IFAC World Congress 2011",
     "details": "Milan, Italy, 28. August–2. September 2011, pp. 1133–1138",
+    "bib": {
+      "booktitle": "Proceedings of the 18th IFAC World Congress 2011",
+      "address": "Milan, Italy",
+      "pages": "1133--1138"
+    },
     "croris": 575165
   },
   {
@@ -4920,6 +5791,11 @@
     ],
     "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM) 2011",
     "details": "Budapest, Hungary, 3.–7. July 2011, pp. 942–947",
+    "bib": {
+      "booktitle": "Proceedings on 2011 IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+      "address": "Budapest, Hungary",
+      "pages": "942--947"
+    },
     "croris": 575163
   },
   {
@@ -4943,6 +5819,10 @@
     ],
     "venue": "XXIII. International Symposium on Information, Communication and Automation Technologies",
     "details": "Sarajevo, Bosnia and Herzegovina, 27.–29. October 2011",
+    "bib": {
+      "booktitle": "Proceedings of the XXIII. International Symposium on Information, Communication and Automation Technologies",
+      "address": "Sarajevo, Bosnia and Herzegovina"
+    },
     "croris": 577158
   },
   {
@@ -4966,6 +5846,11 @@
     ],
     "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
     "details": "Budapest, Hungary, 3.–7. July 2011, pp. 936–941",
+    "bib": {
+      "booktitle": "CD ROM Proceedings of the IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+      "address": "Budapest, Hungary",
+      "pages": "936--941"
+    },
     "croris": 574310
   },
   {
@@ -4989,6 +5874,11 @@
     ],
     "venue": "18th IFAC World Congress",
     "details": "Milan, Italy, 28. August–2. September 2011, pp. 5950–5955",
+    "bib": {
+      "booktitle": "Proceedings of the 18th IFAC World Congress",
+      "address": "Milan, Italy",
+      "pages": "5950--5955"
+    },
     "croris": 575031
   },
   {
@@ -5012,6 +5902,11 @@
     ],
     "venue": "34th International Convention MIPRO 2011",
     "details": "Opatija, Croatia, 23.–27. May 2011, pp. 66–71",
+    "bib": {
+      "booktitle": "MIPRO 2011 - Proceedings Vol. III. CTS & CIS",
+      "address": "Opatija, Croatia",
+      "pages": "66--71"
+    },
     "croris": 577153
   },
   {
@@ -5035,6 +5930,11 @@
     ],
     "venue": "7th International Symposium on Image and Signal Processing and Analysis (ISPA 2011)",
     "details": "Dubrovnik, Croatia, 4.–6. October 2011, pp. 289–294",
+    "bib": {
+      "booktitle": "Proceedings of the 7th International Symposium on Image and Signal Processing and Analysis",
+      "address": "Dubrovnik, Croatia",
+      "pages": "289--294"
+    },
     "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
     "croris": 574203
   },
@@ -5059,6 +5959,11 @@
     ],
     "venue": "European Conference on Mobile Robots (ECMR2011)",
     "details": "Örebro, Sweden, 7.–9. September 2011, pp. 31–36",
+    "bib": {
+      "booktitle": "Proceedings of the 5th European Conference on Mobile Robots (ECMR2011)",
+      "address": "Örebro, Sweden",
+      "pages": "31--36"
+    },
     "url": "http://act.rasip.fer.hr/pub-opis.php?id=495",
     "croris": 574204
   },
@@ -5083,6 +5988,11 @@
     ],
     "venue": "34th International Convention MIPRO 2011",
     "details": "Opatija, Croatia, 23.–27. May 2011, pp. 72–76",
+    "bib": {
+      "booktitle": "MIPRO 2011 - Proceedings Vol. III. CTS & CIS",
+      "address": "Opatija, Croatia",
+      "pages": "72--76"
+    },
     "croris": 577155
   },
   {
@@ -5102,6 +6012,11 @@
     ],
     "venue": "5th European Conference on Mobile Robots",
     "details": "Örebro, Sweden, 7.–9. September 2011, pp. 277–282",
+    "bib": {
+      "booktitle": "Proceedings of 5th European Conference on Mobile Robots (ECMR2011)",
+      "address": "Örebro, Sweden",
+      "pages": "277--282"
+    },
     "croris": 575802
   },
   {
@@ -5125,6 +6040,12 @@
     ],
     "venue": "34th International Convention MIPRO 2011",
     "details": "Opatija, Croatia, 23.–27. May 2011, pp. 62–65",
+    "bib": {
+      "booktitle": "MIPRO 2011 - Proceedings Vol. III. CTS & CIS",
+      "publisher": "Denona",
+      "address": "Opatija, Croatia",
+      "pages": "62--65"
+    },
     "croris": 574315
   },
   {
@@ -5148,6 +6069,11 @@
     ],
     "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
     "details": "Budapest, Hungary, 3.–7. July 2011, pp. 712–717",
+    "bib": {
+      "booktitle": "Proceedings of the 2011 IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+      "address": "Budapest, Hungary",
+      "pages": "712--717"
+    },
     "croris": 574497
   },
   {
@@ -5171,6 +6097,11 @@
     ],
     "venue": "34th International Convention MIPRO 2011",
     "details": "Opatija, Croatia, 23.–27. May 2011, pp. 165–169",
+    "bib": {
+      "booktitle": "Proceedings of the 34th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO 2011)",
+      "address": "Opatija, Croatia",
+      "pages": "165--169"
+    },
     "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
     "croris": 572612
   },
@@ -5191,6 +6122,11 @@
     ],
     "venue": "Robotics and Autonomous Systems",
     "details": "vol. 58, no. 11, pp. 1185–1196",
+    "bib": {
+      "volume": "58",
+      "number": "11",
+      "pages": "1185--1196"
+    },
     "doi": "10.1016/j.robot.2010.08.001",
     "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
     "croris": 165717
@@ -5216,6 +6152,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 51, no. 2, pp. 127–137",
+    "bib": {
+      "volume": "51",
+      "number": "2",
+      "pages": "127--137"
+    },
     "croris": 165239
   },
   {
@@ -5239,6 +6180,11 @@
     ],
     "venue": "Automatika – Journal for Control, Measurement, Electronics, Computing and Communications",
     "details": "vol. 51, no. 1, pp. 3–18",
+    "bib": {
+      "volume": "51",
+      "number": "1",
+      "pages": "3--18"
+    },
     "url": "http://hrcak.srce.hr/index.php?show=clanak&id_clanak_jezik=78592",
     "croris": 162703
   },
@@ -5263,6 +6209,11 @@
     ],
     "venue": "Electric Power Systems Research",
     "details": "vol. 80, no. 5, pp. 514–527",
+    "bib": {
+      "volume": "80",
+      "number": "5",
+      "pages": "514--527"
+    },
     "doi": "10.1016/j.epsr.2009.10.026",
     "url": "http:///www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V30-4XSK7VC-4-17&_cdi=5716&_user=3875467&_pii=S0378779609002673&_orig=search&_coverDate=05%2F31%2F2010&_sk=999199994&view=c&wchp=dGLbVlz-zSkWA&md5=0432accb82ab2e472d4252e81af69990&ie=/sdarticle.p",
     "croris": 156909
@@ -5288,6 +6239,12 @@
     ],
     "venue": "19th IEEE International Workshop on Robotics in Alpe-Adria-Danube Region",
     "details": "Budapest, Hungary, 23.–25. June 2010, pp. 273–278",
+    "bib": {
+      "booktitle": "19th International Workshop on Robotics in Alpe-Adria-Danube Region – RAAD 2010",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Budapest, Hungary",
+      "pages": "273--278"
+    },
     "url": "http://conf.uni-obuda.hu/raad2010/",
     "croris": 564319
   },
@@ -5312,6 +6269,12 @@
     ],
     "venue": "30th Conference on Transportation Systems with International Participation, Automation in Transportation 2010",
     "details": "Istanbul, Turkey, 9.–14. November 2010, pp. 31–34",
+    "bib": {
+      "booktitle": "Zbornik radova 30. skupa o prometnim sustavima s međunarodnim sudjelovanjem – AUTOMATIZACIJA U PROMETU 2010",
+      "publisher": "Hrvatsko društvo za komunikacije, računarstvo, elektroniku, mjerenja I automatiku (KoREMA)",
+      "address": "Istanbul, Turkey",
+      "pages": "31--34"
+    },
     "croris": 568825
   },
   {
@@ -5335,6 +6298,11 @@
     ],
     "venue": "EUROSIM 2010, 7th EUROSIM Congress on Modelling and Simulation",
     "details": "Prague, Czech Republic, 6.–10. September 2010",
+    "bib": {
+      "booktitle": "Proceedings of the 7th EUROSIM Congrees on Modelling and Simulation Vol. 2: Full Papers",
+      "publisher": "Czech technical university in Prague",
+      "address": "Prague, Czech Republic"
+    },
     "croris": 565908
   },
   {
@@ -5354,6 +6322,12 @@
     ],
     "venue": "19th IEEE International Workshop on Robotics in Alpe-Adria-Danube Region",
     "details": "Budapest, Hungary, 23.–25. June 2010, pp. 267–272",
+    "bib": {
+      "booktitle": "19th International Workshop on Robotics in Alpe-Adria-Danube Region – RAAD 2010",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "address": "Budapest, Hungary",
+      "pages": "267--272"
+    },
     "url": "http://conf.uni-obuda.hu/raad2010/",
     "croris": 564318
   },
@@ -5374,6 +6348,11 @@
     ],
     "venue": "The joint conference of the 41st International Symposium on Robotics (ISR 2010) and the 6th German Conference on Robotics (ROBOTIK 2010)",
     "details": "Munich, Germany, 7.–9. July 2010, pp. 136–142",
+    "bib": {
+      "booktitle": "Proceedings of ISR / ROBOTIK 2010",
+      "address": "Munich, Germany",
+      "pages": "136--142"
+    },
     "url": "http://act.rasip.fer.hr/groups_amor_SLAM.php#slam",
     "croris": 561107
   },
@@ -5394,6 +6373,11 @@
     ],
     "venue": "The joint conference of the 41st International Symposium on Robotics (ISR 2010) and the 6th German Conference on Robotics (ROBOTIK 2010)",
     "details": "Munich, Germany, 7.–9. July 2010, pp. 21–27",
+    "bib": {
+      "booktitle": "Proceedings for the Joint Conference of ISR 2010 (41st Internationel Symposium on Robotics) und ROBOTIK 2010 (6th German Conference on Robotics)",
+      "address": "Munich, Germany",
+      "pages": "21--27"
+    },
     "url": "http://act.rasip.fer.hr/groups_amor_interaction.php",
     "croris": 560490
   },
@@ -5414,6 +6398,12 @@
     ],
     "venue": "33rd International Convention MIPRO 2010",
     "details": "Opatija, Croatia, 24.–28. May 2010, pp. 108–113",
+    "bib": {
+      "booktitle": "Proceedings of the 33th international convention MIPRO 2010, Vol. III. - CTS & CI",
+      "publisher": "Hrvatska udruga za informacijsku i komunikacijsku tehnologiju, elektroniku i mikroelektroniku - MIPRO",
+      "address": "Opatija, Croatia",
+      "pages": "108--113"
+    },
     "croris": 564095
   },
   {
@@ -5437,6 +6427,12 @@
     ],
     "venue": "Skup o prometnim sustavima s međunarodnim sudjelovanjem – Automatizacija u prometu (30; 2010)",
     "details": "Zagreb, Croatia, pp. 6–9",
+    "bib": {
+      "booktitle": "Zbornik radova 30. skupa o prometnim sustavima s međunarodnim sudjelovanjem – Automatizacija u prometu 2010",
+      "publisher": "Hrvatsko društvo za komunikacije, računarstvo, elektroniku, mjerenja I automatiku (KoREMA)",
+      "address": "Zagreb, Croatia",
+      "pages": "6--9"
+    },
     "croris": 569561
   }
 ]

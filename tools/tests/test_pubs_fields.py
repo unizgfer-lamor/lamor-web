@@ -21,6 +21,7 @@ from lamor_tools.pubs.fields import (
     name_key,
     needs_recase,
     normalize_author,
+    bib_fields,
     pages_part,
     parse_authors,
     recase_venue,
@@ -174,6 +175,42 @@ def test_pages_part_variants():
     assert pages_part({"pocetnaStranica": "6 stranica"}) == ""  # a page count, not a page
     assert pages_part({"stranice": "x, 1", "brojRada": "x", "brojStranica": "1"}) == ""
     assert pages_part({"stranice": "2182, 8", "brojRada": "2182", "brojStranica": "8"}) == "article no. 2182"
+
+
+def test_pages_part_article_number_as_first_page():
+    # CRORIS: first page = article number, last page = page count
+    raw = {"pocetnaStranica": "105617", "zavrsnaStranica": "1", "brojRada": "105617", "stranice": "str. 105617-1"}
+    assert pages_part(raw) == "article no. 105617"
+
+
+def test_bib_fields_journal():
+    assert bib_fields(fixture("publication-journal-282380"), "journal", None, {}) == {
+        "volume": "35",
+        "number": "3-4",
+        "pages": "130--140",
+    }
+    assert bib_fields(fixture("publication-journal-article-282305"), "journal", None, {}) == {
+        "volume": "133",
+        "pages": "103618",
+    }
+
+
+def test_bib_fields_conference():
+    raw = {
+        "nadredenaPublikacija": "IFAC 2026 World Congress Proceedings",
+        "izdavac": "IFAC",
+        "mjesto": "Busan",
+        "pocetnaStranica": "1",
+        "zavrsnaStranica": "6",
+    }
+    assert bib_fields(raw, "conference", None, {}) == {
+        "booktitle": "IFAC 2026 World Congress Proceedings",
+        "publisher": "IFAC",
+        "address": "Busan",
+        "pages": "1--6",
+    }
+    event = db.event_fields(fixture("event-166921"))
+    assert bib_fields({}, "conference", event, {"Prag": "Prague"}) == {"address": "Prague, Czech Republic"}
 
 
 def test_format_date_range():

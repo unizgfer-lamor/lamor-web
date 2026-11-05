@@ -195,40 +195,60 @@ def _clean_num(value: Any) -> str:
 _PAGE_TOKEN = re.compile(r"[A-Za-z]{0,2}\d+")
 
 
-def pages_part(raw: dict[str, Any]) -> str:
-    """'pp. 130–140' / 'p. 5' / 'article no. 103618' / '' from the page fields."""
+def page_range(raw: dict[str, Any]) -> tuple[str, str, str]:
+    """-> ('pages', first, last) / ('article', number, '') / ('', '', '') from the page fields.
+
+    For a single page, first == last.
+    """
     start, end = _clean_num(raw.get("pocetnaStranica")), _clean_num(raw.get("zavrsnaStranica"))
     article = _clean_num(raw.get("brojRada"))
     # '6 stranica' / '12 pages' are page counts, 'x' is a placeholder: not page numbers
     start = start if _PAGE_TOKEN.fullmatch(start) else ""
     end = end if _PAGE_TOKEN.fullmatch(end) else ""
     article = article if re.search(r"\d", article) else ""
+    if start and end and start.isdigit() and end.isdigit() and int(end) < int(start):
+        # '105617' – '1': an article number entered as the first page, the last page is a page count
+        return "article", article or start, ""
     if start and end:
-        return f"p. {start}" if start == end else f"pp. {start}{EN_DASH}{end}"
+        return "pages", start, end
     if article:
-        return f"article no. {article}"
+        return "article", article, ""
     if start:
-        return f"p. {start}"
+        return "pages", start, start
     pages = re.sub(r"^(?:str|pp?|pages?)\.?\s*", "", _clean_num(raw.get("stranice")), flags=re.I)
     m = re.fullmatch(r"([A-Za-z]?\d+)\s*[-–—]+\s*([A-Za-z]?\d+)", pages)
     if m:
-        a, b = m.groups()
-        return f"p. {a}" if a == b else f"pp. {a}{EN_DASH}{b}"
+        return "pages", m.group(1), m.group(2)
     if re.fullmatch(r"\d+", pages):
-        return f"p. {pages}"
+        return "pages", pages, pages
     m = re.fullmatch(r"([A-Za-z]{0,2}\d+)(?:,\s*\d+)?", pages)  # 'e1234' or '103618, 14' (article, page count)
     if m:
-        return f"article no. {m.group(1)}"
+        return "article", m.group(1), ""
+    return "", "", ""
+
+
+def pages_part(raw: dict[str, Any]) -> str:
+    """'pp. 130–140' / 'p. 5' / 'article no. 103618' / '' from the page fields."""
+    kind, a, b = page_range(raw)
+    if kind == "article":
+        return f"article no. {a}"
+    if kind == "pages":
+        return f"p. {a}" if a == b else f"pp. {a}{EN_DASH}{b}"
     return ""
+
+
+def _issue(raw: dict[str, Any]) -> str:
+    issue = _clean_num(raw.get("svescic"))
+    return issue if re.search(r"\d", issue) and issue != _clean_num(raw.get("brojRada")) else ""
 
 
 def journal_details(raw: dict[str, Any]) -> str:
     parts = []
     vol = _clean_num(raw.get("volumen"))
-    issue = _clean_num(raw.get("svescic"))
+    issue = _issue(raw)
     if vol:
         parts.append(f"vol. {vol}")
-    if issue and re.search(r"\d", issue) and issue != _clean_num(raw.get("brojRada")):
+    if issue:
         parts.append(f"no. {issue}")
     pages = pages_part(raw)
     if pages:
@@ -279,6 +299,29 @@ def conference_details(raw: dict[str, Any], event: dict[str, Any] | None, place_
     if pages:
         parts.append(pages)
     return ", ".join(parts)
+
+
+def bib_fields(
+    raw: dict[str, Any], category: str, event: dict[str, Any] | None, place_names: dict[str, str]
+) -> dict[str, str]:
+    """Structured BibTeX fields that the display `details` string merges together.
+
+    journal: volume, number, pages; conference: booktitle (proceedings), publisher, address.
+    Pages use BibTeX's '--' range; an article number goes into `pages` as well (Elsevier style).
+    Empty values are left out.
+    """
+    kind, a, b = page_range(raw)
+    pages = f"{a}--{b}" if kind == "pages" and a != b else a
+    fields: dict[str, str] = {}
+    if category == "journal":
+        fields["volume"] = _clean_num(raw.get("volumen"))
+        fields["number"] = _issue(raw)
+    else:
+        fields["booktitle"] = clean_venue(raw.get("nadredenaPublikacija"))
+        fields["publisher"] = clean_venue(raw.get("izdavac"))
+        fields["address"] = event_place(event, place_names) if event else clean_venue(raw.get("mjesto"))
+    fields["pages"] = pages
+    return {k: v for k, v in fields.items() if v}
 
 
 def _acronym_in(acronym: str, name: str) -> bool:

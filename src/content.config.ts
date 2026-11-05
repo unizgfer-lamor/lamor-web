@@ -163,6 +163,20 @@ const publications = defineCollection({
     url: z.string().optional(),
     croris: z.number().optional(),
     pdf: path.optional(),
+    // Structured fields for BibTeX (from CRORIS); `details` above is the same data as display text.
+    bib: z
+      .object({
+        volume: z.string(),
+        number: z.string(),
+        pages: z.string(),
+        booktitle: z.string(),
+        publisher: z.string(),
+        address: z.string(),
+      })
+      .partial()
+      .optional(),
+    // Hand-written BibTeX entry that replaces the generated one.
+    bibtex: z.string().optional(),
   }),
 });
 

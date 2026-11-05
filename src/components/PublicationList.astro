@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { byYearThenEntry, getBibtex } from '../lib/bibtex';
 import { url } from '../lib/url';
 
 interface Props {
@@ -37,11 +38,23 @@ function citation(p: Publication): string {
 
 // CROSBI has no "date added" field, but its IDs are assigned sequentially on entry, so a higher ID
 // means a more recently added record. Manual entries without a CROSBI ID go last, by title.
-const sorted = [...items].sort(
-  (a, b) => (b.data.croris ?? 0) - (a.data.croris ?? 0) || a.data.title.localeCompare(b.data.title),
-);
+const sorted = [...items].sort(byYearThenEntry);
+const bibtex = await getBibtex();
 ---
 
 <ol class="pub-list">
-  {sorted.map(({ data }) => <li class="pub" set:html={citation(data)} />)}
+  {
+    sorted.map(({ id, data }) => (
+      <li class="pub">
+        <Fragment set:html={citation(data)} />
+        <details class="pub-bib">
+          <summary>BibTeX</summary>
+          <div class="pub-bib-box">
+            <pre>{bibtex.get(id)}</pre>
+            <button type="button" class="pub-bib-copy" hidden>Copy</button>
+          </div>
+        </details>
+      </li>
+    ))
+  }
 </ol>

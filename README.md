@@ -113,6 +113,10 @@ uv run pytest                   # tests
   `tools/publications/config.yaml`.
 - Wrong or missing entries: fix them in CROSBI if possible; otherwise use `src/data/publication-overrides.yaml`
   (by CROSBI id: `hide`, `category`, `title`, `venue`, `pdf`, …) or add to `src/data/publications-extra.yaml`.
+- BibTeX: the export also writes structured `bib` fields (volume, number, pages, booktitle, publisher,
+  address). `src/lib/bibtex.ts` turns them into an entry per paper (shown under the *BibTeX* button) and
+  `src/pages/lamor.bib.ts` writes `/lamor.bib` with all of them. A `bibtex` value in the overrides or
+  extras replaces the generated entry.
 - `tools/publications/report.md` summarises each export (counts per year, exclusions, merged duplicates).
 
 **Automation.** `.github/workflows/publications-sync.yml` runs sync + export and opens a pull request with

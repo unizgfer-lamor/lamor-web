@@ -138,6 +138,7 @@ def test_build_entry_journal(conn):
         ],
         "venue": "Advanced Robotics (Taylor & Francis)",  # re-cased, then venue_overrides
         "details": "vol. 35, no. 3-4, pp. 130–140",
+        "bib": {"volume": "35", "number": "3-4", "pages": "130--140"},
         "doi": "10.1080/01691864.2020.1819874",
         "croris": 282380,
     }

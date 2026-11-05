@@ -1274,6 +1274,64 @@ tbody tr:hover {
   border-color: var(--crimson);
 }
 
+.pub-bib {
+  display: inline;
+}
+
+.pub-bib summary {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 18px;
+  vertical-align: 1px;
+  color: var(--crimson);
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+}
+
+.pub-bib summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-bib summary:hover,
+.pub-bib summary:focus-visible,
+.pub-bib[open] summary {
+  color: #fff;
+  background: var(--crimson);
+  border-color: var(--crimson);
+}
+
+.pub-bib-box {
+  position: relative;
+  margin-top: 8px;
+}
+
+.pub-bib-box pre {
+  margin: 0;
+  padding: 8px 10px;
+  overflow-x: auto;
+  font-size: 12px;
+  line-height: 1.45;
+  background: #fff;
+  border: 1px solid var(--rule);
+}
+
+.pub-bib-copy {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 1px 8px;
+  font-size: 12px;
+  color: var(--navy);
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid var(--navy);
+  border-radius: 2px;
+}
+
 .pub-filter {
   display: flex;
   flex-wrap: wrap;

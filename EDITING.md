@@ -43,6 +43,9 @@ Ivan Marković, Luka Petrović and Marija Seder. To get a paper on the website, 
 - To fix or hide an imported paper, or attach a PDF, use **Publication corrections** with the paper's
   CROSBI id (the number in its CROSBI link).
 - Papers that will never be in CROSBI can be added under **Extra publications**.
+- Every paper gets a **BibTeX** entry, and all of them are in `/lamor.bib`. Both are generated from the
+  CROSBI data on every build. If an entry is wrong, fix the paper in CROSBI, or paste a correct entry into
+  the **BibTeX** field of its *Publication corrections* item.
 - **Theses** are edited by hand in the *Theses* section.
 
 ## 2. Editing on GitHub

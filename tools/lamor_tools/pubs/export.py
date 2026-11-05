@@ -17,6 +17,7 @@ from lamor_tools.pubs import db
 from lamor_tools.pubs.config import DB_PATH, PUBLICATIONS_JSON, REPORT_PATH, Config, load_config
 from lamor_tools.pubs.fields import (
     best_url,
+    bib_fields,
     choose_title,
     clean_venue,
     conference_details,
@@ -107,6 +108,9 @@ def build_entry(
         "venue": venue,
         "details": details,
     }
+    bib = bib_fields(raw, category, event, config.place_names)
+    if bib:
+        entry["bib"] = bib
     if (row.get("status") or "") == "prihvaćeno":
         entry["status"] = "accepted"
     doi = db.bare_doi(raw.get("doi"))

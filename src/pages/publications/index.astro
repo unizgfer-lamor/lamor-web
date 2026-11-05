@@ -44,7 +44,8 @@ const has = (b: (typeof blocks)[number]) =>
     <Module title="Publications" as="h1">
       <p>
         Journal and conference papers are retrieved automatically from <a href="https://www.croris.hr/crosbi/">CROSBI</a>, the
-        Croatian scientific bibliography. Names of LAMOR members are underlined.
+        Croatian scientific bibliography. Names of LAMOR members are underlined. Each paper has a BibTeX entry;
+        all of them are in <a href={url('/lamor.bib')} download>lamor.bib</a>.
       </p>
       <fieldset class="pub-filter">
         <legend>Show:</legend>
@@ -106,3 +107,22 @@ const has = (b: (typeof blocks)[number]) =>
     }
   </div>
 </BaseLayout>
+
+<script>
+  // "Copy" buttons for the BibTeX boxes (hidden without JavaScript or clipboard access).
+  if (navigator.clipboard) {
+    for (const button of document.querySelectorAll<HTMLButtonElement>('.pub-bib-copy')) {
+      button.hidden = false;
+      button.addEventListener('click', async () => {
+        const text = button.parentElement?.querySelector('pre')?.textContent ?? '';
+        try {
+          await navigator.clipboard.writeText(text);
+          button.textContent = 'Copied';
+        } catch {
+          button.textContent = 'Copy failed';
+        }
+        setTimeout(() => (button.textContent = 'Copy'), 2000);
+      });
+    }
+  }
+</script>

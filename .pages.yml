@@ -472,6 +472,10 @@ content:
         options:
           media: files
           path: public/files/papers
+      - name: bibtex
+        label: BibTeX (optional)
+        description: A complete BibTeX entry that replaces the generated one. Leave empty to use the generated entry.
+        type: text
       - name: note
         label: Note (not shown)
         type: text
@@ -531,6 +535,10 @@ content:
         options:
           media: files
           path: public/files/papers
+      - name: bibtex
+        label: BibTeX (optional)
+        description: A complete BibTeX entry that replaces the generated one. Leave empty to use the generated entry.
+        type: text
 
   - name: site
     label: Site settings
