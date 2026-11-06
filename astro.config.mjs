@@ -23,7 +23,8 @@ export default defineConfig({
   build: { format: 'directory' },
   compressHTML: true,
   redirects,
-  integrations: [sitemap()],
+  // Draft previews are reachable by link only.
+  integrations: [sitemap({ filter: (page) => !new URL(page).pathname.includes('/news/preview/') })],
   markdown: {
     processor: unified({ rehypePlugins: [[rehypeBase, { base }]] }),
   },

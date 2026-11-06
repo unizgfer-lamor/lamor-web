@@ -92,6 +92,9 @@ content:
             type: string
       - name: draft
         label: Draft (hide from the website)
+        description: >-
+          Drafts are not published. To preview them, open /news/preview/ on the website
+          (e.g. https://unizgfer-lamor.github.io/lamor-web/news/preview/) about two minutes after saving.
         type: boolean
         default: false
 

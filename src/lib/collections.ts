@@ -1,11 +1,21 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
-const byOrder = <T extends { data: { order: number } }>(a: T, b: T) => a.data.order - b.data.order;
+/** News items on the homepage, and per page of the news archive. */
+export const HOME_NEWS_COUNT = 8;
+export const NEWS_PAGE_SIZE = 10;
+
+const byOrder =<T extends { data: { order: number } }>(a: T, b: T) => a.data.order - b.data.order;
 
 /** Published news, newest first. */
 export async function getNews(): Promise<CollectionEntry<'news'>[]> {
   const news = await getCollection('news', ({ data }) => !data.draft);
   return news.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+}
+
+/** Unpublished news (draft: true), newest first. Only the hidden /news/preview/ pages show them. */
+export async function getDrafts(): Promise<CollectionEntry<'news'>[]> {
+  const drafts = await getCollection('news', ({ data }) => data.draft);
+  return drafts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
 export async function getPeople(categories: CollectionEntry<'people'>['data']['category'][]) {

@@ -6,11 +6,13 @@ import { url } from '../lib/url';
 
 interface Props {
   entry: CollectionEntry<'news'>;
+  /** Link target for the title and "More…"; defaults to the article page. */
+  href?: string;
 }
 
 const { entry } = Astro.props;
 const { title, date, image, imageAlt, lead } = entry.data;
-const href = url(`/news/${entry.id}/`);
+const href = Astro.props.href ?? url(`/news/${entry.id}/`);
 const hasBody = Boolean(entry.body?.trim());
 // Older items without a lead show the start of the article instead.
 const leadHtml = renderMarkdown(lead || entry.body?.trim().split(/\n\s*\n/)[0]);

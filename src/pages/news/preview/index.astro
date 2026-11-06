@@ -1,0 +1,32 @@
+---
+// Hidden list of draft news items. Not linked from the site, not in the sitemap, search or RSS.
+import Module from '../../../components/Module.astro';
+import NewsItem from '../../../components/NewsItem.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getDrafts } from '../../../lib/collections';
+import { url } from '../../../lib/url';
+
+const drafts = await getDrafts();
+---
+
+<BaseLayout title="Draft news" searchable={false} noindex>
+  <Module title="Draft news" as="h1">
+    <div class="draft-banner">
+      <p>
+        News items saved with <em>Draft</em> ticked in Pages CMS. They are not published: this page is not linked
+        from the website. Click a title to preview the full article.
+      </p>
+    </div>
+    {
+      drafts.length > 0 ? (
+        <ul class="news-list">
+          {drafts.map((entry) => (
+            <NewsItem entry={entry} href={url(`/news/preview/${entry.id}/`)} />
+          ))}
+        </ul>
+      ) : (
+        <p>There are no drafts at the moment.</p>
+      )
+    }
+  </Module>
+</BaseLayout>

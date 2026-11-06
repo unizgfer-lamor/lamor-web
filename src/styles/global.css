@@ -977,6 +977,30 @@ tbody tr:hover {
   content: '';
 }
 
+/* Hidden draft previews (/news/preview/) */
+.draft-banner {
+  padding: 10px 14px;
+  font-size: 14px;
+  background: #fbeef2;
+  border-left: 4px solid var(--crimson);
+}
+
+.draft-banner p {
+  margin: 0 0 8px;
+}
+
+.draft-banner p:last-child {
+  margin-bottom: 0;
+}
+
+.draft-banner code {
+  overflow-wrap: anywhere;
+}
+
+.draft-banner + .news-list {
+  margin-top: 14px;
+}
+
 .attachments {
   clear: both;
   margin-top: 20px;

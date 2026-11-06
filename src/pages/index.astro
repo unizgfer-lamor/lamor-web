@@ -3,12 +3,12 @@ import { getEntry, render } from 'astro:content';
 import Module from '../components/Module.astro';
 import NewsItem from '../components/NewsItem.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getNews } from '../lib/collections';
+import { getNews, HOME_NEWS_COUNT } from '../lib/collections';
 import { url } from '../lib/url';
 
 const intro = await getEntry('pages', 'home');
 const { Content } = intro ? await render(intro) : { Content: undefined };
-const news = (await getNews()).slice(0, 8);
+const news = (await getNews()).slice(0, HOME_NEWS_COUNT);
 ---
 
 <BaseLayout home searchable={false} editPath={intro?.filePath}>

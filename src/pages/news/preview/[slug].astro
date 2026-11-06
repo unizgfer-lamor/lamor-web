@@ -1,0 +1,55 @@
+---
+// Hidden preview of one draft news item: how it will look in the news list and as a full article.
+import type { GetStaticPaths } from 'astro';
+import Module from '../../../components/Module.astro';
+import NewsArticle from '../../../components/NewsArticle.astro';
+import NewsItem from '../../../components/NewsItem.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getDrafts, getNews, HOME_NEWS_COUNT, NEWS_PAGE_SIZE } from '../../../lib/collections';
+import { url } from '../../../lib/url';
+
+export const getStaticPaths = (async () =>
+  (await getDrafts()).map((entry) => ({ params: { slug: entry.id }, props: { entry } }))) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+const { title, date } = entry.data;
+
+// Where the item will land once published (the list is sorted by date, newest first).
+const position = (await getNews()).filter((n) => n.data.date > date).length + 1;
+const archivePage = Math.ceil(position / NEWS_PAGE_SIZE);
+const publishedUrl = new URL(url(`/news/${entry.id}/`), Astro.site).href;
+---
+
+<BaseLayout title={`Draft: ${title}`} searchable={false} noindex editPath={entry.filePath}>
+  <Module title="Draft preview" as="h1">
+    <div class="draft-banner">
+      <p><strong>Not published yet.</strong> This page is not linked from the website.</p>
+      <p>
+        When published, this will be item {position} in the news list (sorted by date),
+        {
+          position <= HOME_NEWS_COUNT ? (
+            <>so it will appear on the homepage.</>
+          ) : (
+            <>
+              on page {archivePage} of the news archive. It will <strong>not</strong> appear on the homepage; check
+              the date if that is not intended.
+            </>
+          )
+        }
+      </p>
+      <p>
+        To publish it, untick <em>Draft</em> in Pages CMS and save. After about two minutes it will be at
+        <code>{publishedUrl}</code>.
+      </p>
+      <p><a href={url('/news/preview/')}>‹ All drafts</a></p>
+    </div>
+  </Module>
+  <Module title="In the news list">
+    <ul class="news-list">
+      <NewsItem entry={entry} href="#article" />
+    </ul>
+  </Module>
+  <Module title="Full article">
+    <NewsArticle entry={entry} id="article" />
+  </Module>
+</BaseLayout>

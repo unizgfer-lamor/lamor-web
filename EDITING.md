@@ -25,6 +25,20 @@ There are two ways to edit:
 - **Attachments**: optional PDFs or other files.
 - **Draft**: tick it to save the item without publishing it.
 
+#### Previewing a draft
+
+Drafts are not shown anywhere on the website, but every draft gets a hidden preview page:
+
+1. Save the item with **Draft** ticked and wait about two minutes for the website to rebuild.
+2. Open `/news/preview/` on the website (now <https://unizgfer-lamor.github.io/lamor-web/news/preview/>,
+   later `https://lamor.fer.hr/news/preview/`). It lists all drafts; click a title.
+3. The preview shows the item as it will look in the news list and as the full article, and tells you
+   whether it will appear on the homepage (it won't if the **Date** is older than the latest news items).
+4. To publish, untick **Draft** and save. The preview page disappears and the item goes live.
+
+Preview pages are not linked from the site and search engines are asked to skip them, but anyone with the
+link can open them (the repository is public anyway), so don't put anything confidential in a draft.
+
 ### People, projects, equipment, …
 
 - **People** have a *Category* (Faculty, PhD student, Alumni, …) that decides where they appear, and an

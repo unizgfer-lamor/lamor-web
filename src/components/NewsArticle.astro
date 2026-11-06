@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { render } from 'astro:content';
+import { formatIsoDay } from '../lib/dates';
+import { renderMarkdown } from '../lib/markdown';
+import { url } from '../lib/url';
+
+interface Props {
+  entry: CollectionEntry<'news'>;
+  id?: string;
+}
+
+const { entry, id } = Astro.props;
+const { title, date, updated, author, image, imageAlt, lead, attachments } = entry.data;
+const { Content } = await render(entry);
+const fileName = (path: string) => decodeURIComponent(path.split('/').pop() ?? path);
+---
+
+<article class="news-article" id={id}>
+  <div class="news-article-meta">
+    <span>{author && <>Author: {author}</>}</span>
+    <span>
+      <time datetime={date.toISOString()}>{formatIsoDay(date)}</time>
+      {updated && <> · edited {formatIsoDay(updated)}</>}
+    </span>
+  </div>
+  <h1>{title}</h1>
+  {image && <img class="news-lead-image" src={url(image)} alt={imageAlt ?? ''} />}
+  <div class="prose">
+    {lead && <div class="lede" set:html={renderMarkdown(lead)} />}
+    <Content />
+  </div>
+  {
+    attachments.length > 0 && (
+      <div class="attachments">
+        <h2 class="side-title">Attachments</h2>
+        <ul>
+          {attachments.map((a) => (
+            <li>
+              <a href={url(a.file)}>{a.label ?? fileName(a.file)}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</article>

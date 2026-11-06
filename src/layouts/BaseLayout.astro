@@ -17,10 +17,12 @@ interface Props {
   editPath?: string;
   /** Include this page in the site search index. */
   searchable?: boolean;
+  /** Ask search engines not to index this page (draft previews). */
+  noindex?: boolean;
   image?: string;
 }
 
-const { title, description, home = false, editPath, searchable = true, image } = Astro.props;
+const { title, description, home = false, editPath, searchable = true, noindex = false, image } = Astro.props;
 const settings = await getSettings();
 const pageTitle = title ? `${title} | ${settings.short_title}` : `${settings.title} | ${settings.short_title}`;
 const pageDescription = description || settings.description;
@@ -35,6 +37,7 @@ const ogImage = new URL(url(image ?? '/design/LAMOR_logo.png'), Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/png" href={url('/design/favicon.png')} />
     <link rel="alternate" type="application/rss+xml" title={`${settings.short_title} news`} href={url('/rss.xml')} />

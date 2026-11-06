@@ -4,11 +4,12 @@ import Module from '../../components/Module.astro';
 import NewsItem from '../../components/NewsItem.astro';
 import Pagination from '../../components/Pagination.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getNews } from '../../lib/collections';
+import { getNews, NEWS_PAGE_SIZE } from '../../lib/collections';
 import { formatIsoDay } from '../../lib/dates';
 import { url } from '../../lib/url';
 
-export const getStaticPaths = (async ({ paginate }) => paginate(await getNews(), { pageSize: 10 })) satisfies GetStaticPaths;
+export const getStaticPaths = (async ({ paginate }) =>
+  paginate(await getNews(), { pageSize: NEWS_PAGE_SIZE })) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
 const newest = page.data[0]?.data.date;
