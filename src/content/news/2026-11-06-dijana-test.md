@@ -7,7 +7,8 @@ imageAlt: Depeche Mode na tekmi
 lead: Što ne znamo o Arktiku
 attachments:
   - file: /files/news/m2l-program-ljetna-skola-split.pdf
-    label: https://2026.ieee-icra.org/program/
+    label: Ljetna skola Split - program pdf
+  - label: https://2026.ieee-icra.org/program/
 draft: true
 ---
 Arktik je najsjevernija regija Zemlje. Većina definira Arktik kao područje iznad *Arktičkog kruga*, linije zemljopisne širine oko 66,5° sjeverno od ekvatora. Unutar ovog kruga nalaze se Arktički ocean i sjeverni dijelovi Skandinavije, Rusija, Kanada, Grenland i američka država Aljaska.
