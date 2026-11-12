@@ -5,6 +5,7 @@ status: ongoing
 funding: 'European Union, European Regional Development Fund (ERDF) (Total budget: 1,008,516.31 EUR, UNIZG-FER: 686,494.35 EUR)'
 start: 2026-09-01
 end: 2029-09-01
+logo: /images/projects/simmap.png
 pi: Ivan Marković
 team:
 - Ivan Petrović
