@@ -3,6 +3,7 @@ acronym: POSEIDON
 title: Maritime Safe Autonomous System for Ecology, Identification, Conservation and Monitoring of Protected Areas
 status: ongoing
 logo: /images/projects/poseidon.png
+logoSize: 80
 website: https://poseidon.fer.hr/poseidon
 funding: 'European Union (Total budget: 349,912.50 EUR)'
 start: 2025-10-01

@@ -2,7 +2,8 @@
 acronym: EU-CORE
 title: EUropean master on COntrol of Renewable Energy systems
 status: ongoing
-logo: /images/projects/eu-core.jpg
+logo: /images/projects/eu-core.png
+logoSize: 90
 website: https://master-eu-core.ec-nantes.fr/
 funding: 'European Union, Erasmus+ (Total budget: 4,968,000 EUR, UNIZG-FER: 500,000 EUR)'
 start: 2024-10-01

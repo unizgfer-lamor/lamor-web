@@ -3,6 +3,7 @@ acronym: SACRE
 title: Senior Advancement in Collaborative Robotics and Education
 status: ongoing
 logo: /images/projects/sacre.png
+logoSize: 80
 funding: 'Erasmus+ KA220-VET, Cooperation partnerships in vocational education and training (Total budget: 250,000 EUR)'
 start: 2026-10-01
 end: 2028-09-30

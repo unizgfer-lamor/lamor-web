@@ -195,6 +195,11 @@ content:
         options:
           media: images
           path: public/images/projects
+      - name: logoSize
+        label: Logo size on the Projects page (%)
+        description: 100 = normal size; e.g. 80 makes it 20% smaller, 120 makes it 20% larger. Does not affect the sidebar.
+        type: number
+        default: 100
       - name: sidebar
         label: Show the logo in the "Current projects" sidebar
         type: boolean

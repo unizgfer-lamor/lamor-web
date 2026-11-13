@@ -3,6 +3,7 @@ acronym: EXCEED-AIR
 title: EXCellence Initiative for European Empowerment and Development in AI-Driven Robotics
 status: ongoing
 logo: /images/projects/exceed-air.png
+logoSize: 90
 funding: 'Horizon Europe, HORIZON-WIDERA-2025-01-ACCESS-01-EEI, Coordination and Support Action (Total budget: 5 million EUR)'
 start: 2026-10-01
 end: 2031-09-30

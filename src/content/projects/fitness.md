@@ -3,6 +3,7 @@ acronym: FITNESS
 title: Flexible IntelligenT NEar-field Sensing Skins
 status: ongoing
 logo: /images/projects/fitness.png
+logoSize: 120
 website: https://fitness-pathfinder.eu/
 funding: 'HORIZON-EIC-2022-PATHFINDEROPEN (Total budget: 3.6 million EUR)'
 start: 2023-04-01

@@ -34,6 +34,7 @@ const projects = defineCollection({
     title: z.string(),
     status: z.enum(['ongoing', 'past']),
     logo: path.optional(),
+    logoSize: z.number().positive().default(100), // logo size on the Projects page, in % (sidebar unaffected)
     website: z.string().optional(),
     funding: z.string().optional(),
     start: z.coerce.date().optional(),

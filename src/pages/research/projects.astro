@@ -34,7 +34,12 @@ const duration = (p: (typeof projects)[number]['data']) =>
                   {data.logo && (
                     <tr>
                       <td class="project-logo" colspan="2">
-                        <img src={url(data.logo)} alt={`${data.acronym} logo`} loading="lazy" />
+                        <img
+                          src={url(data.logo)}
+                          alt={`${data.acronym} logo`}
+                          loading="lazy"
+                          style={data.logoSize !== 100 ? `zoom: ${data.logoSize / 100}` : undefined}
+                        />
                       </td>
                     </tr>
                   )}
