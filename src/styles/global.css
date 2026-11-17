@@ -1262,12 +1262,6 @@ tbody tr:hover {
   font-style: italic;
 }
 
-.pub .lab {
-  text-decoration: underline;
-  text-decoration-color: rgba(0, 48, 91, 0.45);
-  text-underline-offset: 3px;
-}
-
 .pub-status {
   font-size: 13px;
   color: var(--crimson);

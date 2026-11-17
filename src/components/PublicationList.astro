@@ -19,7 +19,7 @@ const link = (href: string, label: string) => `<a href="${esc(href)}">${label}</
 // Built as one string: line breaks between template expressions would add stray spaces
 // ("Name ; Name", "Title ,") to the citation.
 function citation(p: Publication): string {
-  const authors = p.authors.map((a) => (a.lab ? `<span class="lab">${esc(a.name)}</span>` : esc(a.name))).join('; ');
+  const authors = p.authors.map((a) => esc(a.name)).join('; ');
   const title = esc(p.title).replace(/[.\s]+$/, '');
   let text = `${authors}. <span class="pub-title">${title}</span>`;
   if (p.venue) text += ` // <span class="pub-venue">${esc(p.venue)}</span>`;
