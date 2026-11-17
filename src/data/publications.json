@@ -203,6 +203,40 @@
     "croris": 976035
   },
   {
+    "id": 981652,
+    "category": "conference",
+    "year": 2026,
+    "title": "Hierarchical Path Planning of Multi-Robot Systems in Large Environments",
+    "authors": [
+      {
+        "name": "Maravić, Iskra",
+        "lab": false
+      },
+      {
+        "name": "Rogina, Jelena",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      },
+      {
+        "name": "Seder, Marija",
+        "lab": true
+      }
+    ],
+    "venue": "MIPRO Robotics 2026 – 5th Robotics Conference (Robotics Technologies and Applications – RTA)",
+    "details": "Zadar, Croatia, 9.–12. September 2026, pp. 60–65",
+    "bib": {
+      "booktitle": "2026 MIPRO Robotics Technologies and Applications Conference (MIPRO Robotics) Proceedings",
+      "publisher": "Croatian Society for Information, Communication and Electronic Technology - MIPRO",
+      "address": "Zadar, Croatia",
+      "pages": "60--65"
+    },
+    "doi": "10.1109/miprorobotics70521.2026.11761967",
+    "croris": 981652
+  },
+  {
     "id": 894835,
     "category": "conference",
     "year": 2026,
@@ -240,6 +274,36 @@
     "doi": "10.1007/978-3-032-16955-6_10",
     "url": "https://link.springer.com/chapter/10.1007/978-3-032-16955-6_10",
     "croris": 894835
+  },
+  {
+    "id": 981680,
+    "category": "conference",
+    "year": 2026,
+    "title": "A Bridge Between GrapOS Embedded Applications and ROS 2 for Simulation-Based Testing",
+    "authors": [
+      {
+        "name": "Rogina, Edi",
+        "lab": false
+      },
+      {
+        "name": "Mamić, Tomislav",
+        "lab": false
+      },
+      {
+        "name": "Petrović, Luka",
+        "lab": true
+      }
+    ],
+    "venue": "MIPRO Robotics 2026 – 5th Robotics Conference (Robotics Technologies and Applications – RTA)",
+    "details": "Zadar, Croatia, 9.–12. September 2026, pp. 160–165",
+    "bib": {
+      "booktitle": "2026 MIPRO Robotics Technologies and Applications Conference (MIPRO Robotics) Proceedings",
+      "publisher": "Croatian Society for Information, Communication and Electronic Technology - MIPRO",
+      "address": "Zadar, Croatia",
+      "pages": "160--165"
+    },
+    "doi": "10.1109/miprorobotics70521.2026.11762180",
+    "croris": 981680
   },
   {
     "id": 938210,
@@ -336,6 +400,36 @@
     },
     "doi": "10.1007/978-3-032-29127-1_30",
     "croris": 954023
+  },
+  {
+    "id": 981649,
+    "category": "conference",
+    "year": 2026,
+    "title": "A Pilot Study of Action Quality Assessment with Vision-Language Models on Powerlifting Video Data",
+    "authors": [
+      {
+        "name": "Torić, J.",
+        "lab": false
+      },
+      {
+        "name": "Šarlija, M.",
+        "lab": false
+      },
+      {
+        "name": "Petrović, L.",
+        "lab": true
+      }
+    ],
+    "venue": "MIPRO Robotics 2026 – 5th Robotics Conference (Robotics Technologies and Applications – RTA)",
+    "details": "Zadar, Croatia, 9.–12. September 2026, pp. 42–47",
+    "bib": {
+      "booktitle": "2026 MIPRO Robotics Technologies and Applications Conference (MIPRO Robotics) Proceedings",
+      "publisher": "Croatian Society for Information, Communication and Electronic Technology - MIPRO",
+      "address": "Zadar, Croatia",
+      "pages": "42--47"
+    },
+    "doi": "10.1109/miprorobotics70521.2026.11761899",
+    "croris": 981649
   },
   {
     "id": 870879,
